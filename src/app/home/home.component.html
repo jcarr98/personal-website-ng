@@ -1,0 +1,50 @@
+<h1 class="intro-text">Hello, my name is Jeffrey Carr</h1>
+<div class="image-container">
+    <img src="../../assets/media/profile.jpg" class="profile" />
+    <a href="https://www.linkedin.com/in/jeffrey-carr/" target="_blank" ><img src="../../assets/media/linkedin_profile.png" alt="linkedin logo" class="company-logo" /></a>
+    <a href="https://github.com/jcarr98" target="_blank" ><img src="../../assets/media/github_profile.png" class="company-logo" /></a>
+</div>
+
+<div class="colContainer">
+    <nb-layout>
+        <nb-layout-column>
+            <nb-card>
+                <nb-card-header>About Me</nb-card-header>
+                <nb-card-body>
+                    I am a junior year computer science major who loves to create.
+                </nb-card-body>
+                <nb-card-footer class="buttonContainer">
+                    <button nbButton status="primary" (click)="openDiv('about')">More</button>
+                </nb-card-footer>
+            </nb-card>
+        </nb-layout-column>
+        <nb-layout-column>
+            <nb-card>
+                <nb-card-header>Projects</nb-card-header>
+                <nb-card-body>
+                    I work on a lot of projects. All my projects end up on Github.
+                </nb-card-body>
+                <nb-card-footer class="buttonContainer">
+                    <button nbButton status="primary" (click)="openDiv('project')">More</button>
+                    <button nbButton status="primary">Open</button>
+                </nb-card-footer>
+            </nb-card>
+        </nb-layout-column>
+        <nb-layout-column>
+            <nb-card>
+                <nb-card-header>Resume</nb-card-header>
+                <nb-card-body>My resume is where to get the most professional, up to date information about my career and personal achievements.</nb-card-body>
+                <nb-card-footer class="buttonContainer">
+                    <button nbButton status="primary" (click)="openDiv('resume')">More</button>
+                    <button nbButton status="primary" target="_blank">Open</button>
+                </nb-card-footer>
+            </nb-card>
+        </nb-layout-column>
+    </nb-layout>
+</div>
+
+<div *ngIf="aboutSection">About Section</div>
+
+<div *ngIf="projectSection">Project Section</div>
+
+<div *ngIf="resumeSection">Resume Section</div>

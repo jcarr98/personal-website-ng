@@ -1,0 +1,45 @@
+button {
+    margin: 0.5em;
+}
+
+nb-layout {
+    max-height: 3em;
+}
+
+.intro-text {
+    margin-top: 0.5em;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.image-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.profile {
+    max-height: 345px;
+    max-width: 260px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    display: block;
+}
+
+.company-logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0.3em;
+}
+
+.colContainer {
+    max-height: 1em;
+}
+
+.buttonContainer {
+    text-align: center;
+}

@@ -23,7 +23,7 @@
                 <nb-card-header>{{item.name}}</nb-card-header>
                 <nb-card-body>{{item.description}}</nb-card-body>
                 <nb-card-footer>
-                    <button nbButton [routerLink]="['/recipe', item.id]">Open</button>
+                    <button nbButton status="primary" [routerLink]="['/recipe', item.id]">Open</button>
                 </nb-card-footer>
             </nb-card>
         </ng-container>

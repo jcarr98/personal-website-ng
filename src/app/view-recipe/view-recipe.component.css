@@ -1,15 +1,26 @@
 table {
-    width: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th,td {
-    border-bottom: 1px solid black;
+    border-bottom: 1px dashed black;
 }
 
 td {
     width: 50%;
 }
 
+ul {
+    list-style: none;
+}
+
 .itemContainer {
     text-align: center;
+}
+
+.amount {
+    width: 10%;
+    border-right: 1px solid black;
 }

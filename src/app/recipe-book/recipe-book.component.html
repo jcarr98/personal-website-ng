@@ -1,29 +1,22 @@
 <nb-layout>
     <nb-layout-header>
         <h1>Jean's Recipe Book</h1>
-        <button nbButton
-            size="tiny"
-            status="info"
-            class="titleButton">
-                About
-        </button>
+        <button nbButton size="tiny" status="info" class="titleButton">About</button>
     </nb-layout-header>
 
-    <nb-sidebar>
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-        </ul>
-    </nb-sidebar>
-
     <nb-layout-column class="colored-column-basic">
-        <ng-container *ngFor="let item of tempRecipeBook">
+        <div class="searchContainer">
+            <input type="text" placeholder="Search..." [(ngModel)]="searchValue">
+            <button nbButton status="primary" size="tiny" (click)="initFilter()">Search</button>
+            <button nbButton size="tiny" (click)="clearSearch()">Clear</button>
+        </div>
+
+        <ng-container *ngFor="let item of searchOptions">
             <nb-card>
                 <nb-card-header>{{item.name}}</nb-card-header>
                 <nb-card-body>{{item.description}}</nb-card-body>
                 <nb-card-footer>
-                    <button nbButton status="primary" [routerLink]="['/recipe', item.id]">Open</button>
+                    <button nbButton outline status="primary" [routerLink]="['/recipe', item.id]">Open</button>
                 </nb-card-footer>
             </nb-card>
         </ng-container>

@@ -4,7 +4,7 @@
     </nb-layout-header>
 
     <nb-sidebar class="itemContainer">
-        <nb-card size="medium">
+        <nb-card size="medium" style="min-height: 0em;">
             <nb-card-header>Ingredient List</nb-card-header>
             <nb-list>
                 <nb-list-item *ngFor="let ingredient of selectedRecipe.ingredients">
@@ -14,21 +14,29 @@
         </nb-card>
 
         <button nbButton size="small" [routerLink]="['/recipe']">Back to List</button>
+        <br>
+        <button nbButton size="small" status="primary" style="margin-top: 1em;">Print Ingredients</button>
     </nb-sidebar>
 
     <nb-layout-column class="itemContainer">
         <h3>Ingredients</h3>
         <table>
             <tr>
-                <th>Item</th>
                 <th>Amount</th>
+                <th>Item</th>
             </tr>
             <tr *ngFor="let ingredient of selectedRecipe.ingredients">
+                <td class="amount">{{ingredient.amount}}</td> 
                 <td>{{ingredient.name}}</td>
-                <td>{{ingredient.amount}}</td>
             </tr>
         </table>
         <h3>Directions</h3>
-        <p>{{selectedRecipe.directions}}</p>
+        <ng-container *ngFor="let direction of parsedDirections; let i = index;">
+            <nb-checkbox (checkedChange)="change(i)">
+                <div *ngIf="!done[i]">{{direction}}</div>
+                <s *ngIf="done[i]">{{direction}}</s>
+            </nb-checkbox>
+            <br>
+        </ng-container>
     </nb-layout-column>
 </nb-layout>

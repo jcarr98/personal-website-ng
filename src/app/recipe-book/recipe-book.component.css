@@ -9,3 +9,11 @@ h1 {
 .titleButton {
     margin-left: 3em;
 }
+
+.searchContainer {
+    margin-bottom: 1em;
+}
+
+.searchContainer button {
+    margin-left: 1em;
+}

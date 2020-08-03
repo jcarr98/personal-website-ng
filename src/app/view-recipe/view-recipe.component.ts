@@ -9,17 +9,20 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 export class ViewRecipeComponent implements OnInit {
     tempRecipeBook;
     selectedRecipe;
+    parsedDirections: string[];
+    done: boolean[];
 
     constructor(private route: ActivatedRoute, private router: Router) { }
 
     ngOnInit(): void {
         let givenID = parseInt(this.route.snapshot.paramMap.get('id'));
+        this.done = [];
 
         this.tempRecipeBook = [
             {
                 "id": 1,
                 "name": "American Chop Suey",
-                "description": "Delicious noodles",
+                "description": "An American pasta casserole made with ground beef, macaroni and a seasoned tomato sauce, found in the cuisine of New England and other regions of the United States.",
                 "ingredients": [
                     {
                         "name": "Chopped green pepper",
@@ -98,11 +101,15 @@ export class ViewRecipeComponent implements OnInit {
                         "amount": "4 oz (1 cup)"
                     }
                 ],
-                "directions": "In med. bowl combine beef, bread crumbs, onion, ketchup, and mustard. Press mixture in bottom and sides of 9 inch pie plate. Bake at 375 for 15 minutes. Cook bacon. In saucepan, combine water, margarine, and garlic salt. Bring to a boil. Remove from heat and add milk. With fork, stir in potato flakes \n\n Remove beef crust from oven and pour off drippings. Spoon potato mixture evenly into crust. Return to oven and bake 15 minutes. Remove pie from oven and top with remaining cheese and crumbled up bacon. Return to oven for 5 additional minutes. Let stand 10 minutes before serving."
+                "directions": "In medium bowl combine beef, bread crumbs, onion, ketchup, and mustard. Press mixture in bottom and sides of 9 inch pie plate. Bake at 375 for 15 minutes. Cook bacon. In saucepan, combine water, margarine, and garlic salt. Bring to a boil. Remove from heat and add milk. With fork, stir in potato flakes \n\n Remove beef crust from oven and pour off drippings. Spoon potato mixture evenly into crust. Return to oven and bake 15 minutes. Remove pie from oven and top with remaining cheese and crumbled up bacon. Return to oven for 5 additional minutes. Let stand 10 minutes before serving."
             }
         ];
 
         this.selectedRecipe = this.getSelectedRecipe(givenID);
+        this.parsedDirections = this.parseDirections();
+        for(let i = 0; i < this.parsedDirections.length; i++) {
+            this.done.push(false);
+        }
     }
 
     getSelectedRecipe(idx: number) {
@@ -111,5 +118,13 @@ export class ViewRecipeComponent implements OnInit {
                 return this.tempRecipeBook[i];
             }
         }
+    }
+
+    parseDirections() {
+        return this.selectedRecipe.directions.split(".");
+    }
+
+    change(index) {
+        this.done[index] = !this.done[index];
     }
 }

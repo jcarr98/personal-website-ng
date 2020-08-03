@@ -104,14 +104,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
-/* harmony import */ var _global_components_menu_bar_menu_bar_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./global_components/menu-bar/menu-bar.component */ "./src/app/global_components/menu-bar/menu-bar.component.ts");
-/* harmony import */ var _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./page-not-found/page-not-found.component */ "./src/app/page-not-found/page-not-found.component.ts");
-/* harmony import */ var _nebular_theme__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @nebular/theme */ "./node_modules/@nebular/theme/__ivy_ngcc__/fesm2015/index.js");
-/* harmony import */ var _recipe_book_recipe_book_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./recipe-book/recipe-book.component */ "./src/app/recipe-book/recipe-book.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _global_components_menu_bar_menu_bar_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./global_components/menu-bar/menu-bar.component */ "./src/app/global_components/menu-bar/menu-bar.component.ts");
+/* harmony import */ var _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./page-not-found/page-not-found.component */ "./src/app/page-not-found/page-not-found.component.ts");
+/* harmony import */ var _nebular_theme__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @nebular/theme */ "./node_modules/@nebular/theme/__ivy_ngcc__/fesm2015/index.js");
+/* harmony import */ var _recipe_book_recipe_book_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./recipe-book/recipe-book.component */ "./src/app/recipe-book/recipe-book.component.ts");
+/* harmony import */ var _view_recipe_view_recipe_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./view-recipe/view-recipe.component */ "./src/app/view-recipe/view-recipe.component.ts");
+
 
 
 // Routing modules
@@ -128,60 +131,74 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 class AppModule {
 }
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]] });
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]] });
 AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [], imports: [[
-            _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot([
-                { path: 'home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"] },
-                { path: 'recipe', component: _recipe_book_recipe_book_component__WEBPACK_IMPORTED_MODULE_9__["RecipeBookComponent"] },
-                { path: 'page-not-found', component: _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_7__["PageNotFoundComponent"] },
+            _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forRoot([
+                { path: 'home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"] },
+                { path: 'recipe', component: _recipe_book_recipe_book_component__WEBPACK_IMPORTED_MODULE_10__["RecipeBookComponent"] },
+                { path: 'recipe/:id', component: _view_recipe_view_recipe_component__WEBPACK_IMPORTED_MODULE_11__["ViewRecipeComponent"] },
+                { path: 'page-not-found', component: _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_8__["PageNotFoundComponent"] },
                 { path: '', redirectTo: '/home', pathMatch: 'full' },
                 { path: '**', redirectTo: '/page-not-found', pathMatch: 'full' }
             ]),
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-            _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
-            _nebular_theme__WEBPACK_IMPORTED_MODULE_8__["NbThemeModule"].forRoot(),
-            _nebular_theme__WEBPACK_IMPORTED_MODULE_8__["NbCardModule"],
-            _nebular_theme__WEBPACK_IMPORTED_MODULE_8__["NbLayoutModule"],
-            _nebular_theme__WEBPACK_IMPORTED_MODULE_8__["NbButtonModule"]
+            _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbThemeModule"].forRoot(),
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbCardModule"],
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbLayoutModule"],
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbButtonModule"],
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbListModule"],
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbCheckboxModule"]
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-        _home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"],
-        _global_components_menu_bar_menu_bar_component__WEBPACK_IMPORTED_MODULE_6__["MenuBarComponent"],
-        _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_7__["PageNotFoundComponent"],
-        _recipe_book_recipe_book_component__WEBPACK_IMPORTED_MODULE_9__["RecipeBookComponent"]], imports: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-        _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_8__["NbThemeModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_8__["NbCardModule"],
-        _nebular_theme__WEBPACK_IMPORTED_MODULE_8__["NbLayoutModule"],
-        _nebular_theme__WEBPACK_IMPORTED_MODULE_8__["NbButtonModule"]] }); })();
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
+        _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"],
+        _global_components_menu_bar_menu_bar_component__WEBPACK_IMPORTED_MODULE_7__["MenuBarComponent"],
+        _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_8__["PageNotFoundComponent"],
+        _recipe_book_recipe_book_component__WEBPACK_IMPORTED_MODULE_10__["RecipeBookComponent"],
+        _view_recipe_view_recipe_component__WEBPACK_IMPORTED_MODULE_11__["ViewRecipeComponent"]], imports: [_angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
+        _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbThemeModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbCardModule"],
+        _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbLayoutModule"],
+        _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbButtonModule"],
+        _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbListModule"],
+        _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbCheckboxModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
                 declarations: [
-                    _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-                    _home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"],
-                    _global_components_menu_bar_menu_bar_component__WEBPACK_IMPORTED_MODULE_6__["MenuBarComponent"],
-                    _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_7__["PageNotFoundComponent"],
-                    _recipe_book_recipe_book_component__WEBPACK_IMPORTED_MODULE_9__["RecipeBookComponent"]
+                    _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
+                    _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"],
+                    _global_components_menu_bar_menu_bar_component__WEBPACK_IMPORTED_MODULE_7__["MenuBarComponent"],
+                    _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_8__["PageNotFoundComponent"],
+                    _recipe_book_recipe_book_component__WEBPACK_IMPORTED_MODULE_10__["RecipeBookComponent"],
+                    _view_recipe_view_recipe_component__WEBPACK_IMPORTED_MODULE_11__["ViewRecipeComponent"]
                 ],
                 imports: [
-                    _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot([
-                        { path: 'home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"] },
-                        { path: 'recipe', component: _recipe_book_recipe_book_component__WEBPACK_IMPORTED_MODULE_9__["RecipeBookComponent"] },
-                        { path: 'page-not-found', component: _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_7__["PageNotFoundComponent"] },
+                    _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forRoot([
+                        { path: 'home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"] },
+                        { path: 'recipe', component: _recipe_book_recipe_book_component__WEBPACK_IMPORTED_MODULE_10__["RecipeBookComponent"] },
+                        { path: 'recipe/:id', component: _view_recipe_view_recipe_component__WEBPACK_IMPORTED_MODULE_11__["ViewRecipeComponent"] },
+                        { path: 'page-not-found', component: _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_8__["PageNotFoundComponent"] },
                         { path: '', redirectTo: '/home', pathMatch: 'full' },
                         { path: '**', redirectTo: '/page-not-found', pathMatch: 'full' }
                     ]),
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                    _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
-                    _nebular_theme__WEBPACK_IMPORTED_MODULE_8__["NbThemeModule"].forRoot(),
-                    _nebular_theme__WEBPACK_IMPORTED_MODULE_8__["NbCardModule"],
-                    _nebular_theme__WEBPACK_IMPORTED_MODULE_8__["NbLayoutModule"],
-                    _nebular_theme__WEBPACK_IMPORTED_MODULE_8__["NbButtonModule"]
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
+                    _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+                    _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbThemeModule"].forRoot(),
+                    _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbCardModule"],
+                    _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbLayoutModule"],
+                    _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbButtonModule"],
+                    _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbListModule"],
+                    _nebular_theme__WEBPACK_IMPORTED_MODULE_9__["NbCheckboxModule"]
                 ],
                 providers: [],
                 schemas: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["CUSTOM_ELEMENTS_SCHEMA"]],
-                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
+                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
             }]
     }], null, null); })();
 
@@ -431,69 +448,193 @@ PageNotFoundComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵde
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RecipeBookComponent", function() { return RecipeBookComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _assets_recipes_recipes_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/recipes/recipes.json */ "./src/assets/recipes/recipes.json");
-var _assets_recipes_recipes_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../assets/recipes/recipes.json */ "./src/assets/recipes/recipes.json", 1);
-/* harmony import */ var _nebular_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @nebular/theme */ "./node_modules/@nebular/theme/__ivy_ngcc__/fesm2015/index.js");
+/* harmony import */ var _nebular_theme__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @nebular/theme */ "./node_modules/@nebular/theme/__ivy_ngcc__/fesm2015/index.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
 
 
 
 
-function RecipeBookComponent_ol_15_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "ol");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "li");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+
+const _c0 = function (a1) { return ["/recipe", a1]; };
+function RecipeBookComponent_ng_container_13_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nb-card");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "nb-card-header");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "li");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "nb-card-body");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "nb-card-footer");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "button", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Open");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
 } if (rf & 2) {
     const item_r1 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](item_r1.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](item_r1.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](item_r1.description);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](3, _c0, item_r1.id));
 } }
 class RecipeBookComponent {
-    constructor() { }
+    constructor(searchService) {
+        this.searchService = searchService;
+    }
     ngOnInit() {
-        this.recipes = _assets_recipes_recipes_json__WEBPACK_IMPORTED_MODULE_1__;
+        this.tempRecipeBook = [
+            {
+                "id": 1,
+                "name": "American Chop Suey",
+                "description": "An American pasta casserole made with ground beef, macaroni and a seasoned tomato sauce, found in the cuisine of New England and other regions of the United States.",
+                "ingredients": [
+                    {
+                        "name": "Chopped green pepper",
+                        "amount": "1"
+                    },
+                    {
+                        "name": "Chopped Onion",
+                        "amount": "1"
+                    },
+                    {
+                        "name": "Can of tomato soup",
+                        "amount": "1"
+                    },
+                    {
+                        "name": "Hamburg",
+                        "amount": "1 pound"
+                    },
+                    {
+                        "name": "Cooked spaghetti",
+                        "amount": ""
+                    }
+                ],
+                "directions": "Cook pepper and onion, add hamburg. Cook hamburg until no longer pink, drain. Add soup and 1/3 can of water. Add spaghetti, mix well and serve."
+            },
+            {
+                "id": 2,
+                "name": "Bacon-Cheeseburger Potato Pie",
+                "description": "Delicious potato pie.",
+                "ingredients": [
+                    {
+                        "name": "Lean ground beef",
+                        "amount": "1 1/2 pound"
+                    },
+                    {
+                        "name": "Bread crumbs",
+                        "amount": "1/2 cup"
+                    },
+                    {
+                        "name": "Finely chopped onion",
+                        "amount": "1/4 cup"
+                    },
+                    {
+                        "name": "Ketchup",
+                        "amount": "1/4 cup"
+                    },
+                    {
+                        "name": "Prepared mustard",
+                        "amount": "2 tsp"
+                    },
+                    {
+                        "name": "Bacon",
+                        "amount": "3 slices"
+                    },
+                    {
+                        "name": "Water",
+                        "amount": "1 1/4 cup"
+                    },
+                    {
+                        "name": "Margarine",
+                        "amount": "3 tablespoons"
+                    },
+                    {
+                        "name": "Garlic salt",
+                        "amount": "1/4 tsp"
+                    },
+                    {
+                        "name": "Milk",
+                        "amount": "3/4 cup"
+                    },
+                    {
+                        "name": "Mashed potato flakes",
+                        "amount": "2 cups"
+                    },
+                    {
+                        "name": "Shredded cheddar cheese",
+                        "amount": "4 oz (1 cup)"
+                    }
+                ],
+                "directions": "In medium bowl combine beef, bread crumbs, onion, ketchup, and mustard. Press mixture in bottom and sides of 9 inch pie plate. Bake at 375 for 15 minutes. Cook bacon. In saucepan, combine water, margarine, and garlic salt. Bring to a boil. Remove from heat and add milk. With fork, stir in potato flakes \n\n Remove beef crust from oven and pour off drippings. Spoon potato mixture evenly into crust. Return to oven and bake 15 minutes. Remove pie from oven and top with remaining cheese and crumbled up bacon. Return to oven for 5 additional minutes. Let stand 10 minutes before serving."
+            }
+        ];
+        this.searchOptions = this.tempRecipeBook;
+    }
+    initFilter() {
+        this.searchOptions = this.filterSearch();
+    }
+    filterSearch() {
+        this.searchOptions = [];
+        if (this.searchValue.trim().length === 0) {
+            console.log("empty");
+            return this.tempRecipeBook;
+        }
+        else {
+            let tempArray = [];
+            for (let i = 0; i < this.tempRecipeBook.length; i++) {
+                if (this.tempRecipeBook[i].name.toLocaleLowerCase().includes(this.searchValue.toLocaleLowerCase())) {
+                    tempArray.push(this.tempRecipeBook[i]);
+                }
+            }
+            return tempArray;
+        }
+    }
+    clearSearch() {
+        this.searchValue = "";
+        this.searchOptions = this.filterSearch();
     }
 }
-RecipeBookComponent.ɵfac = function RecipeBookComponent_Factory(t) { return new (t || RecipeBookComponent)(); };
-RecipeBookComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RecipeBookComponent, selectors: [["app-recipe-book"]], decls: 16, vars: 1, consts: [["nbButton", "", "size", "tiny", "status", "info", 1, "titleButton"], [1, "colored-column-basic"], [4, "ngFor", "ngForOf"]], template: function RecipeBookComponent_Template(rf, ctx) { if (rf & 1) {
+RecipeBookComponent.ɵfac = function RecipeBookComponent_Factory(t) { return new (t || RecipeBookComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_nebular_theme__WEBPACK_IMPORTED_MODULE_1__["NbSearchService"])); };
+RecipeBookComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RecipeBookComponent, selectors: [["app-recipe-book"]], decls: 14, vars: 2, consts: [["nbButton", "", "size", "tiny", "status", "info", 1, "titleButton"], [1, "colored-column-basic"], [1, "searchContainer"], ["type", "text", "placeholder", "Search...", 3, "ngModel", "ngModelChange"], ["nbButton", "", "status", "primary", "size", "tiny", 3, "click"], ["nbButton", "", "size", "tiny", 3, "click"], [4, "ngFor", "ngForOf"], ["nbButton", "", "outline", "", "status", "primary", 3, "routerLink"]], template: function RecipeBookComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nb-layout");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nb-layout-header");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Jean's Recipe Book");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "button", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " About ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "About");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "nb-sidebar");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Item 1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "nb-layout-column", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "input", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function RecipeBookComponent_Template_input_ngModelChange_8_listener($event) { return ctx.searchValue = $event; });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Item 2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "button", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function RecipeBookComponent_Template_button_click_9_listener() { return ctx.initFilter(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Search");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Item 3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "button", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function RecipeBookComponent_Template_button_click_11_listener() { return ctx.clearSearch(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Clear");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "nb-layout-column", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, RecipeBookComponent_ol_15_Template, 5, 2, "ol", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, RecipeBookComponent_ng_container_13_Template, 9, 5, "ng-container", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.recipes);
-    } }, directives: [_nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbLayoutComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbLayoutHeaderComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbButtonComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbLayoutColumnComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"]], styles: ["html[_ngcontent-%COMP%] {\n    font-family: 'Open Sans', sans-serif;\n}\n\nh1[_ngcontent-%COMP%] {\n    font-family: Comfortaa;\n}\n\n.titleButton[_ngcontent-%COMP%] {\n    margin-left: 3em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcmVjaXBlLWJvb2svcmVjaXBlLWJvb2suY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLG9DQUFvQztBQUN4Qzs7QUFFQTtJQUNJLHNCQUFzQjtBQUMxQjs7QUFFQTtJQUNJLGdCQUFnQjtBQUNwQiIsImZpbGUiOiJzcmMvYXBwL3JlY2lwZS1ib29rL3JlY2lwZS1ib29rLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJodG1sIHtcbiAgICBmb250LWZhbWlseTogJ09wZW4gU2FucycsIHNhbnMtc2VyaWY7XG59XG5cbmgxIHtcbiAgICBmb250LWZhbWlseTogQ29tZm9ydGFhO1xufVxuXG4udGl0bGVCdXR0b24ge1xuICAgIG1hcmdpbi1sZWZ0OiAzZW07XG59Il19 */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.searchValue);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.searchOptions);
+    } }, directives: [_nebular_theme__WEBPACK_IMPORTED_MODULE_1__["NbLayoutComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_1__["NbLayoutHeaderComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_1__["NbButtonComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_1__["NbLayoutColumnComponent"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _nebular_theme__WEBPACK_IMPORTED_MODULE_1__["NbCardComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_1__["NbCardHeaderComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_1__["NbCardBodyComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_1__["NbCardFooterComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterLink"]], styles: ["html[_ngcontent-%COMP%] {\n    font-family: 'Open Sans', sans-serif;\n}\n\nh1[_ngcontent-%COMP%] {\n    font-family: Comfortaa;\n}\n\n.titleButton[_ngcontent-%COMP%] {\n    margin-left: 3em;\n}\n\n.searchContainer[_ngcontent-%COMP%] {\n    margin-bottom: 1em;\n}\n\n.searchContainer[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n    margin-left: 1em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcmVjaXBlLWJvb2svcmVjaXBlLWJvb2suY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLG9DQUFvQztBQUN4Qzs7QUFFQTtJQUNJLHNCQUFzQjtBQUMxQjs7QUFFQTtJQUNJLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLGdCQUFnQjtBQUNwQiIsImZpbGUiOiJzcmMvYXBwL3JlY2lwZS1ib29rL3JlY2lwZS1ib29rLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJodG1sIHtcbiAgICBmb250LWZhbWlseTogJ09wZW4gU2FucycsIHNhbnMtc2VyaWY7XG59XG5cbmgxIHtcbiAgICBmb250LWZhbWlseTogQ29tZm9ydGFhO1xufVxuXG4udGl0bGVCdXR0b24ge1xuICAgIG1hcmdpbi1sZWZ0OiAzZW07XG59XG5cbi5zZWFyY2hDb250YWluZXIge1xuICAgIG1hcmdpbi1ib3R0b206IDFlbTtcbn1cblxuLnNlYXJjaENvbnRhaW5lciBidXR0b24ge1xuICAgIG1hcmdpbi1sZWZ0OiAxZW07XG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](RecipeBookComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -501,19 +642,273 @@ RecipeBookComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
                 templateUrl: './recipe-book.component.html',
                 styleUrls: ['./recipe-book.component.css']
             }]
-    }], function () { return []; }, null); })();
+    }], function () { return [{ type: _nebular_theme__WEBPACK_IMPORTED_MODULE_1__["NbSearchService"] }]; }, null); })();
 
 
 /***/ }),
 
-/***/ "./src/assets/recipes/recipes.json":
-/*!*****************************************!*\
-  !*** ./src/assets/recipes/recipes.json ***!
-  \*****************************************/
-/*! exports provided: American Chop Suey, Bacon-Cheeseburger Potato Pie, default */
-/***/ (function(module) {
+/***/ "./src/app/view-recipe/view-recipe.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/view-recipe/view-recipe.component.ts ***!
+  \******************************************************/
+/*! exports provided: ViewRecipeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = JSON.parse("{\"American Chop Suey\":{\"name\":\"American Chop Suey\",\"ingredients\":[{\"name\":\"Chopped green pepper\",\"amount\":\"1\"},{\"name\":\"Chopped Onion\",\"amount\":\"1\"},{\"name\":\"Can of tomato soup\",\"amount\":\"1\"},{\"name\":\"Hamburg\",\"amount\":\"1 pound\"},{\"name\":\"Cooked spaghetti\",\"amount\":\"\"}],\"directions\":\"Cook pepper and onion, add hamburg. Cook hamburg until no longer pink, drain. Add soup and 1/3 can of water. Add spaghetti, mix well and serve.\"},\"Bacon-Cheeseburger Potato Pie\":{\"name\":\"Bacon-Cheeseburger Potato Pie\",\"ingredients\":[{\"name\":\"Lean ground beef\",\"amount\":\"1 1/2 pound\"},{\"name\":\"Bread crumbs\",\"amount\":\"1/2 cup\"},{\"name\":\"Finely chopped onion\",\"amount\":\"1/4 cup\"},{\"name\":\"Ketchup\",\"amount\":\"1/4 cup\"},{\"name\":\"Prepared mustard\",\"amount\":\"2 tsp\"},{\"name\":\"Bacon\",\"amount\":\"3 slices\"},{\"name\":\"Water\",\"amount\":\"1 1/4 cup\"},{\"name\":\"Margarine\",\"amount\":\"3 tablespoons\"},{\"name\":\"Garlic salt\",\"amount\":\"1/4 tsp\"},{\"name\":\"Milk\",\"amount\":\"3/4 cup\"},{\"name\":\"Mashed potato flakes\",\"amount\":\"2 cups\"},{\"name\":\"Shredded cheddar cheese\",\"amount\":\"4 oz (1 cup)\"}],\"directions\":\"In med. bowl combine beef, bread crumbs, onion, ketchup, and mustard. Press mixture in bottom and sides of 9 inch pie plate. Bake at 375 for 15 minutes. Cook bacon. In saucepan, combine water, margarine, and garlic salt. Bring to a boil. Remove from heat and add milk. With fork, stir in potato flakes \\n\\n Remove beef crust from oven and pour off drippings. Spoon potato mixture evenly into crust. Return to oven and bake 15 minutes. Remove pie from oven and top with remaining cheese and crumbled up bacon. Return to oven for 5 additional minutes. Let stand 10 minutes before serving.\"}}");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewRecipeComponent", function() { return ViewRecipeComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _nebular_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @nebular/theme */ "./node_modules/@nebular/theme/__ivy_ngcc__/fesm2015/index.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+
+
+
+
+
+function ViewRecipeComponent_nb_list_item_9_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nb-list-item");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ingredient_r3 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ingredient_r3.name, " ");
+} }
+function ViewRecipeComponent_tr_24_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "tr");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "td", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ingredient_r4 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ingredient_r4.amount);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ingredient_r4.name);
+} }
+function ViewRecipeComponent_ng_container_27_div_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const direction_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](direction_r5);
+} }
+function ViewRecipeComponent_ng_container_27_s_3_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "s");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const direction_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](direction_r5);
+} }
+function ViewRecipeComponent_ng_container_27_Template(rf, ctx) { if (rf & 1) {
+    const _r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nb-checkbox", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("checkedChange", function ViewRecipeComponent_ng_container_27_Template_nb_checkbox_checkedChange_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r12); const i_r6 = ctx.index; const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r11.change(i_r6); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ViewRecipeComponent_ng_container_27_div_2_Template, 2, 1, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, ViewRecipeComponent_ng_container_27_s_3_Template, 2, 1, "s", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+} if (rf & 2) {
+    const i_r6 = ctx.index;
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx_r2.done[i_r6]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r2.done[i_r6]);
+} }
+const _c0 = function () { return ["/recipe"]; };
+class ViewRecipeComponent {
+    constructor(route, router) {
+        this.route = route;
+        this.router = router;
+    }
+    ngOnInit() {
+        let givenID = parseInt(this.route.snapshot.paramMap.get('id'));
+        this.done = [];
+        this.tempRecipeBook = [
+            {
+                "id": 1,
+                "name": "American Chop Suey",
+                "description": "An American pasta casserole made with ground beef, macaroni and a seasoned tomato sauce, found in the cuisine of New England and other regions of the United States.",
+                "ingredients": [
+                    {
+                        "name": "Chopped green pepper",
+                        "amount": "1"
+                    },
+                    {
+                        "name": "Chopped Onion",
+                        "amount": "1"
+                    },
+                    {
+                        "name": "Can of tomato soup",
+                        "amount": "1"
+                    },
+                    {
+                        "name": "Hamburg",
+                        "amount": "1 pound"
+                    },
+                    {
+                        "name": "Cooked spaghetti",
+                        "amount": ""
+                    }
+                ],
+                "directions": "Cook pepper and onion, add hamburg. Cook hamburg until no longer pink, drain. Add soup and 1/3 can of water. Add spaghetti, mix well and serve."
+            },
+            {
+                "id": 2,
+                "name": "Bacon-Cheeseburger Potato Pie",
+                "description": "Delicious potato pie.",
+                "ingredients": [
+                    {
+                        "name": "Lean ground beef",
+                        "amount": "1 1/2 pound"
+                    },
+                    {
+                        "name": "Bread crumbs",
+                        "amount": "1/2 cup"
+                    },
+                    {
+                        "name": "Finely chopped onion",
+                        "amount": "1/4 cup"
+                    },
+                    {
+                        "name": "Ketchup",
+                        "amount": "1/4 cup"
+                    },
+                    {
+                        "name": "Prepared mustard",
+                        "amount": "2 tsp"
+                    },
+                    {
+                        "name": "Bacon",
+                        "amount": "3 slices"
+                    },
+                    {
+                        "name": "Water",
+                        "amount": "1 1/4 cup"
+                    },
+                    {
+                        "name": "Margarine",
+                        "amount": "3 tablespoons"
+                    },
+                    {
+                        "name": "Garlic salt",
+                        "amount": "1/4 tsp"
+                    },
+                    {
+                        "name": "Milk",
+                        "amount": "3/4 cup"
+                    },
+                    {
+                        "name": "Mashed potato flakes",
+                        "amount": "2 cups"
+                    },
+                    {
+                        "name": "Shredded cheddar cheese",
+                        "amount": "4 oz (1 cup)"
+                    }
+                ],
+                "directions": "In medium bowl combine beef, bread crumbs, onion, ketchup, and mustard. Press mixture in bottom and sides of 9 inch pie plate. Bake at 375 for 15 minutes. Cook bacon. In saucepan, combine water, margarine, and garlic salt. Bring to a boil. Remove from heat and add milk. With fork, stir in potato flakes \n\n Remove beef crust from oven and pour off drippings. Spoon potato mixture evenly into crust. Return to oven and bake 15 minutes. Remove pie from oven and top with remaining cheese and crumbled up bacon. Return to oven for 5 additional minutes. Let stand 10 minutes before serving."
+            }
+        ];
+        this.selectedRecipe = this.getSelectedRecipe(givenID);
+        this.parsedDirections = this.parseDirections();
+        for (let i = 0; i < this.parsedDirections.length; i++) {
+            this.done.push(false);
+        }
+    }
+    getSelectedRecipe(idx) {
+        for (let i = 0; i < this.tempRecipeBook.length; i++) {
+            if (this.tempRecipeBook[i].id === idx) {
+                return this.tempRecipeBook[i];
+            }
+        }
+    }
+    parseDirections() {
+        return this.selectedRecipe.directions.split(".");
+    }
+    change(index) {
+        this.done[index] = !this.done[index];
+    }
+}
+ViewRecipeComponent.ɵfac = function ViewRecipeComponent_Factory(t) { return new (t || ViewRecipeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"])); };
+ViewRecipeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ViewRecipeComponent, selectors: [["app-view-recipe"]], decls: 28, vars: 6, consts: [["fixed", ""], [1, "itemContainer"], ["size", "medium", 2, "min-height", "0em"], [4, "ngFor", "ngForOf"], ["nbButton", "", "size", "small", 3, "routerLink"], ["nbButton", "", "size", "small", "status", "primary", 2, "margin-top", "1em"], [1, "amount"], [3, "checkedChange"], [4, "ngIf"]], template: function ViewRecipeComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nb-layout");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nb-layout-header", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "nb-sidebar", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "nb-card", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "nb-card-header");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Ingredient List");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "nb-list");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, ViewRecipeComponent_nb_list_item_9_Template, 2, 1, "nb-list-item", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "button", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Back to List");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "button", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Print Ingredients");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "nb-layout-column", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Ingredients");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "table");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "tr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Amount");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Item");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](24, ViewRecipeComponent_tr_24_Template, 5, 2, "tr", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Directions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](27, ViewRecipeComponent_ng_container_27_Template, 5, 2, "ng-container", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.selectedRecipe.name);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.selectedRecipe.ingredients);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](5, _c0));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.selectedRecipe.ingredients);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.parsedDirections);
+    } }, directives: [_nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbLayoutComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbLayoutHeaderComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbCardComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbCardHeaderComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbListComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbButtonComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLink"], _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbLayoutColumnComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbListItemComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbCheckboxComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]], styles: ["table[_ngcontent-%COMP%] {\n    width: 50%;\n    margin-left: auto;\n    margin-right: auto;\n}\n\nth[_ngcontent-%COMP%], td[_ngcontent-%COMP%] {\n    border-bottom: 1px dashed black;\n}\n\ntd[_ngcontent-%COMP%] {\n    width: 50%;\n}\n\nul[_ngcontent-%COMP%] {\n    list-style: none;\n}\n\n.itemContainer[_ngcontent-%COMP%] {\n    text-align: center;\n}\n\n.amount[_ngcontent-%COMP%] {\n    width: 10%;\n    border-right: 1px solid black;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdmlldy1yZWNpcGUvdmlldy1yZWNpcGUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFVBQVU7SUFDVixpQkFBaUI7SUFDakIsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksK0JBQStCO0FBQ25DOztBQUVBO0lBQ0ksVUFBVTtBQUNkOztBQUVBO0lBQ0ksZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0ksa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksVUFBVTtJQUNWLDZCQUE2QjtBQUNqQyIsImZpbGUiOiJzcmMvYXBwL3ZpZXctcmVjaXBlL3ZpZXctcmVjaXBlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJ0YWJsZSB7XG4gICAgd2lkdGg6IDUwJTtcbiAgICBtYXJnaW4tbGVmdDogYXV0bztcbiAgICBtYXJnaW4tcmlnaHQ6IGF1dG87XG59XG5cbnRoLHRkIHtcbiAgICBib3JkZXItYm90dG9tOiAxcHggZGFzaGVkIGJsYWNrO1xufVxuXG50ZCB7XG4gICAgd2lkdGg6IDUwJTtcbn1cblxudWwge1xuICAgIGxpc3Qtc3R5bGU6IG5vbmU7XG59XG5cbi5pdGVtQ29udGFpbmVyIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5hbW91bnQge1xuICAgIHdpZHRoOiAxMCU7XG4gICAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgYmxhY2s7XG59Il19 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ViewRecipeComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-view-recipe',
+                templateUrl: './view-recipe.component.html',
+                styleUrls: ['./view-recipe.component.css']
+            }]
+    }], function () { return [{ type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"] }, { type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"] }]; }, null); })();
+
 
 /***/ }),
 

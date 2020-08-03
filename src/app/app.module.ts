@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 // Routing modules
 import { AppRoutingModule } from './app-routing.module';
@@ -12,18 +12,24 @@ import { MenuBarComponent } from './global_components/menu-bar/menu-bar.componen
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 // Custom modules
-import { NbThemeModule, NbCardModule, NbLayoutModule, NbButtonModule } from '@nebular/theme';
+import { NbThemeModule, NbCardModule, NbLayoutModule, NbButtonModule, NbListModule } from '@nebular/theme';
+import { RecipeBookComponent } from './recipe-book/recipe-book.component';
+import { ViewRecipeComponent } from './view-recipe/view-recipe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     MenuBarComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    RecipeBookComponent,
+    ViewRecipeComponent
   ],
   imports: [
     RouterModule.forRoot([
       {path: 'home', component: HomeComponent},
+      {path: 'recipe', component: RecipeBookComponent},
+      {path: 'recipe/:id', component: ViewRecipeComponent},
       {path: 'page-not-found', component: PageNotFoundComponent},
       {path: '', redirectTo: '/home', pathMatch: 'full'},
       {path: '**', redirectTo: '/page-not-found', pathMatch: 'full'}
@@ -33,9 +39,11 @@ import { NbThemeModule, NbCardModule, NbLayoutModule, NbButtonModule } from '@ne
     NbThemeModule.forRoot(),
     NbCardModule,
     NbLayoutModule,
-    NbButtonModule
+    NbButtonModule,
+    NbListModule
   ],
   providers: [],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

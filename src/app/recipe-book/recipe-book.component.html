@@ -1,0 +1,31 @@
+<nb-layout>
+    <nb-layout-header>
+        <h1>Jean's Recipe Book</h1>
+        <button nbButton
+            size="tiny"
+            status="info"
+            class="titleButton">
+                About
+        </button>
+    </nb-layout-header>
+
+    <nb-sidebar>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </nb-sidebar>
+
+    <nb-layout-column class="colored-column-basic">
+        <ng-container *ngFor="let item of tempRecipeBook">
+            <nb-card>
+                <nb-card-header>{{item.name}}</nb-card-header>
+                <nb-card-body>{{item.description}}</nb-card-body>
+                <nb-card-footer>
+                    <button nbButton [routerLink]="['/recipe', item.id]">Open</button>
+                </nb-card-footer>
+            </nb-card>
+        </ng-container>
+    </nb-layout-column>
+</nb-layout>

@@ -1,0 +1,15 @@
+table {
+    width: 100%;
+}
+
+th,td {
+    border-bottom: 1px solid black;
+}
+
+td {
+    width: 50%;
+}
+
+.itemContainer {
+    text-align: center;
+}

@@ -1,6 +1,13 @@
-{
-    "American Chop Suey": {
+[
+    {
+        "id": 0,
+        "category": "beef",
         "name": "American Chop Suey",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 35
+        },
         "ingredients": [
             {
                 "name": "Chopped green pepper",
@@ -23,10 +30,17 @@
                 "amount": ""
             }
         ],
-        "directions": "Cook pepper and onion, add hamburg. Cook hamburg until no longer pink, drain. Add soup and 1/3 can of water. Add spaghetti, mix well and serve."
+        "directions": "Cook pepper and onion, add hamburg. Cook hamburg until no longer pink, drain. Add soup and 1/3 can of water. Add spaghetti, mix well and serve"
     },
-    "Bacon-Cheeseburger Potato Pie": {
+    {
+        "id": 1,
+        "category": "beef",
         "name": "Bacon-Cheeseburger Potato Pie",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 15
+        },
         "ingredients": [
             {
                 "name": "Lean ground beef",
@@ -77,6 +91,675 @@
                 "amount": "4 oz (1 cup)"
             }
         ],
-        "directions": "In med. bowl combine beef, bread crumbs, onion, ketchup, and mustard. Press mixture in bottom and sides of 9 inch pie plate. Bake at 375 for 15 minutes. Cook bacon. In saucepan, combine water, margarine, and garlic salt. Bring to a boil. Remove from heat and add milk. With fork, stir in potato flakes \n\n Remove beef crust from oven and pour off drippings. Spoon potato mixture evenly into crust. Return to oven and bake 15 minutes. Remove pie from oven and top with remaining cheese and crumbled up bacon. Return to oven for 5 additional minutes. Let stand 10 minutes before serving."
+        "directions": "In med. bowl combine beef, bread crumbs, onion, ketchup, and mustard. Press mixture in bottom and sides of 9 inch pie plate. Bake at 375 for 15 minutes. Cook bacon. In saucepan, combine water, margarine, and garlic salt. Bring to a boil. Remove from heat and add milk. With fork, stir in potato flakes \n\n Remove beef crust from oven and pour off drippings. Spoon potato mixture evenly into crust. Return to oven and bake 15 minutes. Remove pie from oven and top with remaining cheese and crumbled up bacon. Return to oven for 5 additional minutes. Let stand 10 minutes before serving"
+    },
+    {
+        "id": 2,
+        "category": "chicken",
+        "name": "Baked Chicken With Rice",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 20
+        },
+        "ingredients": [
+            {
+                "name": "Onion soup mix",
+                "amount": "1 package"
+            },
+            {
+                "name": "Uncle Bens rice",
+                "amount": "1 cup (raw)"
+            },
+            {
+                "name": "Chicken",
+                "amount": "Whole cut up pieces"
+            },
+            {
+                "name": "Cream of chicken soup",
+                "amount": "1 can"
+            },
+            {
+                "name": "Water",
+                "amount": "2 cans"
+            }
+        ],
+        "directions": "Sprinkle onion soup across the bottom of a shallow roasing pan. Add rice, then chicken. Mix cream of chicken soup and water together, pour over chicken. Add a little pepper. Cook 1 1/2 hours at 325 degrees"
+    },
+    {
+        "id": 3,
+        "category": "soup",
+        "name": "Barley - Vegetable Soup",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 55
+        },
+        "ingredients": [
+            {
+                "name": "Uncooked barley",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Dried bay leaf",
+                "amount": "1"
+            },
+            {
+                "name": "Baby cut carrots, cut crosswise in half",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Celery, sliced",
+                "amount": "2 medium stalks or 1 cup"
+            },
+            {
+                "name": "Onion, chopped",
+                "amount": "1 medium or 1/2 cup"
+            },
+            {
+                "name": "Green pepper, chopped",
+                "amount": "1 small or 1/2 cup"
+            },
+            {
+                "name": "Garlic, finely chopped",
+                "amount": "2 cloves"
+            },
+            {
+                "name": "Sweet potato, peeled and cubed",
+                "amount": "1 large"
+            },
+            {
+                "name": "Frozen corn",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Frozen green beans",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Vegetable broth",
+                "amount": "2 14oz cans"
+            },
+            {
+                "name": "Water",
+                "amount": "6 cups"
+            },
+            {
+                "name": "Diced tomatoes with herbs, undrained",
+                "amount": "1 14.5oz can"
+            }
+        ],
+        "directions": "Layer all ingredients (except broth, water, and tomatoes) in order listed in slow cooker. Pour broth and water over ingredients, do not stir. Cover and cook on low 6-8 hours or until barley is tender. 10 minutes before serving, stir in tomatoes. Cover and cook 10 minutes. Remove Bay leaf"
+    },
+    {
+        "id": 4,
+        "category": "beef",
+        "name": "Beef Taco Bake",
+        "subIngredients": false,
+        "cook": "~35 minutes",
+        "ingredients": [
+            {
+                "name": "Ground beef",
+                "amount": "1 lb"
+            },
+            {
+                "name": "Condensed tomato soup",
+                "amount": "1 10 3/4oz can"
+            },
+            {
+                "name": "Salsa",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Milk",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Flour tortillas cut into 1\" pieces",
+                "amount": "6 6\" to 8\""
+            },
+            {
+                "name": "Shredded cheddar cheese",
+                "amount": "1 cup"
+            }
+        ],
+        "directions": "In skillet cook beef until brown, stirring to separate meat. Pour off fat. Add soup, salsa, milk, tortillas and half of the cheese. Spoon into 2 quart shallow baking dish, cover. Bake at 400 for 30 minutes or until hot. Sprinkle with remaining cheese"
+    },
+    {
+        "id": 5,
+        "category": "pork",
+        "name": "Bow-Ties with Ham",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 15
+        },
+        "ingredients": [
+            {
+                "name": "Uncooked bow-tie pasta",
+                "amount": "3 cups"
+            },
+            {
+                "name": "Alfredo pasta sauce",
+                "amount": "1 16oz jar"
+            },
+            {
+                "name": "Medium asparagus spears, cut into 1-inch pieces",
+                "amount": "10 (or 1 cup)"
+            },
+            {
+                "name": "Sun-dried tomatoes in oil and herbs, drained, chopped",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Diced (1/4 to 1/2 inch) cooked ham",
+                "amount": "1 cup"
+            }
+        ],
+        "directions": "Heat oven to 350 degrees. Spray 2-quart casserole with cooking spray. Cook and drain pasta as directed on package. In a 3-quart saucepan, heat alfredo sauce over medium heat, stirring frequently, until hot. Gently stir in cooked pasta, asparagus, tomatoes, and ham. Stir in 1/2 cup of the cheese. Pour into casserole. Cover, bake 35-45 minutes or until bubbly. Top with remaining cheese"
+    },
+    {
+        "id": 6,
+        "category": "crockpot",
+        "name": "Brown Sugar and Balsamic Glazed Pork Loin",
+        "subIngredients": true,
+        "cook": {
+            "hours": 8,
+            "minutes": 15
+        },
+        "ingredients": [
+            {
+                "name": "2 lb boneless pork loin",
+                "amount": "1"
+            },
+            {
+                "name": "Pepper",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Garlic, crushed",
+                "amount": "1 glove"
+            },
+            {
+                "name": "Water",
+                "amount": "1/2 cup"
+            }
+        ],
+        "subName": "Glaze",
+        "sub": [
+            {
+                "name": "Brown sugar",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Cornstarch",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Balsamic vinegar",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Water",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Soy sauce",
+                "amount": "2 tablespoons"
+            }
+        ],
+        "directions": "Combine pepper and garlic. Rub over roast. Place in slow cooker with 1/2 cup water. Cook on low for 6-8 hours. About 1 hour before roast is done, combine ingredients for glaze in a small saucepan. Heat and stir until mixture thickens. Brush roast with glaze 2 or 3 times during the last hour of cooking. Serve with remaining glaze on size"
+    },
+    {
+        "id": 7,
+        "category": "chicken",
+        "name": "Buffalo Chicken Lasagna",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 20
+        },
+        "ingredients": [
+            {
+                "name": "Bulk ground chicken",
+                "amount": "1 lb"
+            },
+            {
+                "name": "Unsalted butter",
+                "amount": "3 tablespoons"
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "3 tablespoons"
+            },
+            {
+                "name": "Chicken broth",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Sour cream",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Red hot buffalo wing sauce",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Refrigerated seamless dough sheet",
+                "amount": "1 can"
+            },
+            {
+                "name": "Shredded cheddar cheese",
+                "amount": "2 cups"
+            }
+        ],
+        "directions": "Heat oven to 400 degrees. In 10-inch skillet, cook chicken until no longer pink. Transfer chicken to large bowl. In same skillet, melt butter over medium heat. Stir in flour until well blended. Gradually add chicken broth, beating with whisk after each addition. Make sure mixture is smooth and lump-free before adding more broth. Keep doing this until all of the broth has been added. Remove skillet from heat. Stir in sour cream with whisk until well combined. Stir in wing sauce. Add cooked chicken; mix well. Set aside. Unroll dough onto work surface dusted lightly with flour. Cut dough in half; set 1 half aside. Using rolling pin, roll dough until about 1/4 inch thick. Spoon small amount of chicken mixture into ungreased 11x7in (or 12x8in) glass baking dish. Cut strips of dough to roughly fit on top of chicken mixture; arrange over mixture. Sprinkle some of the cheese over top; add more chicken mixture. Repeat layering 2 more times, using remaining half of dough and all of the chicken mixture (make sure to end with chicken on the surface). Top with remaining cheese. Bake 45 minutes or until cheese is golden brown and bubbly. Cool 10 minutes before serving"
+    },
+    {
+        "id": 8,
+        "category": "chicken",
+        "name": "Buffalo Chicken Pot Pie",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 55
+        },
+        "ingredients": [
+            {
+                "name": "Butter",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "White onion, diced",
+                "amount": "1/2"
+            },
+            {
+                "name": "Celery, diced",
+                "amount": "6 stalks"
+            },
+            {
+                "name": "Carrots, diced",
+                "amount": "3"
+            },
+            {
+                "name": "Rotisserie chicken",
+                "amount": "1 2lb"
+            },
+            {
+                "name": "Buffalo wing sauce",
+                "amount": "3/4 cup"
+            },
+            {
+                "name": "Crumbled blue cheese",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Pillsbury refrigerated pie crusts (softened as directed on box)",
+                "amount": "1 box"
+            }
+        ],
+        "directions": "Heat oven to 400 degrees. In 3-quart saucepan, melt butter over medium heat. Add onion; cook 3 to 5 minutes or until softened. Add celery and carrots; cook 5 to 7 minutes. Remove and discard skin from chicken. Remove chicken from bones; cut chicken into small pieces and discard bones. In a large bowl, toss vegetable mixture, chicken, buffalo wing sauce, and cheese until well mixed. Make pie crusts as directed on box for Two-Crust Pie using 10-inch glass deep-dish pie plate. Pour chicken mixture into crust-lined plate. Top with second crust and flute; cut slits in several pieces. Bake 25 to 35 minutes or until edge is golden brown"
+    },
+    {
+        "id": 9,
+        "category": "crockpot",
+        "name": "Cafe Rio Chicken",
+        "subIngredients": false,
+        "cook": {
+            "hours": 5,
+            "minutes": 10
+        },
+        "ingredients": [
+            {
+                "name": "Skinless split chicken breasts (bone in)",
+                "amount": "2 lbs"
+            },
+            {
+                "name": "Salt and pepper",
+                "amount": ""
+            },
+            {
+                "name": "Zesty italian dressing",
+                "amount": "8oz"
+            },
+            {
+                "name": "Minced garlic",
+                "amount": "1/2 tablespoon"
+            },
+            {
+                "name": "Ranch dressing mix",
+                "amount": "1 packet"
+            },
+            {
+                "name": "Chili powder",
+                "amount": "1/2 tablespoon"
+            },
+            {
+                "name": "Ground cumin",
+                "amount": "1/2 tablespoon"
+            },
+            {
+                "name": "Kosher salt",
+                "amount": "1/2 teaspoon"
+            }
+        ],
+        "directions": "Season the chicken on both sides with the salt and pepper and place in the slow cooker. Mix the italian dressing, garlic, ranch dressing mix, chili powder, cumin, and kosher salt together and pour over the chicken. Cook on low for about 5 hours or until chicken is done. Shred with fork and serve in salads, burritos, tacos, or anything else you like"
+    },
+    {
+        "id": 10,
+        "category": "beef",
+        "name": "Cheeseburger Mac",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Ground beef",
+                "amount": "1 pound"
+            },
+            {
+                "name": "Water",
+                "amount": "2 3/4 cup"
+            },
+            {
+                "name": "Ketchup",
+                "amount": "1/3 cup"
+            },
+            {
+                "name": "Onion powder",
+                "amount": "1-2 tsp"
+            },
+            {
+                "name": "Elbow macaroni, uncooked",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Velveeta cheese, cut up",
+                "amount": "3/4 lbs"
+            }
+        ],
+        "directions": "Brown meat in a large skillet, drain. Stir in water, ketchup, and onion powder. Bring to boil. Stir in macaroni. Reduce heat to med-low; cover. Simmer 8 to 10 minutes or until macaroni is tender. Add velveeta, sitr until melted"
+    },
+    {
+        "id": 11,
+        "category": "chicken",
+        "name": "Cheesy Chicken Enchiladas",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 55
+        },
+        "ingredients": [
+            {
+                "name": "Chopped cooked chicken breast",
+                "amount": "2 1/2 cups"
+            },
+            {
+                "name": "Shredded Mexian blend cheese",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Plain low-fat yogurt",
+                "amount": "1 2/3 cups"
+            },
+            {
+                "name": "Butter, melted",
+                "amount": "1/3 cup"
+            },
+            {
+                "name": "Chopped onion",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Minced garlic",
+                "amount": "1 teaspoon"
+            },
+            {
+                "name": "Condensed cream of chicken soup, undiluted",
+                "amount": "1 10 3/4oz can"
+            },
+            {
+                "name": "Chopped green chiles, drained",
+                "amount": "1 4.5oz can"
+            },
+            {
+                "name": "Flour tortillas",
+                "amount": "8 8in"
+            },
+            {
+                "name": "Canola oil",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Cooking spray",
+                "amount": ""
+            },
+            {
+                "name": "Finely shredded sharp cheddar cheese",
+                "amount": "1/2 cup (2oz)"
+            },
+            {
+                "name": "Chopped green onions",
+                "amount": "1/4 cup"
+            }
+        ],
+        "directions": "Preheat oven to 350 degrees. Combine first 9 ingredients in a large bowl. Remove 1 cup chicken mixture; set mixture aside. Heat a large skillet over medium-high heat. Working with 1 tortilla at a time, brush oil over both sides of tortilla. Add tortilla to pan; cook 5 seconds on each side or until toasted and soft. remove from pan; arrange 1/2 cup chicken mixture down center of tortilla. Roll jelly-roll style; place filled tortilla, seam side down, in a 13x9-inch backing dish coated with cooking spray. Repeat procedure with remaining 7 tortillas. Spread reserved 1 cup chicken mixture evenly over enchiladas. Cover and bake at 350 degrees for 20 minutes. Uncover; sprinkle evenly with cheddar cheese and green onion; bake an additional 5 minutes or until cheese melts"
+    },
+    {
+        "id": 12,
+        "category": "chicken",
+        "name": "Cheesy Chicken Tortilla Lasagna",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 25
+        },
+        "ingredients": [
+            {
+                "name": "Taco sauce",
+                "amount": "1 10oz can"
+            },
+            {
+                "name": "Seasoned cooked chicken breast strips, thawed, diced",
+                "amount": "2 packages"
+            },
+            {
+                "name": "Sour cream",
+                "amount": "1 8oz container"
+            },
+            {
+                "name": "Sliced green onions",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Taco seasoning",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Corn tortillas, halved",
+                "amount": "8"
+            },
+            {
+                "name": "Shredded monterey jack cheese",
+                "amount": "2 cups (8oz)"
+            },
+            {
+                "name": "Tortilla chips",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Chopped tomatoes",
+                "amount": "1 cup"
+            }
+        ],
+        "directions": "Spray 13x9 glass baking dish. Reserve 1/4 cup taco sauce. In large bowl, mix remaining taco sauce, chicken, sour cream, 1/4 cup onions and taco seasoning mix. Spoon 1/4 cup taco sauce on bottom of pan. Arrange tortilla pieces (8) over sauce, overlapping as necessary. Spoon 1/2 chicken mixture over tortilla; sprinkle with 2/3 cup of cheese. Repeat layers. Cover with foil. Bake 375 degrees for 30-35 minutes. Uncover; layer tortilla chips, tomatoes, remaining onion, and cheese on top. Bake uncovered 5 minutes. Let sit 10 minutes before serving"
+    },
+    {
+        "id": 13,
+        "category": "soup",
+        "name": "Cheesy Potato Soup",
+        "subIngredients": false,
+        "cook": {
+            "hours": 6,
+            "minutes": 55
+        },
+        "ingredients": [
+            {
+                "name": "Bacon",
+                "amount": "4 slices"
+            },
+            {
+                "name": "Chopped onion",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Diced peeled russet potatoes",
+                "amount": "5 medium"
+            },
+            {
+                "name": "Celery, chopped",
+                "amount": "1 medium stalk"
+            },
+            {
+                "name": "Chicken broth",
+                "amount": "1 32oz carton"
+            },
+            {
+                "name": "Salt",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Pepper",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Flour",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Half and half",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Shredded American and Cheddar cheese blend",
+                "amount": "1 8oz bag"
+            }
+        ],
+        "directions": "In 12-inch skillet, cook bacon over medium heat, turning occasionally, until browned and crispy. Remove from skillet, reserving fat in skillet. Drain bacon on paper towel, then refrigerate. In same skillet, cook onion in bacon fat over medium heat 4 to 5 minutes, stirring frequently, until tender. Spray 3 1/4 to 4 quart slow cooker with cooking spray. In cooker, mix onion, potatoes, celery, broth, salt, and pepper. Cover; cook on low heat setting 6 to 7 hours. In small bowl, beat flour and half-and-half with wire whisk until well blended; stir into soup. Increase heat setting to high. Cover; cook about 30 minutes longer or until thickened. Stir in cheese until well melted. Crumble bacon; sprinkle over soup"
+    },
+    {
+        "id": 14,
+        "category": "chicken",
+        "name": "Cheesy Stuffed Pepper Casserole",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 40
+        },
+        "ingredients": [
+            {
+                "name": "Cooked rice",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Ground beef",
+                "amount": "1 lb"
+            },
+            {
+                "name": "Olive oil",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Large green peppers, diced",
+                "amount": "2"
+            },
+            {
+                "name": "Frozen diced onion",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Diced tomatoes, drained",
+                "amount": "29oz can"
+            },
+            {
+                "name": "Tomato sauce",
+                "amount": "3 14oz cans"
+            },
+            {
+                "name": "Corn, drained",
+                "amount": "2 14oz cans"
+            },
+            {
+                "name": "Garlic powder",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Kosher salt",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Fresh ground black pepper",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Shredded cheddar cheese",
+                "amount": "2 cups"
+            }
+        ],
+        "directions": "Brown ground beef in a large stock pot, drain, remove from pan and set aside. Heat oil in stock pot on medium high heat and add green peppers and onion. Saute 5-10 minutes or until softened, stirring occasionally. to stock pot, add tomatoes, sauce, corn, garlic powder, salt, and pepper. Bring to a boil, then reduce heat and simmer 5 minutes. Stir in rice. Pour into a 9x13-inch baking dish. top with shredded cheese. Bake at 350 for 12-15 minutes or until cheese is melted"
+    },
+    {
+        "id": 15,
+        "category": "chicken",
+        "name": "Chicken Alfredo Pizza",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 25
+        },
+        "ingredients": [
+            {
+                "name": "Pillsbury refrigerated thin pizza crust",
+                "amount": "1 can"
+            },
+            {
+                "name": "Alfredo sauce",
+                "amount": "1/2 cup (from 15oz jar)"
+            },
+            {
+                "name": "Diced cooked chicken",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Diced red bell pepper",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Shredded Italian cheese blend or mozzarella cheese",
+                "amount": "1 cup (4oz)"
+            }
+        ],
+        "directions": "Heat oven to 400 degrees. Grease 15x10-inch or larger nonstick cookie sheet with shortening. Unroll dough onto cookie sheet. Starting at center, press out dough into 15x10-inch rectangle. Bake 7 minutes then remove from oven. Spread sauce over warm crust. Top with chicken, bell pepper, and cheese. Bake 6 to 10 minutes or until cheese is melted and crust is golden brown"
+    },
+    {
+        "id": 16,
+        "category": "",
+        "name": "Placeholder",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "",
+                "amount": ""
+            }
+        ],
+        "subName": "",
+        "sub": [],
+        "directions": ""
     }
-}
+]

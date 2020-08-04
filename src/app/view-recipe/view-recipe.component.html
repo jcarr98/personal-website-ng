@@ -3,22 +3,8 @@
         <h3>{{selectedRecipe.name}}</h3>
     </nb-layout-header>
 
-    <nb-sidebar class="itemContainer">
-        <nb-card size="medium" style="min-height: 0em;">
-            <nb-card-header>Ingredient List</nb-card-header>
-            <nb-list>
-                <nb-list-item *ngFor="let ingredient of selectedRecipe.ingredients">
-                    {{ingredient.name}}
-                </nb-list-item>
-            </nb-list>
-        </nb-card>
-
-        <button nbButton size="small" [routerLink]="['/recipe']">Back to List</button>
-        <br>
-        <button nbButton size="small" status="primary" style="margin-top: 1em;">Print Ingredients</button>
-    </nb-sidebar>
-
     <nb-layout-column class="itemContainer">
+        <button nbButton status="primary" [routerLink]="['/recipe']">Back to List</button>
         <h3>Ingredients</h3>
         <table>
             <tr>
@@ -29,6 +15,15 @@
                 <td class="amount">{{ingredient.amount}}</td> 
                 <td>{{ingredient.name}}</td>
             </tr>
+            <ng-container *ngIf="selectedRecipe.subIngredients">
+                <tr>
+                    <th colspan="2">{{selectedRecipe.subName}}</th>
+                </tr>
+                <tr *ngFor="let subs of selectedRecipe.sub">
+                    <td class="amount">{{subs.amount}}</td> 
+                    <td>{{subs.name}}</td>
+                </tr>
+            </ng-container>
         </table>
         <h3>Directions</h3>
         <ng-container *ngFor="let direction of parsedDirections; let i = index;">

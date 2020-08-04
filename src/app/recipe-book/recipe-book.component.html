@@ -14,7 +14,11 @@
         <ng-container *ngFor="let item of searchOptions">
             <nb-card>
                 <nb-card-header>{{item.name}}</nb-card-header>
-                <nb-card-body>{{item.description}}</nb-card-body>
+                <nb-card-body>
+                    Cook time: 
+                    <ng-container *ngIf="item.cook.hours > 0">{{item.cook.hours}} hour(s), </ng-container>
+                    <ng-container *ngIf="item.cook.minutes > 0">{{item.cook.minutes}} minutes</ng-container>
+                </nb-card-body>
                 <nb-card-footer>
                     <button nbButton outline status="primary" [routerLink]="['/recipe', item.id]">Open</button>
                 </nb-card-footer>

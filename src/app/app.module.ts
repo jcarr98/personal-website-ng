@@ -13,7 +13,7 @@ import { MenuBarComponent } from './global_components/menu-bar/menu-bar.componen
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 // Custom modules
-import { NbThemeModule, NbCardModule, NbLayoutModule, NbButtonModule, NbListModule, NbCheckboxModule } from '@nebular/theme';
+import { NbThemeModule, NbCardModule, NbLayoutModule, NbButtonModule, NbListModule, NbCheckboxModule, NbBadgeModule } from '@nebular/theme';
 import { RecipeBookComponent } from './recipe-book/recipe-book.component';
 import { ViewRecipeComponent } from './view-recipe/view-recipe.component';
 
@@ -43,7 +43,8 @@ import { ViewRecipeComponent } from './view-recipe/view-recipe.component';
     NbLayoutModule,
     NbButtonModule,
     NbListModule,
-    NbCheckboxModule
+    NbCheckboxModule,
+    NbBadgeModule
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

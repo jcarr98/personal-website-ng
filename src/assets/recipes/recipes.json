@@ -745,6 +745,210 @@
     },
     {
         "id": 16,
+        "category": "chicken",
+        "name": "Chicken and Noodle Skillet",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Vegetable oil",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Boneless skinless chicken breast, cut into bite size pieces",
+                "amount": "1 lb"
+            },
+            {
+                "name": "Baby cut carrots, cut lengthwise in half",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Frozen broccoli cuts",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Uncooked egg noodles",
+                "amount": "1 cup (2oz)"
+            },
+            {
+                "name": "Chicken broth",
+                "amount": "1 3/4 cup"
+            },
+            {
+                "name": "Cream of chicken soup",
+                "amount": "1 (10 3/4oz) can"
+            }
+        ],
+        "directions": "In skillet, heat over med-high heat. Cook chicken and onion in oil 6 to 8 minutes, stirring frequently until brown and onion is tender. Stir in remaining ingredients. Heat to boiling, reduce heat. Cover and simmer 10 minutes. Uncover and simmer 5 to 8 minutes longer, stirring occasionally until noodles are tender"
+    },
+    {
+        "id": 17,
+        "category": "chicken",
+        "name": "Chicken Broccoli Alfredo",
+        "subIngredients": false,
+        "cook": {
+            "hours": 5,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Chicken breasts",
+                "amount": "1 1/2 pounds"
+            },
+            {
+                "name": "Frozen broccoli florets",
+                "amount": "16oz"
+            },
+            {
+                "name": "Alfredo sauce",
+                "amount": "2 (16oz) jars"
+            },
+            {
+                "name": "Large green pepper, chopped",
+                "amount": "1"
+            },
+            {
+                "name": "Sliced mushrooms, drained",
+                "amount": "1 (4oz) can"
+            }
+        ],
+        "directions": "Place all ingredients in a resealable gallon-sized freezer bag and mix together. When ready to eat, remove from freezer and thaw in fridge for 24 hours. Cook on low for 4-6 hours"
+    },
+    {
+        "id": 18,
+        "category": "chicken",
+        "name": "Chicken, Broccoli and Penne Pasta",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 40
+        },
+        "ingredients": [
+            {
+                "name": "Penne",
+                "amount": "12oz"
+            },
+            {
+                "name": "Olive oil",
+                "amount": "2oz"
+            },
+            {
+                "name": "Chicken tenderloins",
+                "amount": "8oz"
+            },
+            {
+                "name": "Chopped garlic",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Broccoli florets",
+                "amount": "1 pound"
+            },
+            {
+                "name": "Chicken broth",
+                "amount": "8oz"
+            },
+            {
+                "name": "Margarine",
+                "amount": "2-4oz"
+            },
+            {
+                "name": "Parmesan",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Crushed red pepper",
+                "amount": "1 pinch"
+            }
+        ],
+        "directions": "Cook penne until al dente; set aside. Saute chicken in olive oil until lightly browned on one side. turn over and add garlic, crushed red pepper, and broccoli. Cook 1 minute. add broth and margarine. Continue cooking until broccoli is done. Add pasta"
+    },
+    {
+        "id": 19,
+        "category": "crockpot",
+        "name": "Chicken Cacciatore",
+        "subIngredients": true,
+        "cook": {
+            "hours": 30,
+            "minutes": 10
+        },
+        "ingredients": [
+            {
+                "name": "Chicken breasts",
+                "amount": "1 lb"
+            },
+            {
+                "name": "Chunky vegetable-style spaghetti sauce",
+                "amount": "1 (26oz) jar"
+            },
+            {
+                "name": "Zucchini, chopped",
+                "amount": "1"
+            },
+            {
+                "name": "Green pepper, chopped",
+                "amount": "1"
+            },
+            {
+                "name": "Sweet onion, chopped",
+                "amount": "1"
+            }
+        ],
+        "subName": "Garnish",
+        "sub": [
+            {
+                "name": "Chopped black olives",
+                "amount": ""
+            },
+            {
+                "name": "Shredded parm cheese",
+                "amount": ""
+            }
+        ],
+        "directions": "Place all ingredients in a resealable gallon-sized freezer bag and mix together. When ready to eat, remove from freezer and thaw in fridge for 24 hours. Cook on low for 6-8 hours. Serve with cooked spaghetti noodles and garnish with olives and cheese"
+    },
+    {
+        "id": 20,
+        "category": "crockpot",
+        "name": "Chicken Chili",
+        "subIngredients": false,
+        "cook": {
+            "hours": 8,
+            "minutes": 10
+        },
+        "ingredients": [
+            {
+                "name": "Boneless skinless chicken breasts",
+                "amount": "3"
+            },
+            {
+                "name": "Chili season",
+                "amount": "1 package"
+            },
+            {
+                "name": "Rotel",
+                "amount": "1 can"
+            },
+            {
+                "name": "Tomato sauce",
+                "amount": "2 cans"
+            },
+            {
+                "name": "Corn, drained",
+                "amount": "1 can"
+            },
+            {
+                "name": "Chili beans",
+                "amount": "1 can"
+            }
+        ],
+        "directions": "In a crockpot, mix chili season, rotel and tomato sauce. Add chicken. Cook 8 hours on low. Shred chicken with a fork; if it has cooked long enough it will just fall apart. Add remaining ingredients. Cook 30 minutes to warm. Serve with shredded cheese, sour cream, Frito's or cornbread"
+    },
+    {
+        "id": 21,
         "category": "",
         "name": "Placeholder",
         "subIngredients": false,

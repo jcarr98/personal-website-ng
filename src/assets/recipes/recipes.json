@@ -196,7 +196,10 @@
         "category": "beef",
         "name": "Beef Taco Bake",
         "subIngredients": false,
-        "cook": "~35 minutes",
+        "cook": {
+            "hours": 0,
+            "minutes": 35
+        },
         "ingredients": [
             {
                 "name": "Ground beef",
@@ -3166,6 +3169,145 @@
     },
     {
         "id": 64,
+        "category": "chicken",
+        "name": "Honey Mustard Chicken",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 50
+        },
+        "ingredients": [
+            {
+                "name": "Butter",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Honey",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Dijon mustard",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Curry powder",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Boneless chicken breasts",
+                "amount": "3-4"
+            }
+        ],
+        "directions": "Melt butter. Add honey, mustard, and curry; pour over chicken. Bake 350 degrees for 45-50 minutes"
+    },
+    {
+        "id": 65,
+        "category": "crockpot",
+        "name": "Jambalaya",
+        "subIngredients": false,
+        "cook": {
+            "hours": 8,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Onion, chopped",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Green pepper, chopped",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Celery, chopped",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Garlic, finely chopped",
+                "amount": "3 cloves"
+            },
+            {
+                "name": "Tomatoes, diced, undrained",
+                "amount": "1 (28oz) can"
+            },
+            {
+                "name": "Fully cooked smoked sausage, chopped",
+                "amount": "2 cup"
+            },
+            {
+                "name": "Parsley flakes",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Dried thyme leaves",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Pepper",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Red pepper sauce",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Uncooked peeled and deveined medium shrimp",
+                "amount": "3/4 lbs"
+            },
+            {
+                "name": "Hot cooked rice",
+                "amount": "4 cups"
+            }
+        ],
+        "directions": "Mix all ingredients except shrimp and rice. Cover and cook on low 7-8 hours. Stir in shrimp. Cover and cook for 1 hour. Serve with rice"
+    },
+    {
+        "id": 66,
+        "category": "other",
+        "name": "Lasagna",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 45
+        },
+        "ingredients": [
+            {
+                "name": "Lasagna noodles",
+                "amount": "1 package"
+            },
+            {
+                "name": "Spaghetti sauce",
+                "amount": "1 quart"
+            },
+            {
+                "name": "Eggs",
+                "amount": "2"
+            },
+            {
+                "name": "Ricotta",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Mozzarella cheese",
+                "amount": "8oz"
+            },
+            {
+                "name": "Parsley",
+                "amount": ""
+            },
+            {
+                "name": "Pepper",
+                "amount": ""
+            },
+            {
+                "name": "Grated parmesan",
+                "amount": ""
+            }
+        ],
+        "directions": "Mix beaten eggs, ricotta, parsley and pepper. Cook lasagna noodles. Greats 13x9x2-inch pan. Layer noodles, cheese mixture, spaghetti sauce, and mozzarella. Sprinkle top with grated parmesan. Cook at 375 degrees for 30 minutes. Cool for 10 minutes"
+    },
+    {
+        "id": 67,
         "category": "",
         "name": "Placeholder",
         "subIngredients": false,
@@ -3182,5 +3324,65 @@
         "subName": "",
         "sub": [],
         "directions": ""
+    },
+    {
+        "id": 68,
+        "category": "chicken",
+        "name": "Loaded Chicken and Potatoes",
+        "subIngredients": true,
+        "cook": {
+            "hours": 1,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Boneless chicken breasts, cubed (1\")",
+                "amount": "1 lb"
+            },
+            {
+                "name": "Medium skin on red potatoes, cut into 1/2\" cubes",
+                "amount": "6-8"
+            },
+            {
+                "name": "Olive oil",
+                "amount": "1/3 cup"
+            },
+            {
+                "name": "Salt",
+                "amount": "1 1/2 tsp"
+            },
+            {
+                "name": "Black pepper",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Paprika",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Garlic powder",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "Hot sauce",
+                "amount": "2 tablespoons (more if you like it HOT)"
+            }
+        ],
+        "subName": "Topping",
+        "sub": [
+            {
+                "name": "Fiesta blend cheese",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Crumbled bacon",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Green onion, diced",
+                "amount": "1 cup"
+            }
+        ],
+        "directions": "Preheat oven to 400 degrees. Spray 9x13-inch baking dish with cooking spray. In a large bowl, mix together the olive oil, salt, pepper, paprika, garlic powder, and hot sauce. Add the cubed potatoes and chicken and stir to coat. Carefully scoop the potatoes and chicken into the prepared baking dish. Bake the potatoes and chicken for 55-60 minutes, stirring every 20 minutes, until cooked through, crispy, and browned on teh outside. While the potatoes are cooking, fry your bacon. Once the potatoes and chicken are fully cooked, remove from the oven. Top the cooked potatoes with the cheese, bacon, and green onion. Return the casserole to the oven and bake for 5 minutes or until cheese is melted. Serve with extra hot sauce and/or ranch dressing or sour cream"
     }
 ]

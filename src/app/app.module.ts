@@ -28,6 +28,7 @@ import {
 // Custom modules
 import { RecipeBookComponent } from './recipe-book/recipe-book.component';
 import { ViewRecipeComponent } from './view-recipe/view-recipe.component';
+import { RecipeTableComponent } from './recipe-table/recipe-table.component';
 
 @NgModule({
   declarations: [
@@ -36,12 +37,14 @@ import { ViewRecipeComponent } from './view-recipe/view-recipe.component';
     MenuBarComponent,
     PageNotFoundComponent,
     RecipeBookComponent,
-    ViewRecipeComponent
+    ViewRecipeComponent,
+    RecipeTableComponent
   ],
   imports: [
     RouterModule.forRoot([
       {path: 'home', component: HomeComponent},
       {path: 'recipe', component: RecipeBookComponent},
+      {path: 'recipe_table', component: RecipeTableComponent},
       {path: 'recipe/:id', component: ViewRecipeComponent},
       {path: 'page-not-found', component: PageNotFoundComponent},
       {path: '', redirectTo: '/home', pathMatch: 'full'},

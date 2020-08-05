@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import * as recipes from '../../assets/recipes/recipes.json';
-import { CDK_CONNECTED_OVERLAY_SCROLL_STRATEGY_PROVIDER } from '@angular/cdk/overlay/overlay-directives';
 
 @Component({
     selector: 'app-recipe-book',

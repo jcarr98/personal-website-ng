@@ -91,7 +91,7 @@
                 "amount": "4 oz (1 cup)"
             }
         ],
-        "directions": "In med. bowl combine beef, bread crumbs, onion, ketchup, and mustard. Press mixture in bottom and sides of 9 inch pie plate. Bake at 375 for 15 minutes. Cook bacon. In saucepan, combine water, margarine, and garlic salt. Bring to a boil. Remove from heat and add milk. With fork, stir in potato flakes \n\n Remove beef crust from oven and pour off drippings. Spoon potato mixture evenly into crust. Return to oven and bake 15 minutes. Remove pie from oven and top with remaining cheese and crumbled up bacon. Return to oven for 5 additional minutes. Let stand 10 minutes before serving"
+        "directions": "In medium bowl combine beef, bread crumbs, onion, ketchup, and mustard. Press mixture in bottom and sides of 9 inch pie plate. Bake at 375 for 15 minutes. Cook bacon. In saucepan, combine water, margarine, and garlic salt. Bring to a boil. Remove from heat and add milk. With fork, stir in potato flakes \n\n Remove beef crust from oven and pour off drippings. Spoon potato mixture evenly into crust. Return to oven and bake 15 minutes. Remove pie from oven and top with remaining cheese and crumbled up bacon. Return to oven for 5 additional minutes. Let stand 10 minutes before serving"
     },
     {
         "id": 2,
@@ -949,6 +949,2223 @@
     },
     {
         "id": 21,
+        "category": "chicken",
+        "name": "Chicken Fettuccine Casserole",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 50
+        },
+        "ingredients": [
+            {
+                "name": "Refrigerated fettuccine",
+                "amount": "1 (9oz) package"
+            },
+            {
+                "name": "Butter or margarine",
+                "amount": "3 tablespoons"
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "3 tablespoons"
+            },
+            {
+                "name": "Chicken broth",
+                "amount": "1 3/4 cups (from 32oz carton)"
+            },
+            {
+                "name": "Half-and-half",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Cubed cooked chicken",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Oil-packed sun-dried tomatoes, drained and cut into thin strips",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Bacon, crisply cooked and crumbled",
+                "amount": "2 slices"
+            },
+            {
+                "name": "Shredded parmesan cheese",
+                "amount": "3 tablespoons"
+            }
+        ],
+        "directions": "Heat oven to 350 degrees. Spray square baking dish, 8x8x2-inches, with cooking spray. Cook and drain fettuccine as directed on package. While fettuccine is cooking, melt butter in 2-quart saucepan over medium heat. Stir in flour. Gradually stir in broth. Heat to boiling, stirring constantly; remove from heat. Stir in half-and-half. Stir in chicken, tomatoes, and bacon. Add fettuccine to chicken mixture; toss gently to mix well. Spoon into baking dish. Sprinkle with cheese. Bake uncovered about 30 minutes or until hot in center"
+    },
+    {
+        "id": 22,
+        "category": "chicken",
+        "name": "Chicken Parmesan",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Eggs",
+                "amount": "1 or 2"
+            },
+            {
+                "name": "Bread crumbs",
+                "amount": ""
+            },
+            {
+                "name": "Parmesan cheese",
+                "amount": ""
+            },
+            {
+                "name": "Chicken cutlets",
+                "amount": ""
+            },
+            {
+                "name": "Mozarella cheese",
+                "amount": ""
+            },
+            {
+                "name": "Spaghetti sauce",
+                "amount": ""
+            }
+        ],
+        "directions": "Beat 1 or 2 eggs with a little milk in a bowl. Mix bread crumbs and parmesan cheese in a separate bowl. Take chicken cutlets and dip in egg, then bread crumbs. Heat a small amount of vegetable oil in a pan, place breaded cutlets in pan and brown on both sides. Layer spaghetti sauce, chicken, mozzarella and spaghetti sauce in a casserole dish"
+    },
+    {
+        "id": 23,
+        "category": "chicken",
+        "name": "Chicken Quesadillas",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 55
+        },
+        "ingredients": [
+            {
+                "name": "Extra-virgin olive oil",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Bell peppers, thinly sliced",
+                "amount": "2"
+            },
+            {
+                "name": "Onion, thinly sliced",
+                "amount": "1/2"
+            },
+            {
+                "name": "Kosher salt",
+                "amount": ""
+            },
+            {
+                "name": "Freshly ground black pepper",
+                "amount": ""
+            },
+            {
+                "name": "Boneless skinless chicken breasts, sliced into strips",
+                "amount": "1 lb"
+            },
+            {
+                "name": "Chili powder",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Ground cumin",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Dried oregano",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Medium flour tortillas",
+                "amount": "4"
+            },
+            {
+                "name": "Shredded Monterey Jack",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Shredded cheddar",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Avocado, sliced",
+                "amount": "1"
+            },
+            {
+                "name": "Vegetable oil",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Green onions, thinly sliced",
+                "amount": "2"
+            },
+            {
+                "name": "Sour cream (for serving)",
+                "amount": ""
+            }
+        ],
+        "directions": "In a large skillet over medium-high heat, heat olive oil. Add peppers and onion and season with salt and pepper. Cook until soft, 5 minutes; Transfer to a plate. Heat remaining tablespoon vegetable oil over medium-high heat. Season chicken with spices, salt, and pepper and cook, stirring occasionally until golden and cooked through (8 minutes); transfer to a plate. Add 1 flour tortilla to skillet and top half of the tortilla with a heavy sprinkling of both cheeses, cooked chicken mixture, pepper-onion mixture, a few slices of avocado, and green onions. Fold the other half of the tortilla over and cook, flipping once, until golden, 3 minutes per side. Repeat to make 4 quesadillas. Slice into wedges and serve with sour cream"
+    },
+    {
+        "id": 24,
+        "category": "crockpot",
+        "name": "Chicken Stew",
+        "subIngredients": false,
+        "cook": {
+            "hours": 9,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Medium potatoes, cut into 1 1/2 inch cubes",
+                "amount": "3"
+            },
+            {
+                "name": "Baby cut carrots",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Boneless, skinless chicken thighs (about 2 1/2 pds)",
+                "amount": "12"
+            },
+            {
+                "name": "Instant chopped onion",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Garlic powder",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Chicken gravy",
+                "amount": "1 (15oz) jar"
+            },
+            {
+                "name": "Water",
+                "amount": "1/2 cup"
+            }
+        ],
+        "directions": "Toss potatoes and carrots in crockpot. Arrange chicken on top. Sprinkle onion and garlic powder over chicken. Pour gravy and water over all. Cook 8-10 hours on low"
+    },
+    {
+        "id": 25,
+        "category": "soup",
+        "name": "Chicken Taco Soup",
+        "subIngredients": false,
+        "cook": {
+            "hours": 4,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Large chicken breasts",
+                "amount": "2"
+            },
+            {
+                "name": "Taco seasoning",
+                "amount": "1 packet"
+            },
+            {
+                "name": "Mexicorn, drained",
+                "amount": "1 can"
+            },
+            {
+                "name": "Black beans, drained and rinsed",
+                "amount": "1 can"
+            },
+            {
+                "name": "Picante sauce",
+                "amount": "16oz"
+            },
+            {
+                "name": "Chicken stock",
+                "amount": "32oz"
+            },
+            {
+                "name": "Tomato paste",
+                "amount": "6oz"
+            },
+            {
+                "name": "Cream cheese",
+                "amount": "4oz"
+            },
+            {
+                "name": "Sour cream",
+                "amount": "1/2 cup"
+            }
+        ],
+        "directions": "Place chicken on the bottom of greased slow cooker and sprinkle with taco seasoning. Dump corn, black beans, picante sauce, chicken stock and tomato paste ont top and stir to combine. Cook on high for 3 hours. Shred chicken with fork and add cream cheese and sour cream. Give the cream cheese and few minutes to melt and stir to incorporate all ingredients. Serve with some shredded cheese on top"
+    },
+    {
+        "id": 26,
+        "category": "chicken",
+        "name": "Chicken Tetrazzini",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Unsalted butter",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Cooking spray",
+                "amount": ""
+            },
+            {
+                "name": "Finely chopped onion",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Finely chopped celery",
+                "amount": "2/3 cup"
+            },
+            {
+                "name": "Freshly ground black pepper",
+                "amount": "3/4 tablespoon"
+            },
+            {
+                "name": "Salt",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Presliced mushrooms",
+                "amount": "3 (8oz) packages"
+            },
+            {
+                "name": "Dry sherry",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Flour",
+                "amount": "3oz (about 2/3 cup)"
+            },
+            {
+                "name": "Chicken broth",
+                "amount": "3 (14.5oz) cans"
+            },
+            {
+                "name": "Grated Parmesan cheese, divided",
+                "amount": "2 1/4 cups (9oz)"
+            },
+            {
+                "name": "Cream cheese",
+                "amount": "1/2 cup (4oz)"
+            },
+            {
+                "name": "Hot cooked vermicelli",
+                "amount": "7 cups (about 1 pd uncooked)"
+            },
+            {
+                "name": "Chopped cooked chicken breast",
+                "amount": "4 cups (about 1 1/2 pounds)"
+            },
+            {
+                "name": "White bread",
+                "amount": "1 slice"
+            }
+        ],
+        "directions": "Preheat oven to 350 degrees. Melt butter in a large stockpot over medium-high heat. Add onion, celery, black pepper, salt, and mushrooms; saute 4 minutes or until mushrooms are tender. Add sherry; cook 1 minute. Weigh or lightly spoon flour into dry measuring cups; level with a knife. Gradually add flour to pan; cook 3 minutes, stirring constatnly (mixture will be thick) with a whisk. Gradually add broth, stirring constantly. Bring to a boil. reduce heat; simmer 5 minutes, stirring frequently. Remove from heat. Add 1 3/4 cups parmesan cheese and cream cheese, stirring with a whisk until cream cheese melts. Add pasta and chicken; stir until blended. Divide pasta mixture between 2 (8-inch square) glass or ceramic baking dishes coated with cooking spray. Place bread in food processor; pulse 10 times or until coarse crumbs form. Combine breadcrums and 1/2 cup parmesan cheese; sprinkle evenly over pasta. Bake at 350 degrees for 30 minutes or until lightly browned and bubbly. Remove casserole from oven; let stand 15 minutes. To freeze unbaked casserole: prepare through Step 5. Cool completely in refrigerator. Cover with plastic wrap, pressing to remove as much air as possible. Wrap with heavy-duty foil. Store in freeze for up to 2 months. To prepare frozen unbaked casserole: thaw casserole completely in refrigerator (about 24 hours). Preheat oven to 350 degrees. Remove foil; reserve foil. remove plastic wrap; discard wrap. Cover casserole with reserved foil; bake at 350 degrees for 30 minutes. Uncover and bake an additional 1 hour or until golden and bubbly. Let stand 15 minutes"
+    },
+    {
+        "id": 27,
+        "category": "soup",
+        "name": "Chicken Tortilla Soup",
+        "subIngredients": false,
+        "cook": {
+            "hours": 4,
+            "minutes": 10
+        },
+        "ingredients": [
+            {
+                "name": "Boneless chicken breasts",
+                "amount": "1 pound"
+            },
+            {
+                "name": "Diced tomatoes",
+                "amount": "1 can"
+            },
+            {
+                "name": "Chunky salsa",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Homemade enchilada sauce",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Medium onion, chopped",
+                "amount": "1"
+            },
+            {
+                "name": "Black beans, drained (optional)",
+                "amount": "1 can"
+            },
+            {
+                "name": "Garlic, chopped",
+                "amount": "2 cloves"
+            },
+            {
+                "name": "Chicken broth",
+                "amount": "4 cups (32oz)"
+            },
+            {
+                "name": "Cumin",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Chili powder",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Lemon juice",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Bay leaf",
+                "amount": "1"
+            }
+        ],
+        "directions": "Set crockpot to high heat. Add raw chopped chicken into crockpot as well as the chopped onion and broth, stir (you can add whole breasts and shred once fully cooked). Add remaining ingredients and set crockpot to low heat. Let cook for about 3-4 hours depending on your crockpot. top soup with sour cream, cilantro, and avocado slices. Serve with tortilla chips and enjoy"
+    },
+    {
+        "id": 29,
+        "category": "soup",
+        "name": "Chicken Tortellini Soup",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 45
+        },
+        "ingredients": [
+            {
+                "name": "Frozen cut broccoli",
+                "amount": "1 (9oz) box"
+            },
+            {
+                "name": "Water",
+                "amount": "6 1/2 cups"
+            },
+            {
+                "name": "Condensed chicken broth",
+                "amount": "3 (10.5oz) cans"
+            },
+            {
+                "name": "Cubed cooked chicken",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Chopped onion",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Sliced carrots",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Dried basil leaves",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Dried oregano leaves",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Garlic, minced",
+                "amount": "2 cloves"
+            },
+            {
+                "name": "Dry cheese tortellini",
+                "amount": "7oz"
+            },
+            {
+                "name": "Grated parmesan cheese",
+                "amount": "1/4 cup"
+            }
+        ],
+        "directions": "Remove broccoli from freezer, thaw. In 5-quart saucepan, mix all remaining ingredients except tortellini and cheese. Heat to boiling. Stir in tortellini, reduce heat, simmer uncovered 30 minutes, stirring occasionally. Stir in thawed broccoli, simmer 5-10 minutes longer or until broccoli is crisp tender."
+    },
+    {
+        "id": 28,
+        "category": "crockpot",
+        "name": "Chicken with Carrots and Potatoes",
+        "subIngredients": false,
+        "cook": {
+            "hours": 3,
+            "minutes": 50
+        },
+        "ingredients": [
+            {
+                "name": "Vertically sliced onion",
+                "amount": "1 3/4 cup"
+            },
+            {
+                "name": "Cooking spray",
+                "amount": ""
+            },
+            {
+                "name": "Baby carrots",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Small round red potatoes, cut into 1/4-inch slices",
+                "amount": "6 (about 1 lb)"
+            },
+            {
+                "name": "Fat-free, lower-sodium chicken broth",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Dry white wine",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Chopped fresh thyme",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Minced garlic",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Salt, divided",
+                "amount": "3/4 tsp"
+            },
+            {
+                "name": "Freshly ground black pepper, divided",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Paprika",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Bone-in chicken thighs, skinned",
+                "amount": "6 (6oz)"
+            },
+            {
+                "name": "Olive oil",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Chopped fresh thyme (optional)",
+                "amount": ""
+            }
+        ],
+        "directions": "Place onion in a 6-quart electric slow cooker coated with cooking spray; top with carrots and potatoes. Combine broth, next 3 ingredients, 1/2 teaspoon salt, and 1/4 teaspoon pepper. Pour over vegetables. Combine paprika, remaining 1/4 teaspoon salt, and remaining 1/4 teaspoon pepper; rub over chicken. Heat a large nonstick skillet over medium-high heat. Add oil to pan; swirl to coat. Add chicken. Cook 3 minutes on each side or until browned. Arrange chicken on top of vegetables. Cover and cook on low for 3 1/2 hours or until chicken is done and vegetables are tender. Garnish with additiona thyme if desired"
+    },
+    {
+        "id": 29,
+        "category": "chicken",
+        "name": "Classic Chicken Pot Pie",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 5
+        },
+        "ingredients": [
+            {
+                "name": "Pillsbury refrigerated pie crusts, softened as directed on box",
+                "amount": "1 box"
+            },
+            {
+                "name": "Butter or margarine",
+                "amount": "1/3 cup"
+            },
+            {
+                "name": "Chopped onion",
+                "amount": "1/3 cup"
+            },
+            {
+                "name": "Flour",
+                "amount": "1/3 cup"
+            },
+            {
+                "name": "Salt",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Pepper",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Progresso chicken broth",
+                "amount": "1 3/4 cups (from 32oz box)"
+            },
+            {
+                "name": "Milk",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Shredded cooked chicken or turkey",
+                "amount": "2 1/2 cups"
+            },
+            {
+                "name": "Frozen mixed vegetables, thawed",
+                "amount": "2 cups"
+            }
+        ],
+        "directions": "Heat oven to 425 degrees. Make pie crusts as directed on box for Two-Crust Pie using 9-inch glass pie pan. In 2-quart saucepan, melt butter over medium heat. Add onion; cook 2 minutes, stirring frequently, until tender. Stir in flour, salt, and pepper until well blended. Gradually stir in broth and milk, cooking and stirring until bubbly and thickened. Stir in chicken and mixed vegetables. Remove from heat. Spoon chicken mixture into crust-lined pan. Top with second crust; seal edge and flute. Cut slits in several places in top crust. Bake 30 to 40 minutes or until crust is golden brown. During last 15 to 20 minutes of baking, cover crust edge with strips of foil to prevent excessive browning. Let stand 5 minutes before serving"
+    },
+    {
+        "id": 30,
+        "category": "crockpot",
+        "name": "Cowboy Chicken",
+        "subIngredients": false,
+        "cook": {
+            "hours": 7,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Chicken breast",
+                "amount": "4-6"
+            },
+            {
+                "name": "Brown sugar",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Dijon mustard",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Salsa",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Sour cream",
+                "amount": ""
+            },
+            {
+                "name": "Corn or beans, drained",
+                "amount": "1 can"
+            }
+        ],
+        "directions": "Cook on high for 4 hours, or low for 6-8. Last 30 minutes or so add sour cream and a can of corns or beans. Shred chicken before serving. Serve over brown rice and top with sour cream, cheese, extra salsa, etc"
+    },
+    {
+        "id": 31,
+        "category": "pork",
+        "name": "Creamy Ham and Tortellini",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Refrigerated cheese filled tortellini",
+                "amount": "1 (9oz) package"
+            },
+            {
+                "name": "Olive oil",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Medium onion, chopped",
+                "amount": "1 (1/2 cup)"
+            },
+            {
+                "name": "Cubed (1/2 inch) cooked ham",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Frozen chopped broccoli",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Whipping cream",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Shredded parmesan cheese",
+                "amount": "1/4 cup"
+            }
+        ],
+        "directions": "Cook and drain tortellini as directed on package. Meanwhile, in 12 inch skillet, heat olive oil over medium heat. Add onion, cook 4-5 minutes, stirring frequently until lightly browned. Stir in ham and broccoli; cook 5 minutes, stirring occasionally. Stir in cream and cheese; heat to just boiling over high heat. Stir in tortellini; reduce heat to medium simmer uncovered 4-5 minutes until heated"
+    },
+    {
+        "id": 32,
+        "category": "chicken",
+        "name": "Crisp Crusted Baked Chicken",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 15
+        },
+        "ingredients": [
+            {
+                "name": "Cut up chicken",
+                "amount": "3 to 3 1/2 pounds"
+            },
+            {
+                "name": "Egg",
+                "amount": "1"
+            },
+            {
+                "name": "Milk",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "Instant potato flakes",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Garlic salt",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Grated parmesan cheese",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Margarine",
+                "amount": "1/4 cup"
+            }
+        ],
+        "directions": "Wash chicken pieces, pat dry. Beat egg and milk together in a bowl. In another bowl, mix potato flakes, garlic salt, and parmesan cheese. Roll chicken first in egg mix then in potato flake mix. Melt butter in shallow baking pan. Roll coated chicken pieces in the butter and place them skin side up in pan. Bake at 400 degrees for 45-50 minutes"
+    },
+    {
+        "id": 33,
+        "category": "chicken",
+        "name": "Crispy Chip Chicken",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 20
+        },
+        "ingredients": [
+            {
+                "name": "BBQ flavor corn chips",
+                "amount": "4 1/2 cups"
+            },
+            {
+                "name": "Egg",
+                "amount": "1"
+            },
+            {
+                "name": "Milk",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Margarine",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "Chicken (assorted, bone-in)",
+                "amount": "3 1/2 pounds"
+            }
+        ],
+        "directions": "Place chips in ziploc bag and crush to make 2 cups coarse crumbs. In bowl, mix egg and milk. Dip chicken in egg adn then roll in crumbs. Press crumbs against chicken so they will stick. Place chicken in 9x13-inch pan, sprinkle with remaining crumbs. Melt margarine and pour over chicken. Bake 1 hour at 375 degrees"
+    },
+    {
+        "id": 34,
+        "category": "crockpot",
+        "name": "Crockpot Balsamic Chicken",
+        "subIngredients": false,
+        "cook": {
+            "hours": 4,
+            "minutes": 10
+        },
+        "ingredients": [
+            {
+                "name": "Garlic powder",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Dried basil",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Salt",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Pepper",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Dried minced onion",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Garlic, minced",
+                "amount": "4 cloves"
+            },
+            {
+                "name": "Extra virgin olive oil",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Balsamic vinegar",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Boneless, skinless chicken thighs or breasts",
+                "amount": "8 (24oz)"
+            },
+            {
+                "name": "Fresh chopped parlsey",
+                "amount": "A sprinkle"
+            }
+        ],
+        "directions": "Combine the first give dry spices in a small bowl and spread over chicken on both sides. Set aside. Pour olive oil and garlic on the bottom of the crockpot. Place chicken on top. Pour balsamic vinegar over the chicken. Cover and cook on high for 4 hours. Sprinkle with fresh parsley on top to serve"
+    },
+    {
+        "id": 35,
+        "category": "crockpot",
+        "name": "Crockpot Black Beans and Rice",
+        "subIngredients": false,
+        "cook": {
+            "hours": 3,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Black beans, drained and rinsed",
+                "amount": "2 (14oz) cans"
+            },
+            {
+                "name": "Rice (uncooked)",
+                "amount": "3/4 cup"
+            },
+            {
+                "name": "Water",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Salsa",
+                "amount": "3/4 cup"
+            },
+            {
+                "name": "Cumin",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Chili powder",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Garlic powder",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Salt",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Black pepper",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Sour cream, extra salsa (optional)",
+                "amount": ""
+            }
+        ],
+        "directions": "Spray the inside of a 4 quart slow cooker with non stick spray. Stir together black beans, rice, water, salsa, cumin, chili powder, garlic powder, salt, and pepper. Cover and cook on low for 3 hours. Remove lid and stir well. Add additional salt and pepper to taste. Serve with optional toppings"
+    },
+    {
+        "id": 36,
+        "category": "crockpot",
+        "name": "Crockpot Cheesy Chicken Spaghetti",
+        "subIngredients": false,
+        "cook": {
+            "hours": 3,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Spaghetti, cooked",
+                "amount": "16oz (dry)"
+            },
+            {
+                "name": "Velveeta light cheese",
+                "amount": "1 lb"
+            },
+            {
+                "name": "Rotisserie chicken",
+                "amount": "1"
+            },
+            {
+                "name": "Cream of chicken soup",
+                "amount": "2 (10 3/4oz) cans"
+            },
+            {
+                "name": "Diced tomato with green chili",
+                "amount": "10oz can"
+            },
+            {
+                "name": "Water",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Small onion, diced",
+                "amount": "1"
+            },
+            {
+                "name": "Medium pepper, diced",
+                "amount": "1"
+            }
+        ],
+        "directions": "Saute onion and pepper until tender. Spray slow cooker with non-stick cooking spray. Combine all ingredients. Cook on low for 2-3 hours"
+    },
+    {
+        "id": 37,
+        "category": "crockpot",
+        "name": "Crockpot Chicken Chili",
+        "subIngredients": false,
+        "cook": {
+            "hours": 7,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Boneless skinless chicken breasts",
+                "amount": "2-3"
+            },
+            {
+                "name": "Chunky salsa",
+                "amount": "16oz jar"
+            },
+            {
+                "name": "Diced tomatoes with chilies, undrained",
+                "amount": "15oz can"
+            },
+            {
+                "name": "Corn, drained",
+                "amount": "15oz can"
+            },
+            {
+                "name": "Black beans, drained and rinsed",
+                "amount": "15oz can"
+            },
+            {
+                "name": "Kidney beans, drained and rinsed",
+                "amount": "15oz can"
+            },
+            {
+                "name": "Chili powder",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Garlic powder",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Cumin",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Kosher salt",
+                "amount": ""
+            },
+            {
+                "name": "Black pepper",
+                "amount": ""
+            }
+        ],
+        "directions": "Place chicken in the bottom of a crockpot. Add remaining ingredients on top, stir to combine. Cover and cook on high 4 hours or low 6-8 hours, or until chicken is done. Shred chicken and stir to combine before serving"
+    },
+    {
+        "id": 38,
+        "category": "crockpot",
+        "name": "Crockpot Macaroni and Cheese",
+        "subIngredients": false,
+        "cook": {
+            "hours": 5,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Uncooked elbow macaroni",
+                "amount": "1/2 pound"
+            },
+            {
+                "name": "Shredded cheddar cheese, divided",
+                "amount": "3 cups"
+            },
+            {
+                "name": "Whole milk",
+                "amount": "3 cups"
+            },
+            {
+                "name": "Eggs",
+                "amount": "2"
+            },
+            {
+                "name": "Garlic salt",
+                "amount": "1/2 - 1 tsp"
+            },
+            {
+                "name": "Ground black pepper",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Mustard powder",
+                "amount": "1/2 tsp"
+            }
+        ],
+        "directions": "Mix all ingredients except 1/2 cup of cheese in slow cooker. Cover and cook on low for 5 hours. sprinkle remaining cheese on top and enjoy"
+    },
+    {
+        "id": 39,
+        "category": "crockpot",
+        "name": "Crockpot Mexican Chicken Chili",
+        "subIngredients": false,
+        "cook": {
+            "hours": 8,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Shredded rotisserie chicken or shredded chicken breasts",
+                "amount": "1 (chicken) or 3 cups (breasts)"
+            },
+            {
+                "name": "Black beans",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Pinto beans",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Frozen corn",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Chopped zucchini",
+                "amount": "3-4"
+            },
+            {
+                "name": "Chicken broth",
+                "amount": "5 cups"
+            },
+            {
+                "name": "Chunky salsa",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Tomato sauce",
+                "amount": "1 (8oz) can"
+            }
+        ],
+        "directions": "Combine ingredients in crockpot and cook for 7-8 hours on low"
+    },
+    {
+        "id": 40,
+        "category": "crockpot",
+        "name": "Crockpot Mexican Pork Roast",
+        "subIngredients": false,
+        "cook": {
+            "hours": 7,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Pork roast",
+                "amount": "1 (2lb)"
+            },
+            {
+                "name": "Small onion, peeled, ends removed, sliced",
+                "amount": "1"
+            },
+            {
+                "name": "Garlic, minced or grated",
+                "amount": "2 cloves"
+            },
+            {
+                "name": "Water",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Cumin",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Chili powder",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Black pepper",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Sea salt",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Dry pinto or black beans, soaked overnight",
+                "amount": "1 cup"
+            }
+        ],
+        "directions": "Add everything to the crockpot and cook 3-4 hours on high or 6-8 hours on low. Before serving, use two forks to pull the meat apart"
+    },
+    {
+        "id": 42,
+        "category": "soup",
+        "name": "Crockpot Mexican Soup",
+        "subIngredients": false,
+        "cook": {
+            "hours": 6,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Ground beef, sausage, or pork (browned) OR shredded chicken, cooked",
+                "amount": "1 lb (beef) or 2 cups (chicken)"
+            },
+            {
+                "name": "Large half moon onion, sliced",
+                "amount": "1"
+            },
+            {
+                "name": "Garlic, minced",
+                "amount": "3 cloves"
+            },
+            {
+                "name": "Large zucchini (optional), large diced",
+                "amount": "1"
+            },
+            {
+                "name": "Celery stalks (optional), chopped",
+                "amount": "3"
+            },
+            {
+                "name": "Asparagus (optional), chopped",
+                "amount": "1 bunch"
+            },
+            {
+                "name": "Sweet potatoes, peeled and diced",
+                "amount": "2"
+            },
+            {
+                "name": "Diced tomatoes (in juice)",
+                "amount": "1 can"
+            },
+            {
+                "name": "Chicken stock",
+                "amount": "1 quart"
+            },
+            {
+                "name": "Tomato paste + water",
+                "amount": "1 (6oz) can (paste) + 4 cups (water)"
+            },
+            {
+                "name": "Maple syrup",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "Cumin",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Chili powder",
+                "amount": "1/2 tablespoon"
+            },
+            {
+                "name": "Basil",
+                "amount": "1/2 tablespoon"
+            },
+            {
+                "name": "Oregano",
+                "amount": "1/2 Tablespoon"
+            },
+            {
+                "name": "Salt",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Pepper",
+                "amount": "1/2 tablespoon"
+            }
+        ],
+        "directions": "Layer all ingredients up to (and including) chicken stock. Combine remaining ingredients in mixing bowl. Stir gently and seal 'er up. Cook on low for 4-6 hours"
+    },
+    {
+        "id": 41,
+        "category": "crockpot",
+        "name": "Crockpot Sesame Chicken",
+        "subIngredients": false,
+        "cook": {
+            "hours": 3,
+            "minutes": 5
+        },
+        "ingredients": [
+            {
+                "name": "Boneless skinless chicken breasts",
+                "amount": "1 1/2 pound"
+            },
+            {
+                "name": "Honey",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Soy sauce",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Dried onion",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "Ketchup",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "Oil",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Garlic powder",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Cornstarch",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Sesame seeds",
+                "amount": ""
+            }
+        ],
+        "directions": "Put chicken into crockpot. Combine honey, soy sauce, onion, ketchup, oil, and garlic. Pour over chicken. Cook on low for 3-4 hours or on high 1 1/2 - 2 1/2 hours, or just until chicken is cooked through. Remove chicken from crockpot, leave sauce. Dissolve cornstarch in 3 tablespoons of water and pour into crockpot. Stir to combine with sauce. Replace lid and cook sauce on high for ten more minutes or until slightly thickened. Cut chicken into bite size pieces and return to crockpot - can leave chicken in and simmer on low or serve. Sprinkle with sesame seeds and serve over rice"
+    },
+    {
+        "id": 42,
+        "category": "crockpot",
+        "name": "Crockpot Texas Calico Chili",
+        "subIngredients": false,
+        "cook": {
+            "hours": 9,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Stew beef",
+                "amount": "1 1/2 pounds"
+            },
+            {
+                "name": "Onion, chopped",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Tomato paste mixed with water to make 1 cup",
+                "amount": "6oz can"
+            },
+            {
+                "name": "Chopped green chilies",
+                "amount": "1 (4.5oz) can"
+            },
+            {
+                "name": "Cooked black beans",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Cooked white beans (navy or great northern",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Onion powder",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Garlic powder",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Chili powder",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Cumin",
+                "amount": "2 tsp"
+            }
+        ],
+        "directions": "Combine all ingredients in a 4-5 quart crock pot; stir well. Cover and cook on low for 8-10 hours. Serve with cornbread"
+    },
+    {
+        "id": 43,
+        "category": "crockpot",
+        "name": "Crockpot Ugly Chicken Dinner",
+        "subIngredients": false,
+        "cook": {
+            "hours": 8,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Medium sweet potatoes, peeled and thickly sliced (~1/2 inch)",
+                "amount": "3"
+            },
+            {
+                "name": "Medium onion, sliced",
+                "amount": "1"
+            },
+            {
+                "name": "Chicken, diced into chunks",
+                "amount": "1 pound"
+            },
+            {
+                "name": "Baby carrots",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Green pepper, seeded and sliced",
+                "amount": "1"
+            },
+            {
+                "name": "Garlic powder",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Salt and pepper",
+                "amount": ""
+            },
+            {
+                "name": "Butter",
+                "amount": "2 tablespoons"
+            }
+        ],
+        "directions": "Grease crockpot. Lay potatoes in bottom. Place chicken on top. Cover with onions, carrots, and pepper. Sprinkle each layer with salt and pepper. Slice butter into pieces and lay on top of everything. Sprinkle with garlic powder. Cover and cook on low for 6-8 hours or until potatoes are tender"
+    },
+    {
+        "id": 44,
+        "category": "crockpot",
+        "name": "Crockpot Whole Baked Chicken",
+        "subIngredients": false,
+        "cook": {
+            "hours": 7,
+            "minutes": 20
+        },
+        "ingredients": [
+            {
+                "name": "Whole chicken",
+                "amount": "1 (2-4 pounds)"
+            },
+            {
+                "name": "Sea salt",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Pepper",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Paprika",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Onion powder",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Garlic powder",
+                "amount": "1/2 tsp"
+            }
+        ],
+        "directions": "Wad up two pieces of foil or parchment paper, and make them flat on top. Place in 5 quart or larger crockpot and pour 1/2 inch of water in the bottom. Rinse and dry the whole chicken. In a small bowl, combine the spices. Rub into the chicken. Place chicken on top of foil balls. Cook on high for 2 hours. After 2 hours, switch to low and cook for 5 hours. Test for 160 degrees on a thermometer"
+    },
+    {
+        "id": 45,
+        "category": "other",
+        "name": "Deconstructed Burrito Pizza",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Refrigerated thin pizza crust",
+                "amount": "1 can"
+            },
+            {
+                "name": "Olive oil",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Garlic, minced",
+                "amount": "2 cloves"
+            },
+            {
+                "name": "Onion, diced",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Black beans, drained and rinsed",
+                "amount": "15oz can"
+            },
+            {
+                "name": "Cooked rice",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Cumin",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Ground black pepper",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Salsa",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Frozen corn, thawed",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Shredded monterey jack cheese",
+                "amount": "8oz"
+            }
+        ],
+        "directions": "Unroll pizza crust on a foil lined cookie sheet and prebake at 400 degrees for about 7 minutes. Meanwhile, heat olive oil in skillet and add garlic and onions. Saute a few minutes until onions are soft. Add black beans, rice, cumin, and pepper and cook on low for about 5 minutes, just to heat through. Spread salsa on prebaked crust and add the bean mixture and 1 cup cheese. Top with corn and remaining cheese. Bake for an additional 8-11 minutes until the crust is browned and the cheese is melted. Slice and serve!"
+    },
+    {
+        "id": 46,
+        "category": "soup",
+        "name": "Easy Bean and Kielbasa Soup",
+        "subIngredients": false,
+        "cook": {
+            "hours": 10,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "15 or 16 dried bean soup mix, rinsed",
+                "amount": "1/2 (20oz) package"
+            },
+            {
+                "name": "Kielbasa, cut lengthwise in half, then cut crosswise into slices",
+                "amount": "1 (16oz) package"
+            },
+            {
+                "name": "Chicken broth",
+                "amount": "2 (32oz) cartons"
+            },
+            {
+                "name": "Carrots, chopped",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Celery stalks, chopped",
+                "amount": "1.5 cups"
+            },
+            {
+                "name": "Onion, chopped",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Tomato paste",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "Diced tomatoes, undrained",
+                "amount": "1 (14.5oz) can"
+            }
+        ],
+        "directions": "In slow cooker, mix all ingredients except tomatoes. Cover and cook on low 8 to 10 hours. Stir in tomatoes, increase het to high. Cover and cook 15 minutes or until hot"
+    },
+    {
+        "id": 47,
+        "category": "chicken",
+        "name": "Easy Bistro Chicken",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 32
+        },
+        "ingredients": [
+            {
+                "name": "Olive oil, divided",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "Chicken breast halves, skinned",
+                "amount": "4 (6oz)"
+            },
+            {
+                "name": "Chicken thighs, skinned",
+                "amount": "4 (1 lb)"
+            },
+            {
+                "name": "Chicken drumsticks, skinned",
+                "amount": "4 (~1 lb)"
+            },
+            {
+                "name": "Chopped onion",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Garlic, minced",
+                "amount": "4 cloves"
+            },
+            {
+                "name": "Celery, chopped",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Fresh basil, chopped",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Fresh flat-leaf parsley, chopped",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Red wine vinegar",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Sliced green olives",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Capers",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Sugar",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Ground red pepper",
+                "amount": "A dash"
+            },
+            {
+                "name": "Bay leaves",
+                "amount": "2"
+            },
+            {
+                "name": "Italian-style tomatoes, undrained and chopped",
+                "amount": "1 (28oz) can"
+            },
+            {
+                "name": "Hot cooked macaroni or cavatappi",
+                "amount": "8 cups"
+            },
+            {
+                "name": "Parsley sprigs (optional)",
+                "amount": ""
+            }
+        ],
+        "directions": "Heat 1 1/2 teaspoons oil in a large nonstick skillet over medium-high heat. Add chicken breast halves to pan; saute 2 minutes on each side or until lightly browned. Remove from pan. Add 1 1/2 teaspoons oil and remaining chicken pieces; saute 2 minutes on each side or until lightly browned. Remove chicken from pan. Heat 1 tablespoon oil in pan. Add onion and garlic; saute 5 minutes. Add celery; saute 5 minutes. Add basil and next 8 ingredients (basil through tomatoes). Return chicken to pan; bring to a boil. cover, reduce heat, and simmer 20 minutes. Uncover and simmer 25 minutes or until chicken is tender. Discard bay leaves. Serve with pasta, garnish with parsley, if desired"
+    },
+    {
+        "id": 48,
+        "category": "chicken",
+        "name": "Easy Chicken and Garden Veggies",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 35
+        },
+        "ingredients": [
+            {
+                "name": "Bacon, cut into 1/2 inch pieces",
+                "amount": "4 slices"
+            },
+            {
+                "name": "Boneless skinless chicken breasts",
+                "amount": "4 (1 1/4 pounds)"
+            },
+            {
+                "name": "Garlic salt",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Ground pepper",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Fresh green beans, trimeed (leave whole)",
+                "amount": "8oz"
+            },
+            {
+                "name": "Medium yellow bell pepper, but into 1/2 inch pieces",
+                "amount": "1"
+            },
+            {
+                "name": "Medium plum tomatoes, cut into slices",
+                "amount": "2"
+            },
+            {
+                "name": "Balsamic vinegarette or Italian dressing",
+                "amount": "1/2 cup"
+            }
+        ],
+        "directions": "In 12 inch nonstick skillet, cook bacon over medium heat 3-4 minutes, stirring occasionally, until crisp. Sprinkle both sides of chicken with garlic salt and pepper. Add chicken to bacon in skillet. Cook 3-5 mins or until browned on both sides. Discard excess bacon drippings. Add 1/4 cup water and beans to skilled. Cook and cover over medium-low heat for 8 minutes. Stir in bell pepper. Cover and cook 3-5 minutes, turning and stirring occasionally. Stir in tomatoes and dressing. Cook uncovered for 2 minutes"
+    },
+    {
+        "id": 49,
+        "category": "beef",
+        "name": "Easy Chow Mein Casserole",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 20
+        },
+        "ingredients": [
+            {
+                "name": "Lean ground beef",
+                "amount": "1/2 lb"
+            },
+            {
+                "name": "Garlic pepper blend",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Uncooked long-grain rice",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Beef broth",
+                "amount": "1 3/4 cups"
+            },
+            {
+                "name": "Teriyaki sauce",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Stir-fry veggies, rinsed, drained (or use frozen)",
+                "amount": "1 (28oz) can"
+            },
+            {
+                "name": "Chow mein noodles",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Cashew pieces",
+                "amount": "1/4 cup"
+            }
+        ],
+        "directions": "Heat oven to 375 degrees. In 10-inch non stick skillet, crumble beef, sprinkle with garlic pepper. Cook over medium-high heat 5-7 minutes, stirring occasionally until brown, drain. In ungreased 11x7-inch glass baking dish, mix beef, rice, broth, teriyaki sauce, and 1/4 cup water. Stir in vegetables. Cover dish with foil. Bake 50-55 minutes or until rice is tender. Uncover and stir; sprinkle with chow mein noodles and cashews. Bake uncovered 10-15 minutes longer or until noodles are golden"
+    },
+    {
+        "id": 50,
+        "category": "crockpot",
+        "name": "Easy Crockpot Ribs",
+        "subIngredients": false,
+        "cook": {
+            "hours": 8,
+            "minutes": 35
+        },
+        "ingredients": [
+            {
+                "name": "Ribs, any style",
+                "amount": ""
+            },
+            {
+                "name": "Garlic powder",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Onion powder",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Chili powder",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Salt",
+                "amount": "1 1/2 tsp"
+            },
+            {
+                "name": "Sucanat (or brown sugar)",
+                "amount": "6 tablespoons"
+            },
+            {
+                "name": "Ketchup",
+                "amount": "5 tablespoons"
+            },
+            {
+                "name": "Worcestershire sauce",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Dry mustard",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Paprika",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Pepper",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Cornstarch",
+                "amount": "4 tablespoons"
+            }
+        ],
+        "directions": "Combine garlic powder, onion powder, chili powder, and 1 teaspoon of salt. Rub into meat. Lay ribs in the bottom of a 5-6 quart greased crockpot. Layer if necessary. Combine sucanat, ketchup, 1/4 cup water, Worcestershire, mustard, paprika, salt, and pepper; whisk to combine. Pour over meat. Cover and cook on low for 8 hours until meat has a temperature of 170 degrees. Remove meat from crock and keep warm. Skim grease from sauce if desired. Combine cornstarch and 4 tablespoons of water; stir into juices. cover and cook on high for 30 minutes or until thickened. Serve sauce over meat"
+    },
+    {
+        "id": 51,
+        "category": "crockpot",
+        "name": "Easy Roastbeef",
+        "subIngredients": false,
+        "cook": {
+            "hours": 8,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Roast",
+                "amount": "1"
+            },
+            {
+                "name": "Coca Cola",
+                "amount": "1 can"
+            },
+            {
+                "name": "Lipton's onion soup mix",
+                "amount": "1 package"
+            }
+        ],
+        "directions": "Put roast in crockpot, then onion soup mix, and then pour the coke over it. Cook on low around 8 hours. Add carrots and potatoes 3-4 hours before dinner"
+    },
+    {
+        "id": 52,
+        "category": "crockpot",
+        "name": "Family Favorite Chili",
+        "subIngredients": false,
+        "cook": {
+            "hours": 7,
+            "minutes": 20
+        },
+        "ingredients": [
+            {
+                "name": "Ground beef",
+                "amount": "2 pounds"
+            },
+            {
+                "name": "Onion, chopped",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Garlic, finely chopped",
+                "amount": "2 cloves"
+            },
+            {
+                "name": "Diced tomatoes, undrained",
+                "amount": "1 (28oz) can"
+            },
+            {
+                "name": "Tomato sauce",
+                "amount": "1 (15oz) can"
+            },
+            {
+                "name": "Chili powder",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "Ground cumin",
+                "amount": "1 1/2 tsp"
+            },
+            {
+                "name": "Kidney beans, rinsed and drained",
+                "amount": "1 (15/16oz) can"
+            }
+        ],
+        "directions": "Cook beef until brown, drain. Mix beef and remaining ingredients except beans in slow cooker. Cover and cook on low setting 6-8 hours. Stir in beans. Cover and cook 15-20 minutes longer"
+    },
+    {
+        "id": 53,
+        "category": "chicken",
+        "name": "Flaky Chicken Wraps",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 45
+        },
+        "ingredients": [
+            {
+                "name": "Oil",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "Ranch dressing salad mix",
+                "amount": "1 envelope"
+            },
+            {
+                "name": "Grands Flaky biscuits",
+                "amount": "1 can"
+            },
+            {
+                "name": "Refrigerated fully cooked grilled chicken breast strips",
+                "amount": "1 package"
+            },
+            {
+                "name": "Butter or margarine, melted",
+                "amount": "2 tablespoons"
+            }
+        ],
+        "directions": "Heat oven to 350 degrees. Lightly grease cookie sheet. In small bowl, combine oil and tablespoon of salad dressing mix, mix until well blended. Separate dough into 8 biscuits. Press or roll to form 6 inc oval. Spread teaspoon of salad dressing mixture on each biscuit. Arrange about 3 chicken breast strips crosswise on center of each biscuit. Bring long ends of biscuit ovals up over chicken, overlapping and pinching to seal. Brush each biscuit with melted butter. Sprinkle tops evenly with 2 teaspoons of dry salad dressing mix. Bake at 350 degrees for 18-22 minutes or until golden brown"
+    },
+    {
+        "id": 54,
+        "category": "chicken",
+        "name": "Crispy Honeyed Soy Chicken Wings",
+        "subIngredients": false,
+        "cook": {
+            "hours": 2,
+            "minutes": 10
+        },
+        "ingredients": [
+            {
+                "name": "Black pepper",
+                "amount": "1/2 tablespoon"
+            },
+            {
+                "name": "Ground ginger",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Worcestershire sauce",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Honey",
+                "amount": "3 tablespoons"
+            },
+            {
+                "name": "Soy sauce",
+                "amount": "5 tablespoons"
+            },
+            {
+                "name": "Spring onions, sliced",
+                "amount": ""
+            }
+        ],
+        "directions": "Cut the wings from the drumsticks and tips using poultry shears. Wash the wings and drumsticks well and pat dry with a paper towel. Combine the Worcestershire and soy sauce in a large bowl with teh honey and whisk until the honey is dissolved. Add the black pepper and ginger and stir. Add the dried chicken to the marinade along with the sliced spring onions. Cover and marinate in the fridge for 3 hours or at room temperature (away from direct sunlight) for 1 hour. Preheat the oven to 450 degrees. After an hour or three has passed, strain the chicken, reserving the marinade liquid. Boil the chicken for about 5 minutes; arrange on a wire rack and allow to drip dry; pat dry if needed. Put the chicken skin side down on a baking tray and bake 30 minutes. Flip the chicken over and bake for 10 minutes further. While the chicken bakes, boil the left over marinade to make a glaze; be sure that you bring the sauce to a rolling boil as this is necessary to kill any bacteria left from the raw chicken. Continue to boil and reduce the liquid until it coats the back of a spoon (like when making custard). Toss the wings in the glaze and serve immediately with plenty of napkins and ice cold beer (beer optional, sort of)"
+    },
+    {
+        "id": 55,
+        "category": "beef",
+        "name": "Biscuit Taco Cups",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 45
+        },
+        "ingredients": [
+            {
+                "name": "Lean (at least 80%) ground beef",
+                "amount": "1 1/2 lb"
+            },
+            {
+                "name": "Spicy chili beans, undrained",
+                "amount": "1 (15oz) can"
+            },
+            {
+                "name": "Taco seasoning mix",
+                "amount": "1 (1.25oz) package"
+            },
+            {
+                "name": "Refrigerated buttermilk biscuits",
+                "amount": "1 (16.3oz) can"
+            },
+            {
+                "name": "Shredded cheddar cheese",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Lettuce, shredded (optional)",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Tomato, chopped (optional)",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Sour cream (optional)",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Salsa (optional)",
+                "amount": "1/2 cup"
+            }
+        ],
+        "directions": "Heat oven to 375 degrees. Brown ground beef in a large skillet over medium high heat until thoroughly cooked; stirring frequently; drain. Add chili beans, taco seasoning mix, and 1/2 cup water; mix well. Reduce heat to medium; simmer 10 minutes or until ground beef mixture is slightly thickened, stirring occasionally. Meanwhile, spray outside bottom and sides of 8 (6oz) custard cups lightly with nonstick cooking spray. Separate dough into 8 biscuits. Roll or pat each biscuit to form 4 1/2-inch round. Place rounds over outside of sprayed cups; press to fit over bottom and part way down sides of cups. Place cups, upside down in ungreased 15x10x1-inch baking pan. Bake at 375 degrees for 14-16 minutes, or until deep golden brown. Remove pan from oven. Carefully remove biscuit cups from custard cups. Place biscuit cups, right side up, in same baking pan. Spoon beef mixture evenly into each cup. Top with cheese, lettuce, tomato, sour cream, and salsa"
+    },
+    {
+        "id": 56,
+        "category": "crockpot",
+        "name": "Greek Chicken",
+        "subIngredients": false,
+        "cook": {
+            "hours": 7,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Red potatoes",
+                "amount": "2-3 lbs"
+            },
+            {
+                "name": "Chicken pieces (quarters are best, any will do)",
+                "amount": "2-3 lbs"
+            },
+            {
+                "name": "Onion, chopped",
+                "amount": "1/2"
+            },
+            {
+                "name": "Dried oregano",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Olive oil",
+                "amount": "1-2 tablespoons"
+            },
+            {
+                "name": "Salt (optional)",
+                "amount": ""
+            },
+            {
+                "name": "Pepper (optional)",
+                "amount": ""
+            }
+        ],
+        "directions": "Peel the potatoes if desired; chop them into quarters and place in teh bottom of the crockpot. Place the chicken pieces on top of the potatoes. Sprinkle the chicken with onion, garlic, and seasonings. Drizzle all with olive oil. Cook on high for 4 hours or low for 6-8 hours"
+    },
+    {
+        "id": 57,
+        "category": "grill",
+        "name": "Grilled Chicken and Pesto Farfalle",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 5
+        },
+        "ingredients": [
+            {
+                "name": "Skinless, bonless chicken breast halves",
+                "amount": "1 3/4 lbs"
+            },
+            {
+                "name": "Salt, divided",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Cooking spray",
+                "amount": ""
+            },
+            {
+                "name": "Uncooked farfalle (bow tie pasta)",
+                "amount": "20oz"
+            },
+            {
+                "name": "Butter",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Garlic, minced",
+                "amount": "3 cloves"
+            },
+            {
+                "name": "Low-fat milk, divided",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "Commercial pesto",
+                "amount": "1 (3.5oz) jar (about 1/3 cup)"
+            },
+            {
+                "name": "Half-and-half",
+                "amount": "3/4 cup"
+            },
+            {
+                "name": "Shredded fresh parmesan cheese, divided",
+                "amount": "2 cups (8oz)"
+            },
+            {
+                "name": "Halved grape tomatoes",
+                "amount": "4 cups (~2 pints)"
+            },
+            {
+                "name": "Fresh basil, chopped",
+                "amount": "1/2 cup"
+            }
+        ],
+        "directions": "Prepare grill to medium-high heat. Sprinkle chicken evenly with 1/4 tsp salt and 1/4 tsp pepper. Place chicken on grill rack coated with cooking spray; grill 10 minutes or until done, turning after 6 minutes. Remove from grill; let stand for 5 minutes. Cut chicken into 1/2-inch pieces; keep warm. Cook pasta according to package directinos, omitting salt and fat. Drain in colander over a bowl, reserving 1/4 cup cooking liquid; place pasta in a large bowl. Heat butter in a medium saucepan over medium heat. Add garlic to pan; cook 1 minutes stirring occasionally. Combine 1/2 cup milk and flour in a small bowl, stirring with a whisk. Add milk mixture to pan, stirring constantly with a whisk. Stir in pesto. Gradually add remaining 1 cup milk and half-and-half, stirring constantly with a whisk. Cook 8 minutes or until sauce thickens, stirring frequently. Add 1/4 cup reserved cooking liquid, remaining 3/4 tsp salt, remaining 1/2 tsp pepper, and 1 cup cheese; stir until cheese melts. Add chicken and sauce to pasta, tossing well to coat. Add tomatoes and basil; toss gently. Sprinkle with remaining 1 cup cheese. Serve immediately"
+    },
+    {
+        "id": 58,
+        "category": "other",
+        "name": "Haddock Casserole",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 40
+        },
+        "ingredients": [
+            {
+                "name": "Haddock boned and skinned, cut into 1 1/2-inch chunks",
+                "amount": "2 lbs"
+            },
+            {
+                "name": "Cream of shrimp soup",
+                "amount": "1 can"
+            },
+            {
+                "name": "Milk",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Ritz crackers, crushed",
+                "amount": "20"
+            },
+            {
+                "name": "Margarine, melted",
+                "amount": "1 stick"
+            }
+        ],
+        "directions": "Place haddock in casserole. Mix soup and milk together in small bowl; pour over fish. Sprinkle crackers on top of soup. Pour melted margarine on top. Bake at 375 degrees for 25 minutes"
+    },
+    {
+        "id": 59,
+        "category": "pork",
+        "name": "Ham, Broccoli, and Rice Skillet",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 32
+        },
+        "ingredients": [
+            {
+                "name": "Margarine",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Onion, chopped",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Long grain and wild rice",
+                "amount": "1 package"
+            },
+            {
+                "name": "Frozen broccoli",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Cooked ham",
+                "amount": "1 1/2 cups"
+            }
+        ],
+        "directions": "In skillet melt margarine over medium heat. Add onion and rice from mix; cook and stir 1-2 minutes or until onion begins to cook. Stir in 1 2/3 cups of water and contents of seasoning packet from mix; heat to boiling, reduce heat to medium-low. Cover and cook 10-15 minutes, stirring occasionally until broccoli is crisp tender and rice is tender"
+    },
+    {
+        "id": 60,
+        "category": "grill",
+        "name": "Ham Kabobs",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 20
+        },
+        "ingredients": [
+            {
+                "name": "Unsweetened pineapple chunks",
+                "amount": "1 (20oz) can"
+            },
+            {
+                "name": "Margarine",
+                "amount": "6 tablespoons"
+            },
+            {
+                "name": "Brown sugar",
+                "amount": "1/3 cup"
+            },
+            {
+                "name": "Ground cinnamon",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Medium green pepper, cut into chunks",
+                "amount": "1"
+            },
+            {
+                "name": "Medium carrots, sliced",
+                "amount": "2"
+            },
+            {
+                "name": "Fully cooked ham, cubed",
+                "amount": "1 1/2 cups"
+            }
+        ],
+        "directions": "In saucepan combine juice, butter, brown sugar, and cinnamon; cook and stir until sugar is dissolved; set aside. Cook carrots until tender. Skewer meat and veggies. Brush with brown sugar mixture. Broil 4-6 minutes each side or grill"
+    },
+    {
+        "id": 61,
+        "category": "chicken",
+        "name": "Healthified Chicken Pot Pie",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 5
+        },
+        "ingredients": [
+            {
+                "name": "Frozen mixed vegetables",
+                "amount": "1 (12oz) bag"
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "3 tablespoons"
+            },
+            {
+                "name": "Salt",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Poultry seasoning",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Pepper",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Skim milk",
+                "amount": "1 1/4 cups"
+            },
+            {
+                "name": "Onion, finely chopped",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Condensed 98% fat-free cream of chicken soup",
+                "amount": "1 (10 3/4oz) can"
+            },
+            {
+                "name": "Fat-free sour cream",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Boneless skinless chicken breasts, cooked, cut into bite-size pieces",
+                "amount": "4 (1 1/4lbs) (about 4 cups)"
+            },
+            {
+                "name": "Refrigerated pie crusts, softened as directed on box",
+                "amount": "1 box"
+            }
+        ],
+        "directions": "Cook and drain vegetables as directed on bag. Heat oven to 375 degrees. In 2-quart saucepan, mix flour, salt, poultry seasoning, pepper, and milk with wire whisk until blended. Stir in onion. Cook over medium heat 4-6 minutes, stirring constantly, until thickened. Stir in soup and sour cream. Add chicken and cooked vegetables; mix well. Cook, stirring frequently until thoroughly heated. Pour into ungreased 2-quart round casserole. Unroll pie crust; place over hot filling. Seal edge and flute as desired. Cut slits in several places in crust. Bake 35-40 minutes or until crust is golden browna nd mixture is bubbly. Let stand 10 minutes before serving"
+    },
+    {
+        "id": 62,
+        "category": "soup",
+        "name": "Homemade Chicken Noodle Soup",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 15
+        },
+        "ingredients": [
+            {
+                "name": "Chicken fillets",
+                "amount": "1 lb"
+            },
+            {
+                "name": "Chicken thighs",
+                "amount": "1 lb"
+            },
+            {
+                "name": "Vegetable oil",
+                "amount": ""
+            },
+            {
+                "name": "Butter",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "Onion, chopped",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Celery, diced",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Chicken broth",
+                "amount": "4 cups"
+            },
+            {
+                "name": "Carrot, sliced",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Egg noodles or rice",
+                "amount": "2 cups"
+            }
+        ],
+        "directions": "Cook chicken, rub a little vegetable oil over the surface of each piece of chicken. Arrange the chicken on a baking sheet and bake for 25 minutes. Melt butter in a large saucepan over medium heat. Saute the onion and celery for 4-5 minutes, but don't brown them. Dice the chicken and add to the pot. Add chicken broth, 2 cups of water, carrots, and pepper to taste. Bring soup to a boil, reduce heat, and allow to simmer for 30 minutes or until the carrots are soft. Add noodles or rice and simmer for an additional 15-20 minutes"
+    },
+    {
+        "id": 63,
+        "category": "crockpot",
+        "name": "Honey Glazed Chicken Thighs",
+        "subIngredients": false,
+        "cook": {
+            "hours": 6,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Kosher salt",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Black pepper",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Red pepper flakes",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Chili powder",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Paprika",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Garlic powder + 1/2 cups honey",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Apple cider vinegar",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "Chicken thighs, boneless/skinless",
+                "amount": "3 lbs"
+            }
+        ],
+        "directions": "NORMAL DIRECTIONS. Mix salt, pepper, red pepper flakes, chili powder, paprika, and garlic powder together and set aside. Mix honey and cider vinegar and set aside. Un-tuck chicken thighs so they are flat. Cover both sides in seasoning and place chicken in slow cooker. Pour honey mixture over chicken. Cook on low for 6-8 hours or on high for 3-4 hours. If you are able to baste the chicken by spooning some of the liquid over the chicken periodically during the cooking time, please do. Take chicken out of slow cooker and let rest for a few minutes. Spoon excess glaze over chicken before serving. FREEZING DIRECTIONS. Mix salt, pepper, red pepper flakes, chili powder, paprika, and garlic powder together and set aside. Mix honey and cider vinegar and set aside. Untuck chicken thighs so they are flat. Cover both sides in seasoning and divide among indicated number of freezer bags. Pour honey mixture over chicken thighs. Remove as much air as possible, label, and freeze. SERVING DAY DIRECTIONS. Place chicken and glaze into slow cooker. Cook on low for 6-8 hours or on high for 3-4 hours. If you are able to baste the chicken by spooning some of the liquid over the chicken periodically during the cooking time, please do. Take chicken out of slow cooker and let rest for a few minutes. Spoon excess glaze over chicken before serving"
+    },
+    {
+        "id": 64,
         "category": "",
         "name": "Placeholder",
         "subIngredients": false,

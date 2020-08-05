@@ -4,18 +4,29 @@
         <button nbButton size="tiny" status="info" class="titleButton">About</button>
     </nb-layout-header>
 
-    <nb-layout-column class="colored-column-basic">
+    <nb-sidebar>
         <div class="searchContainer">
-            <input type="text" placeholder="Search..." [(ngModel)]="searchValue">
-            <button nbButton status="primary" size="tiny" (click)="initFilter()">Search</button>
+            <input nbInput type="text" placeholder="Search..." [(ngModel)]="searchValue">
+            <br>
+            <button nbButton status="primary" size="tiny" (click)="filter()">Search</button>
             <button nbButton size="tiny" (click)="clearSearch()">Clear</button>
         </div>
+        <nb-card>
+            <nb-card-header>Filter by Category</nb-card-header>
+            <nb-card-body>
+                <div *ngFor="let item of categories; let i = index;">
+                    <nb-checkbox (checkedChange)="applyCategory(i)">{{item}}</nb-checkbox>
+                </div>
+            </nb-card-body>
+        </nb-card>
+    </nb-sidebar>
 
-        <ng-container *ngFor="let item of searchOptions">
+    <nb-layout-column class="colored-column-basic">
+        <ng-container *ngFor="let item of filteredOptions">
             <nb-card>
                 <nb-card-header>{{item.name}}</nb-card-header>
                 <nb-card-body>
-                    Cook time: 
+                    Cook time:
                     <ng-container *ngIf="item.cook.hours > 0">{{item.cook.hours}} hour(s), </ng-container>
                     <ng-container *ngIf="item.cook.minutes > 0">{{item.cook.minutes}} minutes</ng-container>
                 </nb-card-body>

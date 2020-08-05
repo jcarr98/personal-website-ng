@@ -12,8 +12,20 @@ import { HomeComponent } from './home/home.component';
 import { MenuBarComponent } from './global_components/menu-bar/menu-bar.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
+// Nebular modules
+import { 
+  NbThemeModule, 
+  NbCardModule, 
+  NbLayoutModule, 
+  NbButtonModule, 
+  NbListModule, 
+  NbCheckboxModule, 
+  NbBadgeModule, 
+  NbAccordionModule,
+  NbInputModule
+} from '@nebular/theme';
+
 // Custom modules
-import { NbThemeModule, NbCardModule, NbLayoutModule, NbButtonModule, NbListModule, NbCheckboxModule, NbBadgeModule } from '@nebular/theme';
 import { RecipeBookComponent } from './recipe-book/recipe-book.component';
 import { ViewRecipeComponent } from './view-recipe/view-recipe.component';
 
@@ -44,7 +56,9 @@ import { ViewRecipeComponent } from './view-recipe/view-recipe.component';
     NbButtonModule,
     NbListModule,
     NbCheckboxModule,
-    NbBadgeModule
+    NbBadgeModule,
+    NbAccordionModule,
+    NbInputModule
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

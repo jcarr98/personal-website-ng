@@ -11,9 +11,19 @@ h1 {
 }
 
 .searchContainer {
+    margin-left: 1em;
     margin-bottom: 1em;
 }
 
+ .searchContainer input {
+    margin-bottom: 0.5em;
+}
+
 .searchContainer button {
+    margin-right: 0.5em;
+}
+
+.filter {
     margin-left: 1em;
+    margin-bottom: 1em;
 }

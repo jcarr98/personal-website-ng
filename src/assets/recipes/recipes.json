@@ -3308,25 +3308,6 @@
     },
     {
         "id": 67,
-        "category": "",
-        "name": "Placeholder",
-        "subIngredients": false,
-        "cook": {
-            "hours": 0,
-            "minutes": 0
-        },
-        "ingredients": [
-            {
-                "name": "",
-                "amount": ""
-            }
-        ],
-        "subName": "",
-        "sub": [],
-        "directions": ""
-    },
-    {
-        "id": 68,
         "category": "chicken",
         "name": "Loaded Chicken and Potatoes",
         "subIngredients": true,
@@ -3384,5 +3365,24 @@
             }
         ],
         "directions": "Preheat oven to 400 degrees. Spray 9x13-inch baking dish with cooking spray. In a large bowl, mix together the olive oil, salt, pepper, paprika, garlic powder, and hot sauce. Add the cubed potatoes and chicken and stir to coat. Carefully scoop the potatoes and chicken into the prepared baking dish. Bake the potatoes and chicken for 55-60 minutes, stirring every 20 minutes, until cooked through, crispy, and browned on teh outside. While the potatoes are cooking, fry your bacon. Once the potatoes and chicken are fully cooked, remove from the oven. Top the cooked potatoes with the cheese, bacon, and green onion. Return the casserole to the oven and bake for 5 minutes or until cheese is melted. Serve with extra hot sauce and/or ranch dressing or sour cream"
+    },
+    {
+        "id": 68,
+        "category": "",
+        "name": "Placeholder",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "",
+                "amount": ""
+            }
+        ],
+        "subName": "",
+        "sub": [],
+        "directions": ""
     }
 ]

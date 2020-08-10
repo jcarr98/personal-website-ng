@@ -12,9 +12,10 @@ export class RecipeBookComponent implements OnInit {
     categories: string[];
     selectedCategories: boolean[];
     filteredOptions;
+    badSearch: boolean;
     searchValue;
     
-    constructor(private dialogService: NbDialogService) { }
+    constructor(/*private dialogService: NbDialogService*/) { }
 
     ngOnInit(): void {
         this.searchValue = "";
@@ -45,6 +46,12 @@ export class RecipeBookComponent implements OnInit {
         this.filteredOptions = [];
         this.filterCategory();
         this.filterSearch();
+        if(this.filteredOptions.length === 0) {
+            this.badSearch = true;
+        }
+        else {
+            this.badSearch = false;
+        }
     }
 
     // Search methods

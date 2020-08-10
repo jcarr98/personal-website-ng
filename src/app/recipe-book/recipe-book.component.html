@@ -13,7 +13,7 @@
             <button nbButton size="tiny" (click)="clearSearch()">Clear</button>
         </div>
         <nb-card>
-            <nb-card-header>Filter by Category</nb-card-header>
+            <nb-card-header>Category</nb-card-header>
             <nb-card-body>
                 <div *ngFor="let item of categories; let i = index;">
                     <nb-checkbox (checkedChange)="applyCategory(i)">{{item}}</nb-checkbox>
@@ -36,5 +36,6 @@
                 </nb-card-footer>
             </nb-card>
         </ng-container>
+        <h5 *ngIf="badSearch">Nothing to show :(</h5>
     </nb-layout-column>
 </nb-layout>

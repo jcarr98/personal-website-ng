@@ -196,7 +196,10 @@
         "category": "beef",
         "name": "Beef Taco Bake",
         "subIngredients": false,
-        "cook": "~35 minutes",
+        "cook": {
+            "hours": 0,
+            "minutes": 35
+        },
         "ingredients": [
             {
                 "name": "Ground beef",
@@ -3166,6 +3169,1075 @@
     },
     {
         "id": 64,
+        "category": "chicken",
+        "name": "Honey Mustard Chicken",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 50
+        },
+        "ingredients": [
+            {
+                "name": "Butter",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Honey",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Dijon mustard",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Curry powder",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Boneless chicken breasts",
+                "amount": "3-4"
+            }
+        ],
+        "directions": "Melt butter. Add honey, mustard, and curry; pour over chicken. Bake 350 degrees for 45-50 minutes"
+    },
+    {
+        "id": 65,
+        "category": "crockpot",
+        "name": "Jambalaya",
+        "subIngredients": false,
+        "cook": {
+            "hours": 8,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Onion, chopped",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Green pepper, chopped",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Celery, chopped",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Garlic, finely chopped",
+                "amount": "3 cloves"
+            },
+            {
+                "name": "Tomatoes, diced, undrained",
+                "amount": "1 (28oz) can"
+            },
+            {
+                "name": "Fully cooked smoked sausage, chopped",
+                "amount": "2 cup"
+            },
+            {
+                "name": "Parsley flakes",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Dried thyme leaves",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Pepper",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Red pepper sauce",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Uncooked peeled and deveined medium shrimp",
+                "amount": "3/4 lbs"
+            },
+            {
+                "name": "Hot cooked rice",
+                "amount": "4 cups"
+            }
+        ],
+        "directions": "Mix all ingredients except shrimp and rice. Cover and cook on low 7-8 hours. Stir in shrimp. Cover and cook for 1 hour. Serve with rice"
+    },
+    {
+        "id": 66,
+        "category": "other",
+        "name": "Lasagna",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 45
+        },
+        "ingredients": [
+            {
+                "name": "Lasagna noodles",
+                "amount": "1 package"
+            },
+            {
+                "name": "Spaghetti sauce",
+                "amount": "1 quart"
+            },
+            {
+                "name": "Eggs",
+                "amount": "2"
+            },
+            {
+                "name": "Ricotta",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Mozzarella cheese",
+                "amount": "8oz"
+            },
+            {
+                "name": "Parsley",
+                "amount": ""
+            },
+            {
+                "name": "Pepper",
+                "amount": ""
+            },
+            {
+                "name": "Grated parmesan",
+                "amount": ""
+            }
+        ],
+        "directions": "Mix beaten eggs, ricotta, parsley and pepper. Cook lasagna noodles. Greats 13x9x2-inch pan. Layer noodles, cheese mixture, spaghetti sauce, and mozzarella. Sprinkle top with grated parmesan. Cook at 375 degrees for 30 minutes. Cool for 10 minutes"
+    },
+    {
+        "id": 67,
+        "category": "chicken",
+        "name": "Loaded Chicken and Potatoes",
+        "subIngredients": true,
+        "cook": {
+            "hours": 1,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Boneless chicken breasts, cubed (1\")",
+                "amount": "1 lb"
+            },
+            {
+                "name": "Medium skin on red potatoes, cut into 1/2\" cubes",
+                "amount": "6-8"
+            },
+            {
+                "name": "Olive oil",
+                "amount": "1/3 cup"
+            },
+            {
+                "name": "Salt",
+                "amount": "1 1/2 tsp"
+            },
+            {
+                "name": "Black pepper",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Paprika",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Garlic powder",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "Hot sauce",
+                "amount": "2 tablespoons (more if you like it HOT)"
+            }
+        ],
+        "subName": "Topping",
+        "sub": [
+            {
+                "name": "Fiesta blend cheese",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Crumbled bacon",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Green onion, diced",
+                "amount": "1 cup"
+            }
+        ],
+        "directions": "Preheat oven to 400 degrees. Spray 9x13-inch baking dish with cooking spray. In a large bowl, mix together the olive oil, salt, pepper, paprika, garlic powder, and hot sauce. Add the cubed potatoes and chicken and stir to coat. Carefully scoop the potatoes and chicken into the prepared baking dish. Bake the potatoes and chicken for 55-60 minutes, stirring every 20 minutes, until cooked through, crispy, and browned on teh outside. While the potatoes are cooking, fry your bacon. Once the potatoes and chicken are fully cooked, remove from the oven. Top the cooked potatoes with the cheese, bacon, and green onion. Return the casserole to the oven and bake for 5 minutes or until cheese is melted. Serve with extra hot sauce and/or ranch dressing or sour cream"
+    },
+    {
+        "id": 68,
+        "category": "other",
+        "name": "Macaroni and Cheese",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Elbow macaroni",
+                "amount": "16oz package"
+            },
+            {
+                "name": "Butter",
+                "amount": "1 stick"
+            },
+            {
+                "name": "Flour",
+                "amount": "6 tablespoons"
+            },
+            {
+                "name": "Milk",
+                "amount": "4 cups"
+            },
+            {
+                "name": "Shredded cheddar",
+                "amount": "4 cups"
+            },
+            {
+                "name": "Velveeta (optional)",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Egg, beaten",
+                "amount": "1"
+            },
+            {
+                "name": "Ritz crackers, crushed",
+                "amount": "1 sleeve"
+            },
+            {
+                "name": "Melted butter",
+                "amount": "3 tablespoons"
+            }
+        ],
+        "directions": "Cook macaroni. In a large pan, melt the stick of butter, then add flour, milk, cheeses, and egg. Stir over medium to low heat until everything is melted into a nice cheese sauce. Add the macaroni and pour into baking pan. Mix crushed ritz crackers and 3 tablespoons of melted butter. Sprinkle on top of macaroni. Bake at 350 degrees for 30-45 minutes"
+    },
+    {
+        "id": 69,
+        "category": "pork",
+        "name": "Mustard Crusted Pork Roast",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 45
+        },
+        "ingredients": [
+            {
+                "name": "Boneless pork loin roast",
+                "amount": "2 pounds"
+            },
+            {
+                "name": "Spicy mustard",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "Garlic croutons, crushed",
+                "amount": "1 cup"
+            }
+        ],
+        "subName": "",
+        "sub": [],
+        "directions": "Season roast with salt and pepper. Place in shallow pan and roast for 30 minutes and sprinkle with crouton crumbs. Return to oven and continue to roast for 10-15 minutes longer until meat thermometers registers 155"
+    },
+    {
+        "id": 70,
+        "category": "chicken",
+        "name": "One Dish Chicken Bake",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 40
+        },
+        "ingredients": [
+            {
+                "name": "Stove top stuffing for chicken",
+                "amount": "1 (6oz) package"
+            },
+            {
+                "name": "Boneless, skinless chicken breasts",
+                "amount": "4 (1 1/4lbs)"
+            },
+            {
+                "name": "Cream of chicken soup",
+                "amount": "1 can"
+            },
+            {
+                "name": "Milk",
+                "amount": "1/3 cup"
+            }
+        ],
+        "subName": "",
+        "sub": [],
+        "directions": "Prepare stuffing according to package. Place chicken in 12x8-inch baking dish. Mix soup and milk, pour over chicken. Top with stuffing. Bake at 375 degrees for 35 minutes"
+    },
+    {
+        "id": 71,
+        "category": "pork",
+        "name": "Panama Pork Stew",
+        "subIngredients": false,
+        "cook": {
+            "hours": 9,
+            "minutes": 10
+        },
+        "ingredients": [
+            {
+                "name": "Small sweet potatoes peeled, 2-inch cubes",
+                "amount": "2"
+            },
+            {
+                "name": "Frozen corn",
+                "amount": "1 (9oz) package"
+            },
+            {
+                "name": "Frozen cut green beans",
+                "amount": "1 (9oz) package"
+            },
+            {
+                "name": "Medium onion, chopped",
+                "amount": "1"
+            },
+            {
+                "name": "Lean pork (stew meat, chops, or tenderloin) in 1-inch cubes",
+                "amount": "1 1/2 lbs"
+            },
+            {
+                "name": "Diced tomatoes",
+                "amount": "1 (14.5oz) can"
+            },
+            {
+                "name": "Chili powder",
+                "amount": "1-2 tablespoons"
+            },
+            {
+                "name": "Garlic powder",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "Coriander (optional)",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Cinnamon (optional)",
+                "amount": "1/4 tsp"
+            }
+        ],
+        "directions": "Place potatoes, corn, green beans, and onion in bottom, top with pork. Mix tomatoes, 1 cup water, and spices together, pour over pork. Cook on low 7-9 hours. Serve alone with crusty bread or over rice"
+    },
+    {
+        "id": 72,
+        "category": "other",
+        "name": "Parmesan Bake Fish Packets",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "12x18 aluminum foil",
+                "amount": "8 sheets"
+            },
+            {
+                "name": "Fish",
+                "amount": "4 (4-6oz)"
+            },
+            {
+                "name": "Mayonnaise",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Grated parmesan cheese",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Cayenne pepper",
+                "amount": ""
+            },
+            {
+                "name": "Medium zucchini, sliced",
+                "amount": "2"
+            },
+            {
+                "name": "Medium red bell pepper, cut into strips",
+                "amount": "1/2"
+            }
+        ],
+        "directions": "Preheat oven to 450 degrees or grill to medium-high. Spray foil with non-stick cooking spray. Center one fish fillet on each double layer of aluminum foil. Spread with mayo. Sprinkle with parmesan cheese and cayenne pepper. Top with veggies. Bring up sides of foil and double foil. Double fold ends to form packet, leaving room for heat circulation inside. Repeat to make 4 packets. Bake 18-22 minutes on cookie sheet in oven or grill 10-12 minutes in covered grill"
+    },
+    {
+        "id": 73,
+        "category": "crockpot",
+        "name": "Pasta Fagioli in the Crockpot",
+        "subIngredients": false,
+        "cook": {
+            "hours": 7,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Ground beef",
+                "amount": "2 lbs"
+            },
+            {
+                "name": "Onion, chopped",
+                "amount": "1"
+            },
+            {
+                "name": "Carrots, chopped",
+                "amount": "3"
+            },
+            {
+                "name": "Celery, chopped",
+                "amount": "3 stalks"
+            },
+            {
+                "name": "Diced tomatoes, undrained",
+                "amount": "2 (28oz) cans"
+            },
+            {
+                "name": "Red kidney beans, drained",
+                "amount": "1 (16oz) can"
+            },
+            {
+                "name": "White kidney beans, drained",
+                "amount": "1 (16oz) can"
+            },
+            {
+                "name": "Beef stock",
+                "amount": "3 (10oz) cans"
+            },
+            {
+                "name": "Oregano",
+                "amount": "3 tsp"
+            },
+            {
+                "name": "Pepper",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Parsley",
+                "amount": "5 tsp"
+            },
+            {
+                "name": "Tabasco sauce (optional)",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Spaghetti sauce",
+                "amount": "1 (20oz) jar"
+            },
+            {
+                "name": "Pasta",
+                "amount": "8oz"
+            }
+        ],
+        "directions": "Brown beef in a skillet. Drain fat from beef and add to crockpot with everything except pasta. Cook on low 7-8 hours or high 4-5 hours. Add pasta the last 30 minutes. Serve with a nice crisp green salad and some garlic bread"
+    },
+    {
+        "id": 74,
+        "category": "other",
+        "name": "Pepperoni Pizza Bake",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 35
+        },
+        "ingredients": [
+            {
+                "name": "Refrigerated biscuits",
+                "amount": "1 (16.3oz) can"
+            },
+            {
+                "name": "Pizza sauce",
+                "amount": "1 (8oz) can"
+            },
+            {
+                "name": "Shredded mozzarella",
+                "amount": "2 (8oz) cups"
+            },
+            {
+                "name": "Pepperoni",
+                "amount": "16 slices"
+            }
+        ],
+        "directions": "Cut each biscuit into 8 pieces, toss with pizza sauce and 1 cup of cheese. Spread in sprayed 8-inch glass dish. Top with pepperoni and remaining 1 cup cheese. Bake at 375 degeres for 22-28 minutes"
+    },
+    {
+        "id": 75,
+        "category": "other",
+        "name": "Pizza Crescent Bake",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 45
+        },
+        "ingredients": [
+            {
+                "name": "Refrigerated crescent rolls",
+                "amount": "2 (8oz) tubes"
+            },
+            {
+                "name": "Beef",
+                "amount": "1 1/2 pounds"
+            },
+            {
+                "name": "Pizza sauce",
+                "amount": "1 (15oz) can"
+            },
+            {
+                "name": "Shredded cheddar",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Shredded mozzarella",
+                "amount": "1 cup"
+            }
+        ],
+        "directions": "Unroll one tube of dough and place it in a lightly greased 13x9x2 baking dish. Press to seal perforations. Cook beef; drain. Sprinkle over dough. Top with pizza sauce, sprinkle with cheese. Unroll second tube and place over cheese; seal perforations. Bake uncovered 350 degrees for 30 minutes"
+    },
+    {
+        "id": 76,
+        "category": "other",
+        "name": "Pizza Cupcakes",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Crescent rolls",
+                "amount": "1 (8oz) can"
+            },
+            {
+                "name": "Pizza sauce",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Mini pepperoni slices",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Italian sausage",
+                "amount": "1/4 lb"
+            },
+            {
+                "name": "Mozzarella",
+                "amount": "1/2 cup"
+            }
+        ],
+        "directions": "Heat oven to 375 degrees. Spray regular size muffin cups with cooking spray. Unroll dough, separate into 8 triangles. Press into muffin cups. In a small bowl, mix sauce, pepperoni, sauage, and 1/4 cup of cheese. Spoon about 2 tsp mixture into each dough lined cup. Sprinkle each with about 1 tsp additional cheese. Bake 16-18 minutes"
+    },
+    {
+        "id": 77,
+        "category": "pork",
+        "name": "Pork Chops with Broccoli and Rice",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 25
+        },
+        "ingredients": [
+            {
+                "name": "Herb roasted chicken flavor long grain and wild rice mix",
+                "amount": "1 (6oz) box"
+            },
+            {
+                "name": "Fresh broccoli florets",
+                "amount": "4 cups (about 1/2 lb)"
+            },
+            {
+                "name": "Vegetable oil",
+                "amount": "1 tbs"
+            },
+            {
+                "name": "Boneless pork chops",
+                "amount": "4 (about 1 1/3 lbs"
+            }
+        ],
+        "directions": "In 12-inch skillet, mix rice, seasoning package from rice mix and 2 cups water. Heat to boiling over medium heat. Cover, cook 7 minutes. Add broccoli, cook 3 minutes longer. Spoon rice and broccoli onto plates. Wipe out skillet. In same skillet, heat oil over med-high heat. Sprinkle with salt and pepper, place in skillet. Cook 4-6 minutes or until browned. Turn pork; cook 4-5 minutes longer until pork is no longer pink"
+    },
+    {
+        "id": 78,
+        "category": "crockpot",
+        "name": "Pulled Caesar Chicken Sandwiches",
+        "subIngredients": false,
+        "cook": {
+            "hours": 7,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Boneless, skinless chicken breasts",
+                "amount": "4-6"
+            },
+            {
+                "name": "Salt",
+                "amount": ""
+            },
+            {
+                "name": "Pepper",
+                "amount": ""
+            },
+            {
+                "name": "Caesar dressing",
+                "amount": "1 bottle"
+            }
+        ],
+        "directions": "Place chicken breasts in the crockpot with a little water, salt, and pepper. Cook 6-8 hours. 30 minutes before eating, shred chicken with 2 forks, pour in a bottle of Caesar dressing and let cook for 30 minutes. Serve warm with lettuce on your favorite bun"
+    },
+    {
+        "id": 79,
+        "category": "other",
+        "name": "Quesadilla Pie",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 50
+        },
+        "ingredients": [
+            {
+                "name": "Chopped green chiles",
+                "amount": "1 (4.5oz) can"
+            },
+            {
+                "name": "Black beans, drained, rinsed",
+                "amount": "1 (15oz) can"
+            },
+            {
+                "name": "Taco sauce",
+                "amount": "1 (10oz) can"
+            },
+            {
+                "name": "Shredded jack cheese",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Shredded cheddar cheese",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Tortillas",
+                "amount": "4 8-inch"
+            },
+            {
+                "name": "Chopped green onions (optional)",
+                "amount": "1/3 cup"
+            },
+            {
+                "name": "Medium tomato, chopped (optional)",
+                "amount": "1"
+            }
+        ],
+        "directions": "Heat oven to 400. Spray 9-inch pit plate with cooking spray. In medium bowl, mix chiles, beans, onions, tomato, 1/2 cup of taco sauce, jack cheese, and cheddar cheese; set aside. Spoon 1/4 cup taco sauce into pie plate. Top with 1 tortilla and 1/3 of the bean mixture. Repeat twice to make 3 layers. Top with remaining tortilla. Cover loosely with foil. Bake 30 minutes. Uncover, sprinkle with remaining cheddar cheese. Bake 5-7 minutes longer or until cheese is melted"
+    },
+    {
+        "id": 80,
+        "category": "soup",
+        "name": "Quick Chicken Corn Chowder",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 10
+        },
+        "ingredients": [
+            {
+                "name": "Butter",
+                "amount": "2 tbs"
+            },
+            {
+                "name": "Onion, chopped",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Celery, chopped",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Flour",
+                "amount": "2 tbs"
+            },
+            {
+                "name": "2% milk",
+                "amount": "3 cups"
+            },
+            {
+                "name": "Cooked chicken",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Cream corn",
+                "amount": "1 (14 3/4oz) can"
+            },
+            {
+                "name": "Frozen corn",
+                "amount": "1 1/2 cups"
+            }
+        ],
+        "directions": "Melt margarine in large dutch oven. Add onion, and celery - cook 3 minutes or until tender. Add flour. Cook 1 minute, stirring constantly. Stir in milk and remaining ingredients. Do not let soup boil because it will separate"
+    },
+    {
+        "id": 81,
+        "category": "crockpot",
+        "name": "Ranch Chicken Enchilada Casserole",
+        "subIngredients": false,
+        "cook": {
+            "hours": 4,
+            "minutes": 40
+        },
+        "ingredients": [
+            {
+                "name": "Boneless, skinless chicken breasts",
+                "amount": "4"
+            },
+            {
+                "name": "Taco seasoning",
+                "amount": "1 packet"
+            },
+            {
+                "name": "Ranch dressing mix",
+                "amount": "1 packet"
+            },
+            {
+                "name": "Flour tortillas",
+                "amount": "4 (burrito size)"
+            },
+            {
+                "name": "Ranch dressing",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Shredded cheddar cheese",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Cilantro or parsley to garnish (optional)",
+                "amount": ""
+            }
+        ],
+        "directions": "Place chicken in slow cooker and sprinkle seasoning mixes over top. Cover and cook on high for 4 hours or low for 8 hours. Shred chicken with two forks and stir to evenly distribute juices and seasonings. In the bottom of a 9x13-inch baking pan, cover the bottom with two tortillas. Spread half of shredded chicken on tortillas, then 1/2 cup ranch dressing drizzled, and top with 1 cup shredded cheese. Repeat layers once more. Bake at 350 degrees for 20 minutes or until cheese is melted and lasagna is heated through. Serve with additional ranch dressing if desired"
+    },
+    {
+        "id": 82,
+        "category": "other",
+        "name": "Ranch Pesto Rigatoni Bake",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Rigatoni",
+                "amount": "1 box"
+            },
+            {
+                "name": "Ranch dressing",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Prepared pesto",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Diced tomatoes, drained and slightly rinsed",
+                "amount": "1 (28oz) can"
+            },
+            {
+                "name": "Shredded mozzarella cheese, divided",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Parsley",
+                "amount": ""
+            }
+        ],
+        "directions": "Cook and drain rigatoni, return to pot. Stir in ranch dressing, pesto, diced tomatoes, and one cup shredded mozzarella. Transfer pasta to a 2 quart baking dish. Top with remaining mozzarella and parsley. Cover with foil and bake at 350 degrees for 15 minutes. remove foil and bake an additional 5 minutes until cheese is completely melted"
+    },
+    {
+        "id": 83,
+        "category": "crockpot",
+        "name": "Salsa and Black Bean Chicken",
+        "subIngredients": false,
+        "cook": {
+            "hours": 12,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Boneless, skinless chicken",
+                "amount": ""
+            },
+            {
+                "name": "Salsa",
+                "amount": "1 jar"
+            },
+            {
+                "name": "Black beans",
+                "amount": "1 can"
+            },
+            {
+                "name": "Rice",
+                "amount": ""
+            }
+        ],
+        "directions": "Place boneless skinless chicken breasts in crockpot. Pour salsa over the top and add black beans. Let it slow cook all day and then serve over rice. Add extra can of beans and medium salsa for more flavor"
+    },
+    {
+        "id": 84,
+        "category": "soup",
+        "name": "Santa Fe Soup",
+        "subIngredients": false,
+        "cook": {
+            "hours": 2,
+            "minutes": 10
+        },
+        "ingredients": [
+            {
+                "name": "Ground turkey",
+                "amount": "2 lbs"
+            },
+            {
+                "name": "Green pepper, chopped",
+                "amount": "1"
+            },
+            {
+                "name": "Onion, chopped",
+                "amount": "1"
+            },
+            {
+                "name": "Ranch dressing mix, dry",
+                "amount": "1 package"
+            },
+            {
+                "name": "Taco seasoning",
+                "amount": "2 packages"
+            },
+            {
+                "name": "Rotelle tomatoes with chiles, undrained",
+                "amount": "1 (11oz) can"
+            },
+            {
+                "name": "Kidney beans, undrained",
+                "amount": "1 (16oz) can"
+            },
+            {
+                "name": "Black beans, undrained",
+                "amount": "1 (16oz) can"
+            },
+            {
+                "name": "Ready-cut tomatoes, undrained",
+                "amount": "1 (16oz) cans"
+            },
+            {
+                "name": "Corn, undrained",
+                "amount": "2 (16oz) cans"
+            },
+            {
+                "name": "Shredded cheese, mexican blend",
+                "amount": "2 cups"
+            }
+        ],
+        "directions": "Saute turkey and onions, drain any fat. Add remaining ingredients and simmer for 2 hours. Serve with tortilla chips, cheese, and sour cream"
+    },
+    {
+        "id": 85,
+        "category": "crockpot",
+        "name": "Sausage and Blackeyed Peas",
+        "subIngredients": false,
+        "cook": {
+            "hours": 7,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Polish or kielbasa sausage, sliced 1/2-inch thick pieces",
+                "amount": "1 package"
+            },
+            {
+                "name": "Rotel tomatoes",
+                "amount": "2 cans"
+            },
+            {
+                "name": "Green chilies",
+                "amount": ""
+            },
+            {
+                "name": "Black eyed peas",
+                "amount": "2 cans"
+            }
+        ],
+        "directions": "Place in crockpot. add tomatoes and chilies. Cook on low 6-8 hours. 30 minutes before serving, add black eyed peas and let simmer. Serve over rice or cornbread"
+    },
+    {
+        "id": 86,
+        "category": "soup",
+        "name": "Sausage Bean Soup",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 12
+        },
+        "ingredients": [
+            {
+                "name": "Sausage, cut up into small pieces",
+                "amount": "2 packages"
+            },
+            {
+                "name": "Corn",
+                "amount": "1 can"
+            },
+            {
+                "name": "Pinto beans",
+                "amount": "1 can"
+            },
+            {
+                "name": "Red/kidney beans",
+                "amount": "1 can"
+            },
+            {
+                "name": "Black beans",
+                "amount": "1 can"
+            },
+            {
+                "name": "Northerned white beans",
+                "amount": "1 can"
+            },
+            {
+                "name": "Diced potatoes",
+                "amount": "1 can"
+            },
+            {
+                "name": "Rotel",
+                "amount": "1 can"
+            },
+            {
+                "name": "Beef broth",
+                "amount": "1 can"
+            },
+            {
+                "name": "Beef stew seasoning",
+                "amount": "1 package"
+            }
+        ],
+        "directions": "Mix it all together in the crock pot with an extra can of water. Let sit on low all day"
+    },
+    {
+        "id": 87,
+        "category": "beef",
+        "name": "Shepards Pie",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Corn",
+                "amount": "1 can"
+            },
+            {
+                "name": "Cream corn",
+                "amount": "1 can"
+            },
+            {
+                "name": "Hamburg",
+                "amount": "1 lb"
+            },
+            {
+                "name": "Potatoes",
+                "amount": "3"
+            }
+        ],
+        "directions": "Peel and cut up potatoes for making mashed potatoes. Cook hamburg until no longer pink. Combine corn, cream corn, and hamburg together. Place in casserole dish and top with mashed potatoes. Cook 350 degrees for 45 minutes"
+    },
+    {
+        "id": 88,
+        "category": "crockpot",
+        "name": "Shredded Beef for Burritos",
+        "subIngredients": false,
+        "cook": {
+            "hours": 6,
+            "minutes": 15
+        },
+        "ingredients": [
+            {
+                "name": "Roast",
+                "amount": "2-3 lb"
+            },
+            {
+                "name": "Garlic powder",
+                "amount": ""
+            },
+            {
+                "name": "Salt",
+                "amount": ""
+            },
+            {
+                "name": "Pepper",
+                "amount": ""
+            },
+            {
+                "name": "Green enchilada sauce",
+                "amount": "1 can"
+            },
+            {
+                "name": "Rotel tomatoes",
+                "amount": "1 can"
+            },
+            {
+                "name": "Serrano peppers, chopped",
+                "amount": "2"
+            },
+            {
+                "name": "Preferred burrito ingredients",
+                "amount": ""
+            }
+        ],
+        "directions": "Brown on each side a roast that has been seasoned with garlic powder, salt, and pepper in frying pan with oil. Put roast in crockpot and add green enchilada sauce, rotel tomatoes, and Serrano peppers. Cook on high for about 6 hours. The meat can be shredded with a fork. Serve with flour tortillas, sour cream, guacamole, lettuce, tomatoes, onions, cheese, cilantro, lime, hot sauce - anything you like on your burritos"
+    },
+    {
+        "id": 89,
+        "category": "other",
+        "name": "Skillet Tuna Cakes",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Chunk light tuna in water, drained, flaked",
+                "amount": "2 (5oz) cans"
+            },
+            {
+                "name": "Stuffing mix for chicken",
+                "amount": "1 (6oz) package"
+            },
+            {
+                "name": "Shredded mild cheddar cheese",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Carrot, shreded",
+                "amount": "1"
+            },
+            {
+                "name": "Mayo",
+                "amount": "1/3 cup"
+            },
+            {
+                "name": "Sweet pickle relish",
+                "amount": "2 tbsp"
+            }
+        ],
+        "directions": "Combine ingredients, refrigerate 10 minutes. Heat large nonstick skillet sprayed with cooking spray on medium heat. Use ice cream scoop to add 1/3 cup portions of tuna mixture, in batches, to skillet. Flatten into patties with back of spatula. Cook 6 minutes or until golden brown on both sides, carefully turning patties after 3 minutes"
+    },
+    {
+        "id": 90,
         "category": "",
         "name": "Placeholder",
         "subIngredients": false,

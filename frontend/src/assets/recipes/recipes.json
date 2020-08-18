@@ -4238,6 +4238,456 @@
     },
     {
         "id": 90,
+        "category": "crockpot",
+        "name": "Slow Cooker Balsamic Chicken with Olives",
+        "subIngredients": false,
+        "cook": {
+            "hours": 4,
+            "minutes": 10
+        },
+        "ingredients": [
+            {
+                "name": "Boneless, skinless chicken breasts",
+                "amount": "2 lbs"
+            },
+            {
+                "name": "Diced tomatoes",
+                "amount": "1 (14.5oz) can"
+            },
+            {
+                "name": "Tomato sauce",
+                "amount": "1 (14.5oz) can"
+            },
+            {
+                "name": "Onion, thinly sliced",
+                "amount": "1"
+            },
+            {
+                "name": "Garlic cloves",
+                "amount": "4-6"
+            },
+            {
+                "name": "Balsamic vinegar",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Olive oil",
+                "amount": "2 tbs"
+            },
+            {
+                "name": "Pitted kalamata olives",
+                "amount": "12"
+            },
+            {
+                "name": "Italian herb mix (thyme, basil, rosemary, oregano)",
+                "amount": "1 palmful"
+            },
+            {
+                "name": "Ground black pepper and salt",
+                "amount": ""
+            }
+        ],
+        "directions": "Pour the olive oil into the bottom of the slow cooker. Place the chicken breasts into the slow cooker. Season with salt and pepper. Top each breast with sliced onion, garlic cloves, and Italian herbs. Pour in vinegar, tomatoes, and tomato sauce. Cook on high about 4 hours. Remove chicken breasts, slice on the bias, and place back in the tomato/vinegar sauce. Add olives and let them warm through for about 10 minutes. Serve over whole wheat spaghetti, polenta or your carb of choice. Sprinkle with grated parmesan or a little crumbled light feta"
+    },
+    {
+        "id": 91,
+        "category": "crockpot",
+        "name": "Slow Cooker Buffalo Chicken Sandwiches",
+        "subIngredients": false,
+        "cook": {
+            "hours": 7,
+            "minutes": 20
+        },
+        "ingredients": [
+            {
+                "name": "Skinless, boneless chicken breast halves",
+                "amount": "4"
+            },
+            {
+                "name": "Buffalo wing sauce, divided",
+                "amount": "1 (17.5oz) bottle"
+            },
+            {
+                "name": "Dry ranch salad dressing mix",
+                "amount": "1/2 (1oz) package"
+            },
+            {
+                "name": "Butter",
+                "amount": "2 tbs"
+            },
+            {
+                "name": "Hoagie rolls, split lengthwise",
+                "amount": "6"
+            },
+            {
+                "name": "Slaw cabbage",
+                "amount": ""
+            },
+            {
+                "name": "Chunky bleu cheese dressing",
+                "amount": "1 bottle"
+            }
+        ],
+        "directions": "Place the chicken breasts into a slow cooker and pour in 3/4 of the wing sauce and the ranch dressing mix. Cover, and cook on low for 6-7 hours. Once the chicken has cooked, add the butter, and shred the meat finely with two forks. Place the meat onto the hoagie rolls, and splash with the remaining buffalo wing sauce to serve. Serve with slaw cabbage combined with blue cheese dressing"
+    },
+    {
+        "id": 92,
+        "category": "crockpot",
+        "name": "Slow Cooker Chili Chicken Chowder",
+        "subIngredients": false,
+        "cook": {
+            "hours": 5,
+            "minutes": 5
+        },
+        "ingredients": [
+            {
+                "name": "Uncooked chicken tenders, cut into bite sized pieces",
+                "amount": "1 1/4 lbs"
+            },
+            {
+                "name": "Frozen hash brown potatoes, thawed",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Progresso chicken broth",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Frozen chopped onions, thawed",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Finely chopped garlic",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Ground cumin",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Cream style corn",
+                "amount": "1 can"
+            },
+            {
+                "name": "Chopped green chiles",
+                "amount": "1 (7oz) can"
+            },
+            {
+                "name": "Half and half",
+                "amount": "1/2 cup"
+            }
+        ],
+        "directions": "In slow cooker, stir together all ingredients except half and half until combined. Cover and cook on high 4-5 hours. Stir in half and half. Spoon into bowls"
+    },
+    {
+        "id": 93,
+        "category": "crockpot",
+        "name": "Slow Cooker Easy Pepper Steak",
+        "subIngredients": false,
+        "cook": {
+            "hours": 9,
+            "minutes": 15
+        },
+        "ingredients": [
+            {
+                "name": "Beef, round steak, lean",
+                "amount": "1 lb"
+            },
+            {
+                "name": "Green bell pepper, strips",
+                "amount": "3/4 cup"
+            },
+            {
+                "name": "Red bell pepper, strips",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Yellow bell pepper, strips",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Onion, sliced",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Garlic",
+                "amount": "1 clove"
+            },
+            {
+                "name": "Soy sauce",
+                "amount": "6 tbs"
+            },
+            {
+                "name": "Black pepper",
+                "amount": "1 tbs"
+            }
+        ],
+        "directions": "Cut round steak, peppers, and onions into strips. Sear steak in pan over medium high heat (optional). Press clove of garlic into crock, add all ingredients. Cover, cook on low for 8-10 hours. Serve, add rice if wanted"
+    },
+    {
+        "id": 94,
+        "category": "crockpot",
+        "name": "Slow Cooker Honey-Dijon Ham",
+        "subIngredients": false,
+        "cook": {
+            "hours": 6,
+            "minutes": 15
+        },
+        "ingredients": [
+            {
+                "name": "Bone-in cooked ham",
+                "amount": "1 (5 lb)"
+            },
+            {
+                "name": "Apple juice",
+                "amount": "1/3 cup"
+            },
+            {
+                "name": "Packed brown sugar",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Honey",
+                "amount": "1 tbs"
+            },
+            {
+                "name": "Dijon mustard",
+                "amount": "1 tbs"
+            }
+        ],
+        "directions": "In a 4-6 quart slow cooker, place ham. Add apple juice. In a small bowl, mix brown sugar, honey, and mustard. Spread mixture over ham. Cover; cook on low for 6-8 hours. Remove ham from slow cooker, cut into slices, place on serving platter"
+    },
+    {
+        "id": 95,
+        "category": "soup",
+        "name": "Slow Cooker Italian Chicken - Pasta Soup",
+        "subIngredients": false,
+        "cook": {
+            "hours": 9,
+            "minutes": 35
+        },
+        "ingredients": [
+            {
+                "name": "Boneless, skinless chicken thighs, cut into 1 inch pieces",
+                "amount": "1 1/4 lb"
+            },
+            {
+                "name": "Carrots, diced",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Onion, finely chopped",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Garlic, finely chopped",
+                "amount": "2 cloves"
+            },
+            {
+                "name": "Chicken broth",
+                "amount": "1 (32oz) carton"
+            },
+            {
+                "name": "Italian style diced tomatoes, undrained",
+                "amount": "1 (14.5oz) can"
+            },
+            {
+                "name": "Uncooked shell pasta",
+                "amount": "1/2 cup"
+            }
+        ],
+        "directions": "Mix all ingredients except pasta in slow cooker. Cover and cook on low setting 8-10 hours. About 30 minutes before serving, stir in pasta. Increase heat setting to high. Cover and cook 20-30 minutes or until pasta is tender"
+    },
+    {
+        "id": 96,
+        "category": "crockpot",
+        "name": "Slow Cooker Italian Sausages and Peppers with Rotini",
+        "subIngredients": false,
+        "cook": {
+            "hours": 6,
+            "minutes": 15
+        },
+        "ingredients": [
+            {
+                "name": "Turkey Italian sausages, cut into 1 inch pieces",
+                "amount": "1 (19.5oz) package"
+            },
+            {
+                "name": "Sweet onion, finely chopped",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Garlic, finely chopped",
+                "amount": "4 cloves"
+            },
+            {
+                "name": "Medium yellow bell peppers, cut into 1/2 inch pieces",
+                "amount": "2"
+            },
+            {
+                "name": "Medium red bell peppers, cut into 1/2 inch pieces",
+                "amount": "2"
+            },
+            {
+                "name": "Spaghetti tomato sauce",
+                "amount": "1 (26oz) jar"
+            },
+            {
+                "name": "Uncooked rotini pasta",
+                "amount": "4 1/2 cups"
+            },
+            {
+                "name": "Shredded parmesan cheese",
+                "amount": "6 tbs"
+            }
+        ],
+        "directions": "Spray 3-4 quart slow cooker with cooking spray. In cooker, mix all ingredients except pasta and cheese. Cover; cook on low heat setting 6-8 hours. Cook and drain pasta as directed on package. Serve sausage mixture over pasta; sprinkle with parmesan cheese"
+    },
+    {
+        "id": 97,
+        "category": "crockpot",
+        "name": "Slow Cooker Lasagna",
+        "subIngredients": false,
+        "cook": {
+            "hours": 4,
+            "minutes": 50
+        },
+        "ingredients": [
+            {
+                "name": "Lean ground beef",
+                "amount": "1 lb"
+            },
+            {
+                "name": "Tomato pasta sauce",
+                "amount": "1 (26-28oz) jar"
+            },
+            {
+                "name": "Tomato sauce",
+                "amount": "1 (8oz) jar"
+            },
+            {
+                "name": "No-boil lasagna noodles",
+                "amount": "1/2 (9oz) package"
+            },
+            {
+                "name": "Alfredo pasta sauce",
+                "amount": "1 (1 lb) jar"
+            },
+            {
+                "name": "Shredded mozzarella cheese",
+                "amount": "3 cups"
+            },
+            {
+                "name": "Grated parmesan cheese",
+                "amount": "1/4 cup"
+            }
+        ],
+        "directions": "Brown ground beef in large skillet over medium-high heat until thoroughly cooked, stirring frequently; drain. Spray 4-5 quart slow cooker with nonstick cooking spray. Spread 3/4 cup of the tomato pasta sauce in bottom of sprayed slow cooker. Stir remaining tomato pasta sauce and tomato sauce into ground beef. Layer 3 lasagna noodles over sauce in slow cooker, breaking noodles as necessary. Top with 1/3 of the Alfredo pasta sauce, spreading evenly. Sprinkle with 1 cup of the mozzarella cheese. Top with 1/3 of the ground beef mixture, spreading evenly. Repeat layering twice, using 2 lasagna noodles in last layer. Sprinkle parmesan cheese over top. Cover; cook on low setting for 3 1/2 to 4 1/2 hours. If desired, cut into wedges and serve"
+    },
+    {
+        "id": 98,
+        "category": "crockpot",
+        "name": "Slow Cooker Mexican Pork Burrito Bowls",
+        "subIngredients": false,
+        "cook": {
+            "hours": 6,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Large sweet onion, sliced",
+                "amount": "1"
+            },
+            {
+                "name": "Taco seasoning mix",
+                "amount": "2 tbs"
+            },
+            {
+                "name": "Boneless pork shoulder",
+                "amount": "1"
+            },
+            {
+                "name": "Red enchilada sauce",
+                "amount": "1 (10oz) can"
+            },
+            {
+                "name": "Chopped green chiles, drained",
+                "amount": "1 (4.5oz) can"
+            },
+            {
+                "name": "Salt",
+                "amount": "1/2 tbs"
+            },
+            {
+                "name": "Hot cooked white or brown rice",
+                "amount": "6 cups"
+            },
+            {
+                "name": "Shredded lettuce",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Salsa (optional)",
+                "amount": ""
+            },
+            {
+                "name": "Shredded Mexican cheese blend (optinal)",
+                "amount": ""
+            },
+            {
+                "name": "Chopped fresh cilantro (optional)",
+                "amount": ""
+            }
+        ],
+        "directions": "Spray 5-quart slow cooker with cooking spray. Place onion in cooker. Sprinkle taco seasoning mix over pork shoulder, pressing to coat. Place pork in cooker. Top with enchilada sauce. Cover; cook on high heat setting 5-6 hours or until tender. Remove pork from slow cooker; shred meat with fork, discarding fat. Place shredded pork in large bowl. Strain sauce. Add chiles, salt, and 1 cup of the strained sauce. Stir well. Spoon about 3/4 cup rice into each of 8 individual served bowls. Top each with about 1/2 cup pork mixture and 1/4 cup lettuce. Garnish with salsa, cheese, and/or cilantro"
+    },
+    {
+        "id": 99,
+        "category": "crockpot",
+        "name": "Slow Cooker Minestrone Stew",
+        "subIngredients": false,
+        "cook": {
+            "hours": 6,
+            "minutes": 35
+        },
+        "ingredients": [
+            {
+                "name": "Sweet Italian turkey sausage links, casings removed",
+                "amount": "1 (19.5oz) package"
+            },
+            {
+                "name": "Diced tomatoes, undrained",
+                "amount": "1 (28oz) can"
+            },
+            {
+                "name": "Garden vegetable soup",
+                "amount": "2 (18oz) cans"
+            },
+            {
+                "name": "Garbanzo beans, drained, rinsed",
+                "amount": "1 (15oz) can"
+            },
+            {
+                "name": "Tomato paste",
+                "amount": "1 (6oz) can"
+            },
+            {
+                "name": "Italian seasoning",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Uncooked elbow macaroni",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Shredded parmesan cheese",
+                "amount": "1/2 cup"
+            }
+        ],
+        "directions": "In 12-inch skillet, cook sausage over medium heat 8-10 minutes, stirring occasionally, until no longer pink; drain. Spray 3-4 quart slow cooker with cooking spray. In slow cooker, mix sausage and all remaining ingredients except macaroni and cheese. Cover; cook on low heat setting 6 hours. Stir macaroni into slow cooker. Increase heat setting to high. Cover; cook about 20 minutes longer or until macaroni is tender. Sprinkle with cheese"
+    },
+    {
+        "id": 100,
         "category": "",
         "name": "Placeholder",
         "subIngredients": false,

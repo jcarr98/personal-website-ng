@@ -38,6 +38,8 @@ export class RecipeBookComponent implements OnInit {
             }
         }
 
+        this.categories.sort();
+
         // Init all filters
         this.filter();
     }
@@ -52,6 +54,8 @@ export class RecipeBookComponent implements OnInit {
         else {
             this.badSearch = false;
         }
+
+        this.filteredOptions.sort();
     }
 
     // Search methods

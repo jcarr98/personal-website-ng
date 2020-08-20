@@ -24,3 +24,7 @@ ul {
     width: 10%;
     border-right: 1px solid black;
 }
+
+.titleButton {
+    margin-left: 3em;
+}

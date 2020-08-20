@@ -1,10 +1,10 @@
 <nb-layout>
     <nb-layout-header fixed>
         <h3>{{selectedRecipe.name}}</h3>
+        <button nbButton size="tiny" status="info" class="titleButton" [routerLink]="['/recipe']">Back to List</button>
     </nb-layout-header>
 
     <nb-layout-column class="itemContainer">
-        <button nbButton status="primary" [routerLink]="['/recipe']">Back to List</button>
         <h3>Ingredients</h3>
         <table>
             <tr>

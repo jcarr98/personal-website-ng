@@ -2012,7 +2012,7 @@
         "directions": "Add everything to the crockpot and cook 3-4 hours on high or 6-8 hours on low. Before serving, use two forks to pull the meat apart"
     },
     {
-        "id": 42,
+        "id": 41,
         "category": "Soup",
         "name": "Crockpot Mexican Soup",
         "subIngredients": false,
@@ -2093,7 +2093,7 @@
         "directions": "Layer all ingredients up to (and including) chicken stock. Combine remaining ingredients in mixing bowl. Stir gently and seal 'er up. Cook on low for 4-6 hours"
     },
     {
-        "id": 41,
+        "id": 42,
         "category": "Crockpot",
         "name": "Crockpot Sesame Chicken",
         "subIngredients": false,
@@ -2142,7 +2142,7 @@
         "directions": "Put chicken into crockpot. Combine honey, soy sauce, onion, ketchup, oil, and garlic. Pour over chicken. Cook on low for 3-4 hours or on high 1 1/2 - 2 1/2 hours, or just until chicken is cooked through. Remove chicken from crockpot, leave sauce. Dissolve cornstarch in 3 tablespoons of water and pour into crockpot. Stir to combine with sauce. Replace lid and cook sauce on high for ten more minutes or until slightly thickened. Cut chicken into bite size pieces and return to crockpot - can leave chicken in and simmer on low or serve. Sprinkle with sesame seeds and serve over rice"
     },
     {
-        "id": 42,
+        "id": 43,
         "category": "Crockpot",
         "name": "Crockpot Texas Calico Chili",
         "subIngredients": false,
@@ -2195,7 +2195,7 @@
         "directions": "Combine all ingredients in a 4-5 quart crock pot; stir well. Cover and cook on low for 8-10 hours. Serve with cornbread"
     },
     {
-        "id": 43,
+        "id": 44,
         "category": "Crockpot",
         "name": "Crockpot Ugly Chicken Dinner",
         "subIngredients": false,
@@ -2240,7 +2240,7 @@
         "directions": "Grease crockpot. Lay potatoes in bottom. Place chicken on top. Cover with onions, carrots, and pepper. Sprinkle each layer with salt and pepper. Slice butter into pieces and lay on top of everything. Sprinkle with garlic powder. Cover and cook on low for 6-8 hours or until potatoes are tender"
     },
     {
-        "id": 44,
+        "id": 172,
         "category": "Crockpot",
         "name": "Crockpot Whole Baked Chicken",
         "subIngredients": false,
@@ -7229,6 +7229,1043 @@
     },
     {
         "id": 155,
+        "category": "Breakfast",
+        "name": "Overnight Breakfast Bake",
+        "subIngredients": false,
+        "cook": {
+            "hours": 9,
+            "minutes": 10
+        },
+        "ingredients": [
+            {
+                "name": "Refrigerated cinnamon rolls with cream cheese icing",
+                "amount": "2 (12.4oz) cans"
+            },
+            {
+                "name": "Cream cheese",
+                "amount": "1 (8oz) package"
+            },
+            {
+                "name": "Eggs",
+                "amount": "6"
+            },
+            {
+                "name": "Sugar",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Ground cinnamon",
+                "amount": "2 tbsp"
+            },
+            {
+                "name": "Half and half",
+                "amount": "2 1/4 cups"
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1 tsp"
+            }
+        ],
+        "directions": "Heat oven to 375 degrees. Grease 13x9-inch glass baking dish with shortening, or spray with cooking spray. Separate dough from both cans into 16 rolls; return icing to refrigerator. Arrange rolls as evenly as possible in baking dish. Bake 13-17 minutes or until golden brown on top. Remove from oven to cooling rack; cool completely (about 30 minutes). When rolls are cool, cut each into 9 pieces, cutting lengthwise into 3 pieces then cutting each piece into thirds. Remove half of pieces from baking dish. Distribute remaining half of pieces evenly in bottom of baking dish. Cut block of cream cheese into 8 rows by 5 rows to make 40 small squares. Evenly distribute cream cheese squares over roll pieces in baking dish. Layer second half of roll pieces evenly over cream cheese; set aside. In large bowl, beat eggs, sugar, cinnamon, half and half, and vanilla with whisk until well combined. Pour egg mixture evenly over top of casserole. With back of spoon, press mixture down so rolls pieces absorb as much of egg mixture as possible. Cover dish with foil; refrigerate overnight, 6-8 hours. Heat oven to 350 degrees. Uncover baking dish; bake 35-45 minutes or until browned and set. Place small scoops of icing over warm casserole; let stand until melted. With knife or metal spatula, carefully spread icing over top of casserole. Serve warm"
+    },
+    {
+        "id": 156,
+        "category": "Breakfast",
+        "name": "Overnight Cinnamon Roll French Toast Bake",
+        "subIngredients": false,
+        "cook": {
+            "hours": 8,
+            "minutes": 50
+        },
+        "ingredients": [
+            {
+                "name": "Refrigerated cinnamon rolls with icing",
+                "amount": "1 (12.4oz) can"
+            },
+            {
+                "name": "Eggs",
+                "amount": "4"
+            },
+            {
+                "name": "Half and half",
+                "amount": "3/4 cups"
+            },
+            {
+                "name": "Light or dark corn syrup",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Vanilla",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Butter",
+                "amount": "4 tbsp"
+            }
+        ],
+        "directions": "Bake and ice cinnamon rolls as directed on can. Meanwhile, spray 8-inch square (2 quart) glass baking dish with cooking spray. In medium bowl, beat eggs, half and half, corn syrup, and vanilla. With serrated knife, cut each baked cinnamon roll from top to bottom into 3 pieces, each with some icing. Arrange roll pieces in baking dish at a slight angle to fill dish and centers of rolls are exposed slightly. Pour egg mixture over rolls. Cover dish tightly with plastic wrap. Refrigerate at elast 8 hours or overnight. To serve, heat oven to 400 degrees. Uncover baking dish; bake 20-25 minutes or until bubbly and golden brown. If toast puffs up too high during baking, pierce with sharp knife so toast falls. Cool 2-4 minutes before serving. Top each serving with small pat of butter"
+    },
+    {
+        "id": 157,
+        "category": "Breakfast",
+        "name": "Sour Cream Coffee Cake",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 20
+        },
+        "ingredients": [
+            {
+                "name": "Yellow cake mix",
+                "amount": "1 package"
+            },
+            {
+                "name": "Instant vanilla pudding",
+                "amount": "1 package"
+            },
+            {
+                "name": "Eggs",
+                "amount": "4"
+            },
+            {
+                "name": "Oil",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Sour cream",
+                "amount": "8oz"
+            },
+            {
+                "name": "cinnamon and sugar mixed together",
+                "amount": ""
+            },
+            {
+                "name": "Nuts (optional)",
+                "amount": ""
+            }
+        ],
+        "directions": "Mix all ingredients. Pour 1/2 of the batter in a tube pan, sprinkle with cinnamon and sugar. Pour in rest of batter, sprinkle with cinnamon and sugar. Put nuts on top"
+    },
+    {
+        "id": 158,
+        "category": "Dessert",
+        "name": "Chocolate Chex Mix",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 48
+        },
+        "ingredients": [
+            {
+                "name": "Crispy corn cereal squares",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Small pretzels",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Dry roasted peanuts",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Caramels, unwrapped and coarsely chopped",
+                "amount": "20"
+            },
+            {
+                "name": "Milk chocolate morsels",
+                "amount": "1 (11.5oz) package"
+            }
+        ],
+        "directions": "Coat 13x9 baking pan with cooking spray. Combine cereal, pretzels, peanuts, and caramels in large bowl. Microwave morsels on medium high for 1 minute, stir and continue to microwave in 20 second intervals until melted. Pour over cereal mixture and stir to coat. Spread mixture onto baking pan and cool for 45 minutes or longer to dry. Break into bize size pieces"
+    },
+    {
+        "id": 159,
+        "category": "Dessert",
+        "name": "Creamy Double Decker Fudge",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Peanut butter chips",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Sweetened condensed milk",
+                "amount": "14oz"
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Semi-sweet chocolate chips",
+                "amount": "1 cup"
+            }
+        ],
+        "directions": "Line 8\" square pan with foil. In small bowl, combine peanut butter chips and 2/3 cup condensed milk. Microwave 1 - 1 1/2 minutes, stirring after 1 minute, until chips are melted and mixture is smooth when stirred. Stir in 1/2 tsp vanilla, spread evenly into prepared pan. Microwave remaining condensed milk and chocolate chips; repeat above procedure. Stir in 1/2 tsp vanilla, spread evenly on peanut butter layer. Cover and chill until firm. Cut into 1 inch squares. Cover and store in refrigerator"
+    },
+    {
+        "id": 160,
+        "category": "Dessert",
+        "name": "Foolproof Chocolate Fudge",
+        "subIngredients": false,
+        "cook": {
+            "hours": 2,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Semi-sweet morsels",
+                "amount": "3 (6oz) packages"
+            },
+            {
+                "name": "Sweetened condensed milk",
+                "amount": "1 (14oz) can"
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1 1/2 tsp"
+            }
+        ],
+        "directions": "Over low heat, melt chocolate with condensed milk. Stir in remaining ingredients. Spread evenly into waxed paper lined 8\" pan. Chill 2-3 hours. Cut into squares"
+    },
+    {
+        "id": 161,
+        "category": "Dessert",
+        "name": "Peanut Butter Candy Square",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 25
+        },
+        "ingredients": [
+            {
+                "name": "Chocolate chips",
+                "amount": "1 package"
+            },
+            {
+                "name": "Peanut butter",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Graham crackers, crushed",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Butter",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Confectionary sugar",
+                "amount": "1 box"
+            }
+        ],
+        "directions": "Mix all ingredients together except the chocolate chips. Spread in pan and cover with melted chocolate chips. Refrigerate 25 minutes"
+    },
+    {
+        "id": 162,
+        "category": "Dessert",
+        "name": "White Chocolate Party Mix",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 10
+        },
+        "ingredients": [
+            {
+                "name": "Mini pretzels",
+                "amount": "1 (10oz) package"
+            },
+            {
+                "name": "Cheerios",
+                "amount": "5 cups"
+            },
+            {
+                "name": "Corn Chex",
+                "amount": "5 cups"
+            },
+            {
+                "name": "Salted peanuts",
+                "amount": "2 cups"
+            },
+            {
+                "name": "M&M's",
+                "amount": "1 lb bag"
+            },
+            {
+                "name": "White chips",
+                "amount": "2 (12oz) packages"
+            },
+            {
+                "name": "Vegetable oil",
+                "amount": "3 tbsp"
+            }
+        ],
+        "directions": "In a large bowl, combine first five ingredients. In a microwave safe bowl heat chips and oil on medium-high for 2 minutes, stirring once. Microwave on high for a few more seconds. Stir until smooth. Pour over cereal mixture and mix well. Spread onto three waxed paper-lined baking sheets. Let cool. Break apart and store in airtight container"
+    },
+    {
+        "id": 163,
+        "category": "Dessert",
+        "name": "Buckeye Brownie Dessert",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 42
+        },
+        "ingredients": [
+            {
+                "name": "Brownie mix",
+                "amount": "1 (18-19oz) box"
+            },
+            {
+                "name": "Butter, melted",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Cream cheese, room temperature",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Egg",
+                "amount": "1"
+            },
+            {
+                "name": "Peanut butter",
+                "amount": "3/4 cup"
+            },
+            {
+                "name": "Powdered sugar",
+                "amount": "3/4 cup"
+            },
+            {
+                "name": "Chocolate frosting",
+                "amount": "3/4 cup"
+            }
+        ],
+        "directions": "Preheat oven to 350 degrees. Line baking sheet with parchment paper. In a medium bowl, combine brownie mix, butter, cream cheese, and egg. Stir until dough comes together, it will be very thick and sticky (I used my hands). Form rounded tablespoons sized portions of dough into balls, placing on baking sheet about 2 inches apart, making an indentation with your thumb in the center of each. In another bowl, stir together peanut butter and powdered sugar. Form peanut butter into teaspoon sized balls and press into the indentations in the brownie cookies. Press peanut butter down slightly because the peanut butter won't spread and you don't want the cookies to be too tall. Bake for 10-12 minutes until edges are set. Transfer to wire rack to cool. When cooled, top each cookie with about a tablespoon of chocolate frosting"
+    },
+    {
+        "id": 164,
+        "category": "Dessert",
+        "name": "Candy Cane Dessert",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 15
+        },
+        "ingredients": [
+            {
+                "name": "Shortening",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Margarine",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Egg",
+                "amount": "1"
+            },
+            {
+                "name": "Vanilla",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Flour",
+                "amount": "2 1/2 cups"
+            },
+            {
+                "name": "Red food coloring",
+                "amount": "1 tsp"
+            }
+        ],
+        "directions": "Mix all ingredients except food coloring. Divide batter. Mix red food coloring in ½ of the batter. Roll dough into two long tubes. Twist and shape to look like candy canes. Sprinkle with sugar. Bake at 375 degrees for 9-12 minutes"
+    },
+    {
+        "id": 165,
+        "category": "Dessert",
+        "name": "Chocolate Crispies",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 15
+        },
+        "ingredients": [
+            {
+                "name": "Flour",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Baking powder",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Baking soda",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Margarine (softened)",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Brown sugar",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Sugar",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Egg",
+                "amount": "1"
+            },
+            {
+                "name": "Unsweetened baking chocolate",
+                "amount": "2 (2oz) envelopes"
+            },
+            {
+                "name": "Quick oats, uncooked",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Shredded coconut",
+                "amount": "1/2 cup"
+            }
+        ],
+        "directions": "In a large bowl, combine margarine, brown sugar, sugar, and egg. Beat until creamy. Blend in baking chocolate. Add remaining ingredients. Drop rounded tablespoon onto greased cookie sheet. Bake at 350 degrees for 10-12 minutes"
+    },
+    {
+        "id": 166,
+        "category": "Dessert",
+        "name": "Chocolate Drops",
+        "subIngredients": false,
+        "cook": {
+            "hours": 4,
+            "minutes": 15
+        },
+        "ingredients": [
+            {
+                "name": "Butter",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Unsweetened chocolate",
+                "amount": "4 squares"
+            },
+            {
+                "name": "Sugar",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Vanilla",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Eggs",
+                "amount": "4"
+            },
+            {
+                "name": "Flour",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Baking powder",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Confectionary sugar",
+                "amount": ""
+            }
+        ],
+        "directions": "Melt chocolate and butter. Add sugar and vanilla. Add eggs and beat. Add remaining ingredients except confectionary sugar. Chill several hours. Form small balls and roll in confectionary sugar. Place on greased cookie sheet. Cook at 350 degrees for 12 minutes"
+    },
+    {
+        "id": 167,
+        "category": "Dessert",
+        "name": "Chocolate Mint Cookies",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 25
+        },
+        "ingredients": [
+            {
+                "name": "Margarine",
+                "amount": "3/4 cup"
+            },
+            {
+                "name": "Firmly packed brown sugar",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Semi-sweet chocolate chips",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Eggs",
+                "amount": "2"
+            },
+            {
+                "name": "Flour",
+                "amount": "2 1/2 cups"
+            },
+            {
+                "name": "Baking soda",
+                "amount": "1 1/4 tsp"
+            },
+            {
+                "name": "Andes candies",
+                "amount": "1 lb"
+            },
+            {
+                "name": "Sprinkles",
+                "amount": ""
+            }
+        ],
+        "directions": "In large saucepan over low heat, cook margarine, sugar, and 2 tablespoons of water until butter is melted. Add chocolate chips and stir until partially melted. Remove from heat and continue to stir until chocolate is completely melted. Pour into a large bowl and let stand for 10 minutes to cool slightly. Beat in one egg at a time, slowly add dry ingredients. Chill dough at least one hour for easier handling. Line cookie sheets with foil. Bake 12-13 minutes at 350 degrees. Remove from oven and immediately place mint on hot cookie"
+    },
+    {
+        "id": 168,
+        "category": "Dessert",
+        "name": "Cream Cheese Chocolate Chip Cookies",
+        "subIngredients": false,
+        "cook": {
+            "hours": 2,
+            "minutes": 20
+        },
+        "ingredients": [
+            {
+                "name": "Unsalted butter, softened",
+                "amount": "1/2 cup (1 stick)"
+            },
+            {
+                "name": "Cream cheese, softened",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Light brown sugar, packed",
+                "amount": "3/4 cup"
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Egg",
+                "amount": "1"
+            },
+            {
+                "name": "Vanilla extract",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "2 1/4 cups"
+            },
+            {
+                "name": "Cornstarch",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Baking soda",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Salt (optional)",
+                "amount": "A pinch"
+            },
+            {
+                "name": "Chocolate chips or chunks",
+                "amount": "1 package"
+            }
+        ],
+        "directions": "Using a mixmaster, combine the butter, cream cheese, sugars, egg, vanilla, and beat on medium-high speed until well-creamed, light, and fluffy, about 5 minutes. Stop, scrape down the sides of the bowl, and add flour, cornstarch, baking soda, optional salt, and mix until just combined, about 1 minute. Add chocolate chips and chunks, and beat momentarily to incorporate, or fold in by hand. Form 2-inch rounds and place mounds on a large plate or baking sheet. Flatten mounds slightly with your palm, cover with plastic wrap, and refrigerate for at least 2 hours, or up to 5 days, before baking; Do not bake with warm dough because cookies with spread and bake thinner and flatter. Preheat oven to 350 degrees, line a baking sheet with parchment paper and place mounds on baking sheet, spaced at least 2 inches apart. Bake for 8-9 minutes, or until edges have set and tops are just beginning to set. Do not bake longer than 10 minutes as cookies will firm up as they cool. Allow cookies to cool on the baking sheet for 5 minutes before removing and transferring to rack to finish cooling"
+    },
+    {
+        "id": 169,
+        "category": "Dessert",
+        "name": "Fingerlings",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 20
+        },
+        "ingredients": [
+            {
+                "name": "Margarine",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Confectionary sugar",
+                "amount": "6 tbsp"
+            },
+            {
+                "name": "Flour",
+                "amount": "2 1/4 cups"
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Finely chopped nuts",
+                "amount": "3/4 cups"
+            }
+        ],
+        "directions": "Combine all ingredients. Roll cookies to size of individual fingers, roll in granulated sugar. Bake at 350 degrees for 12-15 minutes"
+    },
+    {
+        "id": 170,
+        "category": "Dessert",
+        "name": "Lemond Crinkle Cookies",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 21
+        },
+        "ingredients": [
+            {
+                "name": "Butter, softened",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Vanilla extract",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Egg",
+                "amount": "1"
+            },
+            {
+                "name": "Lemon zest",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Lemon juice",
+                "amount": "1 tbsp"
+            },
+            {
+                "name": "Salt",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Baking powder",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Baking soda",
+                "amount": "1/8 tsp"
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "1 1/2 cup"
+            },
+            {
+                "name": "Powdered sugar",
+                "amount": "1/2 cup"
+            }
+        ],
+        "directions": "Preheat oven to 350 degrees. Grease light colored baking sheets with non stick cooking spray and set aside. In a large bowl, cream butter and sugar together until light and fluffy. Whip in vanilla, egg, lemon zest, and juice. Scrape sides and mix again. Stir in all dry ingredients slowly until just combined, excluding the powdered sugar. Scrape sides of bowl and mix again briefly. Pour powdered sugar onto a large plate. Roll a heaping teaspoon of dough into a ball and roll in the powdered sugar. Place on baking sheet and repeat with remaining dough. Bake for 9-11 minutes or until bottoms begint to barely brown and cookies look matte (not melty or shiny). Remove from oven and cool cookies about 3 minutes before transferring to a cooling rack NOTE: If using non-stick darker baking tray, reduce baking time by about 2 minutes"
+    },
+    {
+        "id": 171,
+        "category": "Dessert",
+        "name": "M&M Cookies",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 25
+        },
+        "ingredients": [
+            {
+                "name": "Brown sugar",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Margarine",
+                "amount": "3/4 cups"
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Eggs",
+                "amount": "2"
+            },
+            {
+                "name": "Flour",
+                "amount": "2 1/4 cups"
+            },
+            {
+                "name": "M&Ms",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Nuts (optional)",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Baking soda",
+                "amount": "1 tsp"
+            }
+        ],
+        "directions": "Mix brown sugar, margarine, vanilla, and eggs in large bowl until well blended. Stir in remaining ingredients. Bake until brown at 350 for 10-12 minutes"
+    },
+    {
+        "id": 173,
+        "category": "Dessert",
+        "name": "Oatmeal Cookies",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 15
+        },
+        "ingredients": [
+            {
+                "name": "Margarine",
+                "amount": "1 1/4 cup"
+            },
+            {
+                "name": "Firmly packed brown sugar",
+                "amount": "3/4 cup"
+            },
+            {
+                "name": "Sugar",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Egg",
+                "amount": "1"
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Raisins",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Baking soda",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Cinnamon",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Nutmeg",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Old fashioned oats",
+                "amount": "3 cups"
+            }
+        ],
+        "directions": "Beat together margarine and sugar until light and fluffy. Beat in egg and vanilla. Add dry ingredients, mixing well. Stir in oats. Drop by rounded tablespoon onto ungreased cookie sheets. Bake at 375 degrees for 8-9 minutes"
+    },
+    {
+        "id": 174,
+        "category": "Dessert",
+        "name": "Peanut Blossoms",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 20
+        },
+        "ingredients": [
+            {
+                "name": "Flour",
+                "amount": "1 3/4 cups"
+            },
+            {
+                "name": "Baking soda",
+                "amount": "1/4 tsp"
+            },
+            {
+                "name": "Sugar",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Brown sugar",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Shortening",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Peanut butter",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Egg",
+                "amount": "1"
+            },
+            {
+                "name": "Milk",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Hershey kisses",
+                "amount": ""
+            }
+        ],
+        "directions": "Combine all ingredients except hershey kisses in a large bowl. Mix on lowest speed until dough forms. Shape dough into balls, roll balls into granulated sugar, place on ungreased cookie sheet. Bake at 375 degrees for 10-12 minutes. Remove from oven and top with candy kiss; press down so cookie cracks"
+    },
+    {
+        "id": 175,
+        "category": "Dessert",
+        "name": "Shortbread Hearts",
+        "subIngredients": false,
+        "cook": {
+            "hours": 7,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Sweet butter",
+                "amount": "3/4 lb"
+            },
+            {
+                "name": "Confectionary sugar",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Flour",
+                "amount": "3 cups"
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1/2 tsp"
+            },
+            {
+                "name": "Sugar",
+                "amount": "1/4 cup"
+            }
+        ],
+        "directions": "Cream butter and confectionary sugar together until light. Add flour and vanilla to mixture and blend thoroughly. Gather dough into a ball, wrap in wax paper, and chill 4-6 hours. Roll out chilled dough to ⅝ inch thickness. Using a heart-shaped cookie cutter, cut out cookies. Sprinkle top with granulated sugar. Place cookies on ungreased cookie sheet and refrigerate 45 minutes before baking. Bake at 325 degrees for 20 minutes or until just starting to color lightly; cookies should not be brown at all"
+    },
+    {
+        "id": 176,
+        "category": "Dessert",
+        "name": "Snickerdoodles",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 20
+        },
+        "ingredients": [
+            {
+                "name": "Sugar",
+                "amount": "1 1/2 cup"
+            },
+            {
+                "name": "Margarine",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Shortening",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Eggs",
+                "amount": "2"
+            },
+            {
+                "name": "Flour",
+                "amount": "2 3/4 cups"
+            },
+            {
+                "name": "Cream of tartar",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Baking soda",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Sugar",
+                "amount": "3 tbsp"
+            },
+            {
+                "name": "Cinnamon",
+                "amount": "3 tbs"
+            }
+        ],
+        "directions": "Mix sugar, margarine, shortening, and eggs in a large bowl. Stir in flour, cream of tartar, and baking soda. Shape dough into small balls. Mix sugar and cinnamon together, roll balls into mixture. Cook on ungreased cookie sheet. Bake at 400 degrees for 8-10 minutes"
+    },
+    {
+        "id": 177,
+        "category": "Dessert",
+        "name": "Sugar Cookies",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 35
+        },
+        "ingredients": [
+            {
+                "name": "Flour",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Baking powder",
+                "amount": "1 1/2 tsp"
+            },
+            {
+                "name": "Butter",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Sugar",
+                "amount": "3/4 cup"
+            },
+            {
+                "name": "Eggs",
+                "amount": "2"
+            }
+        ],
+        "directions": "Mix all ingredients. Chill thoroughly before rolling. Bake at 350 for 10-12 minutes"
+    },
+    {
+        "id": 178,
+        "category": "Dessert",
+        "name": "Swedish Butterball Cookies",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Margarine",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Powdered sugar",
+                "amount": "3 tbsp"
+            },
+            {
+                "name": "Chopped nuts",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Flour",
+                "amount": "2 cups"
+            }
+        ],
+        "directions": "Mix all ingredients. Make into small balls. Bake on ungreased cookie sheet (they do not get brown). Bake at 325 degrees for 20-25 minutes. While the cookies are still hot, roll in powdered sugar"
+    },
+    {
+        "id": 179,
+        "category": "Dessert",
+        "name": "Caramel Peanut Popcorn Squares",
+        "subIngredients": false,
+        "cook": {
+            "hours": 2,
+            "minutes": 10
+        },
+        "ingredients": [
+            {
+                "name": "Refrigerated peanut butter cookies",
+                "amount": "1 (16.5oz) roll"
+            },
+            {
+                "name": "Mini marshmallows",
+                "amount": "3 1/2 cups"
+            },
+            {
+                "name": "Butter-flavored microwave popcorn, popped",
+                "amount": "1 (3oz) bag (8 cups)"
+            },
+            {
+                "name": "Salted dry-roasted peanuts",
+                "amount": "1 cup"
+            },
+            {
+                "name": "Peanut butter chips",
+                "amount": "1 (10oz) bag (1 2/3 cups)"
+            },
+            {
+                "name": "Light corn syrup",
+                "amount": "2/3 cup"
+            },
+            {
+                "name": "Butter or margarine",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Semisweet chocolate chips",
+                "amount": "1 cup"
+            }
+        ],
+        "directions": "Heat oven to 350 degrees. Spray 13x9-inch pan with cooking spray. With floured fingers, press dough evenly in bottom of pan to form crust. Bake 14-16 minutes longer or until golden brown. Sprinkle marshmallows over crust. Bake 3 minutes longer or until marshmallows are puffed but not browned. Meanwhile, in large bowl, mix popcorn and peanuts; set aside. In medium microwavable bowl, microwave peanut butter chips, corn syrup, and butter uncovered on high 1-2 minutes, stirring every 30 seconds until melted and smooth. Pour over popcorn mixture; stir to coat completely. Immediately press mixture over marshmallows in even layer using back of spoon. In small microwavable bowl, microwave chocolate chips uncovered on high 1 minute to 1 ½ minutes, stirring every 30 seconds until softened and chips can be stirred smooth. Drizzle melted chocolate over bars. Cool on cooling rack for 1 hour. Refrigerate 30 minutes or until set. Cut into 6 rows by 4 rows"
+    },
+    {
+        "id": 180,
+        "category": "Dessert",
+        "name": "Chocolate and PB Marshmallow Squares",
+        "subIngredients": false,
+        "cook": {
+            "hours": 0,
+            "minutes": 50
+        },
+        "ingredients": [
+            {
+                "name": "Refrigerated crescent dinner rolls",
+                "amount": "1 can"
+            },
+            {
+                "name": "Creamy peanut butter",
+                "amount": "3/4 cup"
+            },
+            {
+                "name": "Packed brown sugar",
+                "amount": "3 tbsp"
+            },
+            {
+                "name": "Mini marshmallows",
+                "amount": "1 3/4 cups"
+            },
+            {
+                "name": "Milk chocolate candy, broken in small pieces",
+                "amount": "2 (1.55oz) bars"
+            },
+            {
+                "name": "Egg white, beaten",
+                "amount": "1"
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "2 tbsp"
+            }
+        ],
+        "directions": "Heat oven to 375 degrees. Line cookie sheet with parchment paper. Unroll dough; separate into 2 rectangles. Place 1 rectangle on cookie sheet; press perforations to seal. In small bowl, mix peanut butter and brown sugar. Spread over dough to within 1/4 inch of edges. Press marshmallows into peanut butter mixture; top with candy bars and remaining dough rectangle. Press edges and perforations to seal. Brush top with egg white; sprinkle with granulated sugar. Bake 15-20 minutes or until deep golden brown. Cool 10 minutes; serve warm or cool"
+    },
+    {
+        "id": 181,
         "category": "",
         "name": "Placeholder",
         "subIngredients": false,
@@ -7242,8 +8279,6 @@
                 "amount": ""
             }
         ],
-        "subName": "",
-        "sub": [],
         "directions": ""
     }
 ]

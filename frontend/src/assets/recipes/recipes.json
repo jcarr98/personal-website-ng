@@ -7111,6 +7111,124 @@
     },
     {
         "id": 152,
+        "category": "Breakfast",
+        "name": "Lemon Bread",
+        "subIngredients": false,
+        "cook": {
+            "hours": 1,
+            "minutes": 10
+        },
+        "ingredients": [
+            {
+                "name": "Butter",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Eggs",
+                "amount": "2"
+            },
+            {
+                "name": "Flour",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Sugar",
+                "amount": "1 1/2 cups"
+            },
+            {
+                "name": "Milk",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Baking powder",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Lemon, grate rind",
+                "amount": "1"
+            }
+        ],
+        "directions": "Add 1/2 cup sugar to squeezed lemon juice. Cream together butter and sugar. Add eggs; Beat. Add lemon rind and remaining ingredients except lemon juice. Pour juice and sugar over hot bread. Bake at 350 degrees for 1 hour"
+    },
+    {
+        "id": 153,
+        "category": "Breakfast",
+        "name": "Monkey Bread Minis",
+        "subIngredients": true,
+        "cook": {
+            "hours": 0,
+            "minutes": 30
+        },
+        "ingredients": [
+            {
+                "name": "Margarine, melted",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Brown sugar",
+                "amount": "1/2 cup"
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Cinnamon",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Refrigerated biscuits",
+                "amount": "2 (7.5oz) cans"
+            }
+        ],
+        "subName": "Dipping Sauce",
+        "sub": [
+            {
+                "name": "Confectionary sugar",
+                "amount": ""
+            }
+        ],
+        "directions": "Grease or spray 12 regular size muffin cups. Mix butter and brown sugar; spoon 1 tablespoon mixture into each muffin cup. Mix granulated sugar and cinnamon in 1 gallon bag. Separate dough into 20 biscuits; cut in 6 pieces. Shake pieces in bag to coat. Place 10 pieces in each muffin cup. Bake at 350 for 12-15 minutes or until golden brown. Cool 1 minute, turn upside down. Serve warm. For dipping sauce, mix sugar with water and stir to desired consistency"
+    },
+    {
+        "id": 154,
+        "category": "Breakfast",
+        "name": "Oatmeal",
+        "subIngredients": false,
+        "cook": {
+            "hours": 9,
+            "minutes": 0
+        },
+        "ingredients": [
+            {
+                "name": "Apples, sliced",
+                "amount": "2"
+            },
+            {
+                "name": "Brown sugar",
+                "amount": "1/4 cup"
+            },
+            {
+                "name": "Cinnamon",
+                "amount": "1 tsp"
+            },
+            {
+                "name": "Salt",
+                "amount": "A pinch"
+            },
+            {
+                "name": "Oatmeal",
+                "amount": "2 cups"
+            },
+            {
+                "name": "Milk",
+                "amount": "2 cups"
+            }
+        ],
+        "directions": "Place apples, brown sugar, cinnamon, and salt in the bottom of the crockpot. Pour in oatmeal, milk, and 2 cups of water; Do NOT stir. Cook overnight for 8-9 hours on low"
+    },
+    {
+        "id": 155,
         "category": "",
         "name": "Placeholder",
         "subIngredients": false,

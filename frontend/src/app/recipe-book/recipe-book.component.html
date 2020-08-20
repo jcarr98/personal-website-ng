@@ -28,7 +28,9 @@
                 <nb-card-header>{{item.name}}</nb-card-header>
                 <nb-card-body>
                     Cook time:
-                    <ng-container *ngIf="item.cook.hours > 0">{{item.cook.hours}} hour(s), </ng-container>
+                    <ng-container *ngIf="item.cook.hours > 0">{{item.cook.hours}} hour</ng-container>
+                    <ng-container *ngIf="item.cook.hours > 1">s</ng-container>
+                    <ng-container *ngIf="item.cook.hours > 0 && item.cook.minutes > 0">, </ng-container>
                     <ng-container *ngIf="item.cook.minutes > 0">{{item.cook.minutes}} minutes</ng-container>
                 </nb-card-body>
                 <nb-card-footer>

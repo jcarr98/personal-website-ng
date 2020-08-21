@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import * as recipes from '../../assets/recipes/recipes.json';
-import { NbDialogService } from '@nebular/theme';
 
 @Component({
     selector: 'app-recipe-book',
@@ -15,7 +14,7 @@ export class RecipeBookComponent implements OnInit {
     badSearch: boolean;
     searchValue;
     
-    constructor(/*private dialogService: NbDialogService*/) { }
+    constructor() { }
 
     ngOnInit(): void {
         this.searchValue = "";
@@ -106,12 +105,4 @@ export class RecipeBookComponent implements OnInit {
             }
         }
     }
-
-    // openAbout() {
-    //     this.dialogService.open(ShowcaseDialogComponent, {
-    //         context: {
-    //           title: 'This is a title passed to the dialog component',
-    //         },
-    //       });
-    // }
 }

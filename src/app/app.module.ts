@@ -47,7 +47,7 @@ import { RecipeTableComponent } from './recipe-table/recipe-table.component';
       {path: 'page-not-found', component: PageNotFoundComponent},
       {path: '', redirectTo: '/home', pathMatch: 'full'},
       {path: '**', redirectTo: '/page-not-found', pathMatch: 'full'}
-    ]),
+    ], {useHash: true}),
     BrowserModule,
     FormsModule,
     AppRoutingModule,

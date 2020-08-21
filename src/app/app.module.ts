@@ -9,7 +9,6 @@ import { RouterModule, Router } from '@angular/router';
 // Components
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { MenuBarComponent } from './global_components/menu-bar/menu-bar.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 // Nebular modules
@@ -34,7 +33,6 @@ import { RecipeTableComponent } from './recipe-table/recipe-table.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    MenuBarComponent,
     PageNotFoundComponent,
     RecipeBookComponent,
     ViewRecipeComponent,
@@ -49,7 +47,7 @@ import { RecipeTableComponent } from './recipe-table/recipe-table.component';
       {path: 'page-not-found', component: PageNotFoundComponent},
       {path: '', redirectTo: '/home', pathMatch: 'full'},
       {path: '**', redirectTo: '/page-not-found', pathMatch: 'full'}
-    ]),
+    ], {useHash: true}),
     BrowserModule,
     FormsModule,
     AppRoutingModule,

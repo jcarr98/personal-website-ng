@@ -21,8 +21,8 @@ import {
   NbListModule, 
   NbCheckboxModule, 
   NbBadgeModule, 
-  NbAccordionModule,
-  NbInputModule
+  NbInputModule,
+  NbTabsetModule
 } from '@nebular/theme';
 
 // Custom modules
@@ -60,8 +60,8 @@ import { RecipeTableComponent } from './recipe-table/recipe-table.component';
     NbListModule,
     NbCheckboxModule,
     NbBadgeModule,
-    NbAccordionModule,
-    NbInputModule
+    NbInputModule,
+    NbTabsetModule
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

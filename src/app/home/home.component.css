@@ -6,6 +6,18 @@ nb-layout {
     max-height: 3em;
 }
 
+nb-layout-header h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+nb-tab button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .intro-text {
     margin-top: 0.5em;
     text-align: center;

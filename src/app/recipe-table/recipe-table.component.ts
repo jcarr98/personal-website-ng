@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import * as recipes from '../../assets/recipes/recipes.json';
 
 @Component({
     selector: 'app-recipe-table',
@@ -8,7 +7,7 @@ import * as recipes from '../../assets/recipes/recipes.json';
 })
 export class RecipeTableComponent implements OnInit {
     // Get all recipes
-    allRecipes: any = (recipes as any).default;
+    allRecipes: any;
     categories: string[];
     categoryItems: any[][];
 

@@ -5,33 +5,36 @@
     </nb-layout-header>
 
     <nb-layout-column class="itemContainer">
-        <h3>Ingredients</h3>
-        <table>
-            <tr>
-                <th>Amount</th>
-                <th>Item</th>
-            </tr>
-            <tr *ngFor="let ingredient of selectedRecipe.ingredients">
-                <td class="amount">{{ingredient.amount}}</td> 
-                <td>{{ingredient.name}}</td>
-            </tr>
-            <ng-container *ngIf="selectedRecipe.subIngredients">
+        <ng-container *ngIf="loading" [nbSpinner]="loading" nbSpinnerStatus="primary" nbSpinnerMessage="Loading..."></ng-container>
+        <ng-container *ngIf="!loading">
+            <h3>Ingredients</h3>
+            <table>
                 <tr>
-                    <th colspan="2">{{selectedRecipe.subName}}</th>
+                    <th>Amount</th>
+                    <th>Item</th>
                 </tr>
-                <tr *ngFor="let subs of selectedRecipe.sub">
-                    <td class="amount">{{subs.amount}}</td> 
-                    <td>{{subs.name}}</td>
+                <tr *ngFor="let ingredient of selectedRecipe.ingredients">
+                    <td class="amount">{{ingredient.amount}}</td>
+                    <td>{{ingredient.name}}</td>
                 </tr>
+                <ng-container *ngIf="selectedRecipe.subIngredients">
+                    <tr>
+                        <th colspan="2">{{selectedRecipe.subName}}</th>
+                    </tr>
+                    <tr *ngFor="let subs of selectedRecipe.sub">
+                        <td class="amount">{{subs.amount}}</td>
+                        <td>{{subs.name}}</td>
+                    </tr>
+                </ng-container>
+            </table>
+            <h3>Directions</h3>
+            <ng-container *ngFor="let direction of parsedDirections; let i = index;">
+                <nb-checkbox (checkedChange)="change(i)">
+                    <div *ngIf="!done[i]">{{direction}}</div>
+                    <s *ngIf="done[i]">{{direction}}</s>
+                </nb-checkbox>
+                <br>
             </ng-container>
-        </table>
-        <h3>Directions</h3>
-        <ng-container *ngFor="let direction of parsedDirections; let i = index;">
-            <nb-checkbox (checkedChange)="change(i)">
-                <div *ngIf="!done[i]">{{direction}}</div>
-                <s *ngIf="done[i]">{{direction}}</s>
-            </nb-checkbox>
-            <br>
         </ng-container>
     </nb-layout-column>
 </nb-layout>

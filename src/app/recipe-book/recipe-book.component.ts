@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import * as recipes from '../../assets/recipes/recipes.json';
+import { RecipeService } from '../services/recipe.service';
+//import * as recipes from '../../assets/recipes/recipes.json';
 
 @Component({
     selector: 'app-recipe-book',
@@ -7,18 +8,38 @@ import * as recipes from '../../assets/recipes/recipes.json';
     styleUrls: ['./recipe-book.component.css']
 })
 export class RecipeBookComponent implements OnInit {
-    allRecipes: any = (recipes as any).default;
+    allRecipes: any;
+    loading: Boolean;
     categories: string[];
     selectedCategories: boolean[];
     filteredOptions;
     badSearch: boolean;
     searchValue;
     
-    constructor() { }
+    constructor(private recipeService: RecipeService) { }
 
     ngOnInit(): void {
         this.searchValue = "";
-        this.initFilter();
+        this.loading = true;
+        this.loadData();
+    }
+
+    loadData() {
+        this.recipeService.getAll()
+            .subscribe(
+                data => {
+                    // Load all recipes from database
+                    this.allRecipes = data;
+
+                    // Initialize filter
+                    this.initFilter();
+
+                    // Update loading status
+                    this.loading = false;
+                },
+                error => {
+                    console.log(error);
+                });
     }
 
     // Init all filters

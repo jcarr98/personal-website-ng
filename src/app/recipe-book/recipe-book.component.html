@@ -24,7 +24,7 @@
     </nb-sidebar>
 
     <nb-layout-column class="colored-column-basic">
-        <ng-container *ngFor="let item of filteredOptions">
+        <ng-container *ngFor="let item of filteredOptions" [nbSpinner]="loading" nbSpinnerStatus="danger">
             <nb-card>
                 <nb-card-header>{{item.name}}</nb-card-header>
                 <nb-card-body>
@@ -35,10 +35,11 @@
                     <ng-container *ngIf="item.cook.minutes > 0">{{item.cook.minutes}} minutes</ng-container>
                 </nb-card-body>
                 <nb-card-footer>
-                    <button nbButton outline status="primary" [routerLink]="['/recipe', item.id]">Open</button>
+                    <button nbButton outline status="primary" [routerLink]="['/recipe', item._id]">Open</button>
                 </nb-card-footer>
             </nb-card>
         </ng-container>
+        <ng-container *ngIf="loading" [nbSpinner]="loading" nbSpinnerStatus="primary" nbSpinnerMessage="Loading..."></ng-container>
         <h5 *ngIf="badSearch">Nothing to show :(</h5>
     </nb-layout-column>
 </nb-layout>

@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 // Routing modules
 import { AppRoutingModule } from './app-routing.module';
@@ -21,7 +22,8 @@ import {
   NbCheckboxModule, 
   NbBadgeModule, 
   NbInputModule,
-  NbTabsetModule
+  NbTabsetModule,
+  NbSpinnerModule
 } from '@nebular/theme';
 
 // Custom modules
@@ -50,6 +52,7 @@ import { RecipeTableComponent } from './recipe-table/recipe-table.component';
     ], {useHash: true}),
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     AppRoutingModule,
     NbThemeModule.forRoot(),
     NbCardModule,
@@ -59,7 +62,8 @@ import { RecipeTableComponent } from './recipe-table/recipe-table.component';
     NbCheckboxModule,
     NbBadgeModule,
     NbInputModule,
-    NbTabsetModule
+    NbTabsetModule,
+    NbSpinnerModule
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
-import * as recipes from '../../assets/recipes/recipes.json';
+import { RecipeService } from '../services/recipe.service';
 
 @Component({
     selector: 'app-view-recipe',
@@ -8,34 +8,43 @@ import * as recipes from '../../assets/recipes/recipes.json';
     styleUrls: ['./view-recipe.component.css']
 })
 export class ViewRecipeComponent implements OnInit {
-    allRecipes: any = (recipes as any).default;
     selectedRecipe;
-    parsedDirections: string[];
-    done: boolean[];
+    parsedDirections: String[];
+    done: Boolean[];
+    loading: Boolean;
 
-    constructor(private route: ActivatedRoute, private router: Router) { }
+    constructor(private route: ActivatedRoute, private router: Router, private recipeService: RecipeService) { }
 
     ngOnInit(): void {
-        let givenID = parseInt(this.route.snapshot.paramMap.get('id'));
+        let givenID = this.route.snapshot.paramMap.get('id');
+        this.loading = true;
         this.done = [];
-
-        this.selectedRecipe = this.getSelectedRecipe(givenID);
-        this.parsedDirections = this.parseDirections();
-        for(let i = 0; i < this.parsedDirections.length; i++) {
-            this.done.push(false);
-        }
+        this.loadData(givenID);
     }
 
-    getSelectedRecipe(idx: number) {
-        for(let i = 0; i < this.allRecipes.length; i++) {
-            if(this.allRecipes[i].id === idx) {
-                return this.allRecipes[i];
-            }
-        }
+    loadData(idx) {
+        this.recipeService.get(idx)
+            .subscribe(
+                data => {
+                    // Get recipe from database
+                    this.selectedRecipe = data;
+
+                    // Set loading status
+                    this.loading = false;
+
+                    // Parse directions for recipe
+                    this.parseDirections();
+                },
+                error => {
+                    console.log(error);
+                });
     }
 
     parseDirections() {
-        return this.selectedRecipe.directions.split(".");
+        this.parsedDirections = this.selectedRecipe.directions.split(".")
+        for(let i = 0; i < this.parsedDirections.length; i++) {
+            this.done.push(false);
+        }
     }
 
     change(index) {

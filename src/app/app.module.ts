@@ -30,6 +30,7 @@ import {
 import { RecipeBookComponent } from './recipe-book/recipe-book.component';
 import { ViewRecipeComponent } from './view-recipe/view-recipe.component';
 import { RecipeTableComponent } from './recipe-table/recipe-table.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { RecipeTableComponent } from './recipe-table/recipe-table.component';
     PageNotFoundComponent,
     RecipeBookComponent,
     ViewRecipeComponent,
-    RecipeTableComponent
+    RecipeTableComponent,
+    ProjectsComponent
   ],
   imports: [
     RouterModule.forRoot([
@@ -47,6 +49,7 @@ import { RecipeTableComponent } from './recipe-table/recipe-table.component';
       {path: 'recipe_table', component: RecipeTableComponent},
       {path: 'recipe/:id', component: ViewRecipeComponent},
       {path: 'page-not-found', component: PageNotFoundComponent},
+      {path: 'projects', component: ProjectsComponent},
       {path: '', redirectTo: '/home', pathMatch: 'full'},
       {path: '**', redirectTo: '/page-not-found', pathMatch: 'full'}
     ], {useHash: true}),

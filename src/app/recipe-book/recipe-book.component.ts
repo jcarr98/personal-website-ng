@@ -107,7 +107,7 @@ export class RecipeBookComponent implements OnInit {
         }
 
         // Load previously selected filters
-        this.selectedCategories = JSON.parse(this.cookieService.get('user-categories'))
+        this.selectedCategories = this.cookieService.get('user-categories').length > 0 ? JSON.parse(this.cookieService.get('user-categories')) : [];
         if(this.selectedCategories.length == 0) {
             for(let j = 0; j < this.categories.length; j++) {
                 this.selectedCategories.push(true);

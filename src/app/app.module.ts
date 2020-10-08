@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { CookieService } from 'ngx-cookie-service';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -68,7 +69,7 @@ import { ProjectsComponent } from './projects/projects.component';
     NbTabsetModule,
     NbSpinnerModule
   ],
-  providers: [],
+  providers: [ CookieService ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
 })

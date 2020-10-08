@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CookieService } from 'ngx-cookie-service';
 import { RecipeService } from '../services/recipe.service';
 
 @Component({
@@ -9,18 +10,65 @@ import { RecipeService } from '../services/recipe.service';
 export class RecipeBookComponent implements OnInit {
     allRecipes: any;
     loading: Boolean;
+    cart: any[];
     categories: string[];
     selectedCategories: boolean[];
     filteredOptions;
     badSearch: boolean;
     searchValue;
     
-    constructor(private recipeService: RecipeService) { }
+    constructor(private recipeService: RecipeService, private cookieService: CookieService) { }
 
     ngOnInit(): void {
         this.searchValue = "";
+        this.allRecipes = [];
+        this.cart = this.cookieService.get('user-cart').length > 0 ? JSON.parse(this.cookieService.get('user-cart')) : [];
         this.loading = true;
         this.loadData();
+    }
+
+    addToCart(id) {
+        // Check if item is in cart
+        for(let i = 0; i < this.cart.length; i++) {
+            if(this.cart[i].id == id) {
+                console.log("Item already added");
+                return;
+            }
+        }
+        // Find name of object
+        let name = "";
+        for(let j = 0; j < this.allRecipes.length; j++) {
+            if(this.allRecipes[j]._id == id) {
+                name = this.allRecipes[j].name;
+                break;
+            }
+        }
+        this.cart.push({"id": id, "name": name});
+        this.cookieService.set('user-cart', JSON.stringify(this.cart))
+    }
+
+    removeFromCart(id) {
+        // Find item in cart and remove it
+        for(let i = 0; i < this.cart.length; i++) {
+            if(this.cart[i].id == id) {
+                this.cart.splice(i, 1);
+                break;
+            }
+        }
+
+        // If this causes the cart to be empty, just delete the cookie
+        // Otherwise, update the cookie
+        if(this.cart.length == 0) {
+            this.cookieService.delete('user-cart');
+        }
+        else {
+            this.cookieService.set('user-cart', JSON.stringify(this.cart));
+        }
+    }
+
+    clearCart() {
+        this.cookieService.delete('user-cart');
+        this.cart = [];
     }
 
     loadData() {
@@ -39,6 +87,9 @@ export class RecipeBookComponent implements OnInit {
                 error => {
                     console.log(error);
                 });
+
+        this.initFilter();
+        this.loading = false;
     }
 
     // Init all filters

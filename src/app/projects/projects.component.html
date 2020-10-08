@@ -1,0 +1,18 @@
+<nb-layout>
+    <nb-layout-header>
+        <h1>Jeff's Projects</h1>
+        <button nbButton size="tiny" status="primary" class="titleButton" [routerLink]="['/home']">Back to Home</button>
+    </nb-layout-header>
+    <nb-sidebar>
+        <nb-card>
+            <nb-list>
+                <nb-list-item *ngFor="let proj of allProjects">
+                    {{ proj }}
+                </nb-list-item>
+            </nb-list>
+        </nb-card>
+    </nb-sidebar>
+    <nb-layout-column>
+        <p>Main area</p>
+    </nb-layout-column>
+</nb-layout>

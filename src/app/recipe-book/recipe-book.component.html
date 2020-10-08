@@ -21,6 +21,20 @@
                 </div>
             </nb-card-body>
         </nb-card>
+        <nb-card class="cart">
+            <nb-card-header>
+                Your Cart
+                <button nbButton status="secondary" size="tiny" (click)="clearCart()">Clear</button>
+            </nb-card-header>
+            <nb-card-body>
+                <ul *ngFor="let item of cart">
+                    <li>
+                        <a [routerLink]="['/recipe', item.id]">{{item.name}}</a>
+                        <button nbButton status="danger" size="tiny" (click)="removeFromCart(item.id)">x</button>
+                    </li>
+                </ul>
+            </nb-card-body>
+        </nb-card>
     </nb-sidebar>
 
     <nb-layout-column class="colored-column-basic">
@@ -36,6 +50,7 @@
                 </nb-card-body>
                 <nb-card-footer>
                     <button nbButton outline status="primary" [routerLink]="['/recipe', item._id]">Open</button>
+                    <button nbButton class="secondButton" status="secondary" (click)="addToCart(item._id)">Add to Cart</button>
                 </nb-card-footer>
             </nb-card>
         </ng-container>

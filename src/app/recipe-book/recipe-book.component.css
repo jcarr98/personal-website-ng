@@ -24,7 +24,27 @@ h1 {
     margin-right: 0.5em;
 }
 
+.cartContainer button {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.secondButton {
+    margin-left: 1em;
+}
+
 .filter {
     margin-left: 1em;
     margin-bottom: 1em;
+}
+
+.cart ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 0.5em;
+    padding: 0;
+}
+
+.cart button {
+    margin-left: 1em;
 }

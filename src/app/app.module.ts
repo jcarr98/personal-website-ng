@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CookieService } from 'ngx-cookie-service';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -24,7 +25,8 @@ import {
   NbBadgeModule, 
   NbInputModule,
   NbTabsetModule,
-  NbSpinnerModule
+  NbSpinnerModule,
+  NbToastrModule
 } from '@nebular/theme';
 
 // Custom modules
@@ -55,6 +57,7 @@ import { ProjectsComponent } from './projects/projects.component';
       {path: '**', redirectTo: '/page-not-found', pathMatch: 'full'}
     ], {useHash: true}),
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
     AppRoutingModule,
@@ -67,7 +70,8 @@ import { ProjectsComponent } from './projects/projects.component';
     NbBadgeModule,
     NbInputModule,
     NbTabsetModule,
-    NbSpinnerModule
+    NbSpinnerModule,
+    NbToastrModule.forRoot()
   ],
   providers: [ CookieService ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { RecipeService } from '../services/recipe.service';
+import { CookieService } from 'ngx-cookie-service';
+import { NbToastrService, NbComponentStatus } from '@nebular/theme';
 
 @Component({
     selector: 'app-view-recipe',
@@ -13,7 +15,7 @@ export class ViewRecipeComponent implements OnInit {
     done: Boolean[];
     loading: Boolean;
 
-    constructor(private route: ActivatedRoute, private router: Router, private recipeService: RecipeService) { }
+    constructor(private route: ActivatedRoute, private router: Router, private recipeService: RecipeService, private cookieService: CookieService, private toastrService: NbToastrService) { }
 
     ngOnInit(): void {
         let givenID = this.route.snapshot.paramMap.get('id');
@@ -38,6 +40,24 @@ export class ViewRecipeComponent implements OnInit {
                 error => {
                     console.log(error);
                 });
+    }
+
+    saveRecipe() {
+        let status: NbComponentStatus;
+        let currentCart = this.cookieService.get('user-cart').length > 0 ? JSON.parse(this.cookieService.get('user-cart')) : [];
+
+        for(let i = 0; i < currentCart.length; i++) {
+            if(currentCart[i].id == this.selectedRecipe._id) {
+                status = 'danger';
+                this.toastrService.show('This recipe is already in your cart', 'Error', {status});
+                return;
+            }
+        }
+        
+        currentCart.push({"id": this.selectedRecipe._id, "name": this.selectedRecipe.name});
+        status = 'success';
+        this.toastrService.show('Recipe added to cart!', 'Success', {status})
+        this.cookieService.set('user-cart', JSON.stringify(currentCart));
     }
 
     parseDirections() {

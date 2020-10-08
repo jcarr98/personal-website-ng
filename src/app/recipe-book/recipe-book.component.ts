@@ -95,7 +95,6 @@ export class RecipeBookComponent implements OnInit {
     // Init all filters
     initFilter() {
         // Init all categories
-        this.selectedCategories = [];
         this.categories = [];
         for(let i = 0; i < this.allRecipes.length; i++) {
             let thisItem = this.allRecipes[i].category;
@@ -103,8 +102,15 @@ export class RecipeBookComponent implements OnInit {
                 // Filter out blank lines
                 if(thisItem.trim().length > 0){
                     this.categories.push(thisItem);
-                    this.selectedCategories.push(true);
                 }
+            }
+        }
+
+        // Load previously selected filters
+        this.selectedCategories = JSON.parse(this.cookieService.get('user-categories'))
+        if(this.selectedCategories.length == 0) {
+            for(let j = 0; j < this.categories.length; j++) {
+                this.selectedCategories.push(true);
             }
         }
 
@@ -150,6 +156,7 @@ export class RecipeBookComponent implements OnInit {
     // Category methods
     applyCategory(index) {
         this.selectedCategories[index] = !this.selectedCategories[index];
+        this.cookieService.set('user-categories', JSON.stringify(this.selectedCategories));
         this.filter();
     }
 

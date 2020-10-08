@@ -17,7 +17,7 @@
             <nb-card-header>Category</nb-card-header>
             <nb-card-body [nbSpinner]="loading" nbSpinnerStatus="primary" nbSpinnerMessage="Loading...">
                 <div *ngFor="let item of categories; let i = index;">
-                    <nb-checkbox (checkedChange)="applyCategory(i)">{{item}}</nb-checkbox>
+                    <nb-checkbox (checkedChange)="applyCategory(i)" [checked]="!selectedCategories[i]">{{item}}</nb-checkbox>
                 </div>
             </nb-card-body>
         </nb-card>

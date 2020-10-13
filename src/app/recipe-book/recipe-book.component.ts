@@ -22,6 +22,7 @@ export class RecipeBookComponent implements OnInit, AfterViewInit {
     ngOnInit(): void {
         this.searchValue = "";
         this.allRecipes = [];
+        this.filteredOptions = [];
         this.cart = this.cookieService.get('user-cart').length > 0 ? JSON.parse(this.cookieService.get('user-cart')) : [];
         this.loadData();
     }

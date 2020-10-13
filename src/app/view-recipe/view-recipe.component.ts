@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { RecipeService } from '../services/recipe.service';
 import { CookieService } from 'ngx-cookie-service';
@@ -9,8 +9,8 @@ import { NbToastrService, NbComponentStatus } from '@nebular/theme';
     templateUrl: './view-recipe.component.html',
     styleUrls: ['./view-recipe.component.css']
 })
-export class ViewRecipeComponent implements OnInit {
-    selectedRecipe;
+export class ViewRecipeComponent implements OnInit, AfterViewInit {
+    selectedRecipe: any;
     parsedDirections: String[];
     done: Boolean[];
     loading: Boolean;
@@ -19,12 +19,16 @@ export class ViewRecipeComponent implements OnInit {
 
     ngOnInit(): void {
         let givenID = this.route.snapshot.paramMap.get('id');
-        this.loading = true;
+        this.selectedRecipe = "";
         this.done = [];
         this.loadData(givenID);
     }
 
-    loadData(idx) {
+    ngAfterViewInit(): void {
+        this.loading = true;
+    }
+
+    loadData(idx): void {
         this.recipeService.get(idx)
             .subscribe(
                 data => {
@@ -42,7 +46,7 @@ export class ViewRecipeComponent implements OnInit {
                 });
     }
 
-    saveRecipe() {
+    saveRecipe(): void {
         let status: NbComponentStatus;
         let currentCart = this.cookieService.get('user-cart').length > 0 ? JSON.parse(this.cookieService.get('user-cart')) : [];
 
@@ -60,14 +64,14 @@ export class ViewRecipeComponent implements OnInit {
         this.cookieService.set('user-cart', JSON.stringify(currentCart));
     }
 
-    parseDirections() {
+    parseDirections(): void {
         this.parsedDirections = this.selectedRecipe.directions.split(".")
         for(let i = 0; i < this.parsedDirections.length; i++) {
             this.done.push(false);
         }
     }
 
-    change(index) {
+    change(index): void {
         this.done[index] = !this.done[index];
     }
 }

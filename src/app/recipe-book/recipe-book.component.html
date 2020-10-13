@@ -54,7 +54,8 @@
                 </nb-card-footer>
             </nb-card>
         </ng-container>
-        <ng-container *ngIf="loading" [nbSpinner]="loading" nbSpinnerStatus="primary" nbSpinnerMessage="Loading..."></ng-container>
-        <h5 *ngIf="badSearch">Nothing to show :(</h5>
+        <ng-container *ngIf="loading" [nbSpinner]="loading" nbSpinnerStatus="primary" nbSpinnerMessage="Loading...">
+            <h5 *ngIf="badSearch">Nothing to show :(</h5>
+        </ng-container>
     </nb-layout-column>
 </nb-layout>

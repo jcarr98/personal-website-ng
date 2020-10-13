@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { CookieService } from 'ngx-cookie-service';
 import { RecipeService } from '../services/recipe.service';
 
@@ -7,7 +7,7 @@ import { RecipeService } from '../services/recipe.service';
     templateUrl: './recipe-book.component.html',
     styleUrls: ['./recipe-book.component.css']
 })
-export class RecipeBookComponent implements OnInit {
+export class RecipeBookComponent implements OnInit, AfterViewInit {
     allRecipes: any;
     loading: Boolean;
     cart: any[];
@@ -23,8 +23,11 @@ export class RecipeBookComponent implements OnInit {
         this.searchValue = "";
         this.allRecipes = [];
         this.cart = this.cookieService.get('user-cart').length > 0 ? JSON.parse(this.cookieService.get('user-cart')) : [];
-        this.loading = true;
         this.loadData();
+    }
+
+    ngAfterViewInit(): void {
+        this.loading = true;
     }
 
     addToCart(id) {

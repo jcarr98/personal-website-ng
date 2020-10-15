@@ -14,6 +14,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
+// Nebular icons
+import { NbEvaIconsModule } from '@nebular/eva-icons';
+
 // Nebular modules
 import { 
   NbThemeModule, 
@@ -71,6 +74,7 @@ import { ProjectsComponent } from './projects/projects.component';
     NbInputModule,
     NbTabsetModule,
     NbSpinnerModule,
+    NbEvaIconsModule,
     NbToastrModule.forRoot()
   ],
   providers: [ CookieService ],
